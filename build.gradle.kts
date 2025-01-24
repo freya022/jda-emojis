@@ -41,7 +41,7 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.jetbrains.annotations)
+    api(libs.jspecify)
     api(libs.jda)
 
     testImplementation(libs.junit.jupiter)
