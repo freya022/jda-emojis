@@ -10,7 +10,7 @@ import org.gradle.work.DisableCachingByDefault
 @DisableCachingByDefault
 abstract class GenerateEmojisTask : DefaultTask() {
     @get:OutputDirectory
-    val outputDir: Provider<Directory> = project.layout.buildDirectory.dir("generated/sources/jda-emojis/main/java/dev/freya02/jda/emojis")
+    val outputDir: Provider<Directory> = project.layout.buildDirectory.dir("generated/sources/jda-emojis/main/java")
 
     @TaskAction
     fun run() {
@@ -30,7 +30,7 @@ abstract class GenerateEmojisTask : DefaultTask() {
                     }
             }
 
-            outputDir.get().file("$className.java").asFile.writeText(fileContent)
+            writeOutput("dev.freya02.jda.emojis", className, fileContent)
         }
 
         val finalContent = """
@@ -40,7 +40,7 @@ abstract class GenerateEmojisTask : DefaultTask() {
                 
             }
         """.trimIndent()
-        outputDir.get().file("Emojis.java").asFile.writeText(finalContent)
+        writeOutput("dev.freya02.jda.emojis", "Emojis", finalContent)
     }
 
     private fun createClass(name: String, block: StringBuilder.() -> Unit): String = buildString {
@@ -54,4 +54,9 @@ abstract class GenerateEmojisTask : DefaultTask() {
         appendLine("}")
     }
 
+    private fun writeOutput(packageName: String, className: String, content: String) {
+        val outFile = outputDir.get().dir(packageName.replace('.', '/')).file("$className.java").asFile
+        outFile.parentFile.mkdirs()
+        outFile.writeText(content)
+    }
 }
