@@ -30,11 +30,7 @@ interface EmojiSkyAndWeather {
 	
 	UnicodeEmoji THERMOMETER = new UnicodeEmojiImpl("🌡️");
 	
-	UnicodeEmoji THERMOMETER_UNQUALIFIED = new UnicodeEmojiImpl("🌡");
-	
 	UnicodeEmoji SUN = new UnicodeEmojiImpl("☀️");
-	
-	UnicodeEmoji SUN_UNQUALIFIED = new UnicodeEmojiImpl("☀");
 	
 	UnicodeEmoji FULL_MOON_FACE = new UnicodeEmojiImpl("🌝");
 	
@@ -52,49 +48,27 @@ interface EmojiSkyAndWeather {
 	
 	UnicodeEmoji CLOUD = new UnicodeEmojiImpl("☁️");
 	
-	UnicodeEmoji CLOUD_UNQUALIFIED = new UnicodeEmojiImpl("☁");
-	
 	UnicodeEmoji SUN_BEHIND_CLOUD = new UnicodeEmojiImpl("⛅");
 	
 	UnicodeEmoji CLOUD_WITH_LIGHTNING_AND_RAIN = new UnicodeEmojiImpl("⛈️");
 	
-	UnicodeEmoji CLOUD_WITH_LIGHTNING_AND_RAIN_UNQUALIFIED = new UnicodeEmojiImpl("⛈");
-	
 	UnicodeEmoji SUN_BEHIND_SMALL_CLOUD = new UnicodeEmojiImpl("🌤️");
-	
-	UnicodeEmoji SUN_BEHIND_SMALL_CLOUD_UNQUALIFIED = new UnicodeEmojiImpl("🌤");
 	
 	UnicodeEmoji SUN_BEHIND_LARGE_CLOUD = new UnicodeEmojiImpl("🌥️");
 	
-	UnicodeEmoji SUN_BEHIND_LARGE_CLOUD_UNQUALIFIED = new UnicodeEmojiImpl("🌥");
-	
 	UnicodeEmoji SUN_BEHIND_RAIN_CLOUD = new UnicodeEmojiImpl("🌦️");
-	
-	UnicodeEmoji SUN_BEHIND_RAIN_CLOUD_UNQUALIFIED = new UnicodeEmojiImpl("🌦");
 	
 	UnicodeEmoji CLOUD_WITH_RAIN = new UnicodeEmojiImpl("🌧️");
 	
-	UnicodeEmoji CLOUD_WITH_RAIN_UNQUALIFIED = new UnicodeEmojiImpl("🌧");
-	
 	UnicodeEmoji CLOUD_WITH_SNOW = new UnicodeEmojiImpl("🌨️");
-	
-	UnicodeEmoji CLOUD_WITH_SNOW_UNQUALIFIED = new UnicodeEmojiImpl("🌨");
 	
 	UnicodeEmoji CLOUD_WITH_LIGHTNING = new UnicodeEmojiImpl("🌩️");
 	
-	UnicodeEmoji CLOUD_WITH_LIGHTNING_UNQUALIFIED = new UnicodeEmojiImpl("🌩");
-	
 	UnicodeEmoji TORNADO = new UnicodeEmojiImpl("🌪️");
-	
-	UnicodeEmoji TORNADO_UNQUALIFIED = new UnicodeEmojiImpl("🌪");
 	
 	UnicodeEmoji FOG = new UnicodeEmojiImpl("🌫️");
 	
-	UnicodeEmoji FOG_UNQUALIFIED = new UnicodeEmojiImpl("🌫");
-	
 	UnicodeEmoji WIND_FACE = new UnicodeEmojiImpl("🌬️");
-	
-	UnicodeEmoji WIND_FACE_UNQUALIFIED = new UnicodeEmojiImpl("🌬");
 	
 	UnicodeEmoji CYCLONE = new UnicodeEmojiImpl("🌀");
 	
@@ -104,29 +78,19 @@ interface EmojiSkyAndWeather {
 	
 	UnicodeEmoji UMBRELLA = new UnicodeEmojiImpl("☂️");
 	
-	UnicodeEmoji UMBRELLA_UNQUALIFIED = new UnicodeEmojiImpl("☂");
-	
 	UnicodeEmoji UMBRELLA_WITH_RAIN_DROPS = new UnicodeEmojiImpl("☔");
 	
 	UnicodeEmoji UMBRELLA_ON_GROUND = new UnicodeEmojiImpl("⛱️");
-	
-	UnicodeEmoji UMBRELLA_ON_GROUND_UNQUALIFIED = new UnicodeEmojiImpl("⛱");
 	
 	UnicodeEmoji HIGH_VOLTAGE = new UnicodeEmojiImpl("⚡");
 	
 	UnicodeEmoji SNOWFLAKE = new UnicodeEmojiImpl("❄️");
 	
-	UnicodeEmoji SNOWFLAKE_UNQUALIFIED = new UnicodeEmojiImpl("❄");
-	
 	UnicodeEmoji SNOWMAN = new UnicodeEmojiImpl("☃️");
-	
-	UnicodeEmoji SNOWMAN_UNQUALIFIED = new UnicodeEmojiImpl("☃");
 	
 	UnicodeEmoji SNOWMAN_WITHOUT_SNOW = new UnicodeEmojiImpl("⛄");
 	
 	UnicodeEmoji COMET = new UnicodeEmojiImpl("☄️");
-	
-	UnicodeEmoji COMET_UNQUALIFIED = new UnicodeEmojiImpl("☄");
 	
 	UnicodeEmoji FIRE = new UnicodeEmojiImpl("🔥");
 	

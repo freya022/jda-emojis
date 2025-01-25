@@ -14,8 +14,6 @@ interface EmojiFaceConcerned {
 	
 	UnicodeEmoji FROWNING_FACE = new UnicodeEmojiImpl("☹️");
 	
-	UnicodeEmoji FROWNING_FACE_UNQUALIFIED = new UnicodeEmojiImpl("☹");
-	
 	UnicodeEmoji FACE_WITH_OPEN_MOUTH = new UnicodeEmojiImpl("😮");
 	
 	UnicodeEmoji HUSHED_FACE = new UnicodeEmojiImpl("😯");

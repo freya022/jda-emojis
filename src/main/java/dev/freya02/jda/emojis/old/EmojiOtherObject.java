@@ -8,13 +8,9 @@ interface EmojiOtherObject {
 	
 	UnicodeEmoji COFFIN = new UnicodeEmojiImpl("⚰️");
 	
-	UnicodeEmoji COFFIN_UNQUALIFIED = new UnicodeEmojiImpl("⚰");
-	
 	UnicodeEmoji HEADSTONE = new UnicodeEmojiImpl("🪦");
 	
 	UnicodeEmoji FUNERAL_URN = new UnicodeEmojiImpl("⚱️");
-	
-	UnicodeEmoji FUNERAL_URN_UNQUALIFIED = new UnicodeEmojiImpl("⚱");
 	
 	UnicodeEmoji NAZAR_AMULET = new UnicodeEmojiImpl("🧿");
 	

@@ -226,383 +226,193 @@ interface EmojiFamilyA {
 	
 	UnicodeEmoji KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍❤️‍💋‍🧑🏼");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏻‍❤‍💋‍🧑🏼");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍❤️‍💋‍🧑🏽");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏻‍❤‍💋‍🧑🏽");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍❤️‍💋‍🧑🏾");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏻‍❤‍💋‍🧑🏾");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍❤️‍💋‍🧑🏿");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_LIGHT_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏻‍❤‍💋‍🧑🏿");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍❤️‍💋‍🧑🏻");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏼‍❤‍💋‍🧑🏻");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍❤️‍💋‍🧑🏽");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏼‍❤‍💋‍🧑🏽");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍❤️‍💋‍🧑🏾");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏼‍❤‍💋‍🧑🏾");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍❤️‍💋‍🧑🏿");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏼‍❤‍💋‍🧑🏿");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍❤️‍💋‍🧑🏻");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏽‍❤‍💋‍🧑🏻");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍❤️‍💋‍🧑🏼");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏽‍❤‍💋‍🧑🏼");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍❤️‍💋‍🧑🏾");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏽‍❤‍💋‍🧑🏾");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍❤️‍💋‍🧑🏿");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏽‍❤‍💋‍🧑🏿");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍❤️‍💋‍🧑🏻");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏾‍❤‍💋‍🧑🏻");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍❤️‍💋‍🧑🏼");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏾‍❤‍💋‍🧑🏼");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍❤️‍💋‍🧑🏽");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏾‍❤‍💋‍🧑🏽");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍❤️‍💋‍🧑🏿");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏾‍❤‍💋‍🧑🏿");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍❤️‍💋‍🧑🏻");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_DARK_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏿‍❤‍💋‍🧑🏻");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍❤️‍💋‍🧑🏼");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏿‍❤‍💋‍🧑🏼");
 	
 	UnicodeEmoji KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍❤️‍💋‍🧑🏽");
 	
-	UnicodeEmoji KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏿‍❤‍💋‍🧑🏽");
-	
 	UnicodeEmoji KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍❤️‍💋‍🧑🏾");
-	
-	UnicodeEmoji KISS_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏿‍❤‍💋‍🧑🏾");
 	
 	UnicodeEmoji KISS_WOMAN_MAN = new UnicodeEmojiImpl("👩‍❤️‍💋‍👨");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩‍❤‍💋‍👨");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👨🏻");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👨🏻");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👨🏼");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👨🏼");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👨🏽");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👨🏽");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👨🏾");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👨🏾");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👨🏿");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👨🏿");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👨🏻");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👨🏻");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👨🏼");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👨🏼");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👨🏽");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👨🏽");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👨🏾");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👨🏾");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👨🏿");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👨🏿");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👨🏻");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👨🏻");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👨🏼");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👨🏼");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👨🏽");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👨🏽");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👨🏾");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👨🏾");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👨🏿");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👨🏿");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👨🏻");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👨🏻");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👨🏼");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👨🏼");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👨🏽");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👨🏽");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👨🏾");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👨🏾");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👨🏿");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👨🏿");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👨🏻");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍❤‍💋‍👨🏻");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👨🏼");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍❤‍💋‍👨🏼");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👨🏽");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍❤‍💋‍👨🏽");
 	
 	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👨🏾");
 	
-	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍❤‍💋‍👨🏾");
-	
 	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👨🏿");
-	
-	UnicodeEmoji KISS_WOMAN_MAN_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍❤‍💋‍👨🏿");
 	
 	UnicodeEmoji KISS_MAN_MAN = new UnicodeEmojiImpl("👨‍❤️‍💋‍👨");
 	
-	UnicodeEmoji KISS_MAN_MAN_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨‍❤‍💋‍👨");
-	
 	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍💋‍👨🏻");
-	
-	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏻‍❤‍💋‍👨🏻");
 	
 	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍💋‍👨🏼");
 	
-	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏻‍❤‍💋‍👨🏼");
-	
 	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍💋‍👨🏽");
-	
-	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏻‍❤‍💋‍👨🏽");
 	
 	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍💋‍👨🏾");
 	
-	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏻‍❤‍💋‍👨🏾");
-	
 	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍💋‍👨🏿");
-	
-	UnicodeEmoji KISS_MAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏻‍❤‍💋‍👨🏿");
 	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍💋‍👨🏻");
 	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏼‍❤‍💋‍👨🏻");
-	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍💋‍👨🏼");
-	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏼‍❤‍💋‍👨🏼");
 	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍💋‍👨🏽");
 	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏼‍❤‍💋‍👨🏽");
-	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍💋‍👨🏾");
-	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏼‍❤‍💋‍👨🏾");
 	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍💋‍👨🏿");
 	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏼‍❤‍💋‍👨🏿");
-	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍💋‍👨🏻");
-	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏽‍❤‍💋‍👨🏻");
 	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍💋‍👨🏼");
 	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏽‍❤‍💋‍👨🏼");
-	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍💋‍👨🏽");
-	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏽‍❤‍💋‍👨🏽");
 	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍💋‍👨🏾");
 	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏽‍❤‍💋‍👨🏾");
-	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍💋‍👨🏿");
-	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏽‍❤‍💋‍👨🏿");
 	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍💋‍👨🏻");
 	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏾‍❤‍💋‍👨🏻");
-	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍💋‍👨🏼");
-	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏾‍❤‍💋‍👨🏼");
 	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍💋‍👨🏽");
 	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏾‍❤‍💋‍👨🏽");
-	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍💋‍👨🏾");
-	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏾‍❤‍💋‍👨🏾");
 	
 	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍💋‍👨🏿");
 	
-	UnicodeEmoji KISS_MAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏾‍❤‍💋‍👨🏿");
-	
 	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍💋‍👨🏻");
-	
-	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏿‍❤‍💋‍👨🏻");
 	
 	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍💋‍👨🏼");
 	
-	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏿‍❤‍💋‍👨🏼");
-	
 	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍💋‍👨🏽");
-	
-	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏿‍❤‍💋‍👨🏽");
 	
 	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍💋‍👨🏾");
 	
-	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏿‍❤‍💋‍👨🏾");
-	
 	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍💋‍👨🏿");
-	
-	UnicodeEmoji KISS_MAN_MAN_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏿‍❤‍💋‍👨🏿");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN = new UnicodeEmojiImpl("👩‍❤️‍💋‍👩");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩‍❤‍💋‍👩");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👩🏻");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👩🏻");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👩🏼");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👩🏼");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👩🏽");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👩🏽");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👩🏾");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👩🏾");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍💋‍👩🏿");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍❤‍💋‍👩🏿");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👩🏻");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👩🏻");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👩🏼");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👩🏼");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👩🏽");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👩🏽");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👩🏾");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👩🏾");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍💋‍👩🏿");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍❤‍💋‍👩🏿");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👩🏻");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👩🏻");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👩🏼");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👩🏼");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👩🏽");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👩🏽");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👩🏾");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👩🏾");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍💋‍👩🏿");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍❤‍💋‍👩🏿");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👩🏻");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👩🏻");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👩🏼");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👩🏼");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👩🏽");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👩🏽");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👩🏾");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👩🏾");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍💋‍👩🏿");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍❤‍💋‍👩🏿");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👩🏻");
 	
-	UnicodeEmoji KISS_WOMAN_WOMAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍❤‍💋‍👩🏻");
-	
 	UnicodeEmoji KISS_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👩🏼");
-	
-	UnicodeEmoji KISS_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍❤‍💋‍👩🏼");
 	
 	
 }

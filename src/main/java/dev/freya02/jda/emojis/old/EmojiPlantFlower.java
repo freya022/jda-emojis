@@ -14,8 +14,6 @@ interface EmojiPlantFlower {
 	
 	UnicodeEmoji ROSETTE = new UnicodeEmojiImpl("🏵️");
 	
-	UnicodeEmoji ROSETTE_UNQUALIFIED = new UnicodeEmojiImpl("🏵");
-	
 	UnicodeEmoji ROSE = new UnicodeEmojiImpl("🌹");
 	
 	UnicodeEmoji WILTED_FLOWER = new UnicodeEmojiImpl("🥀");

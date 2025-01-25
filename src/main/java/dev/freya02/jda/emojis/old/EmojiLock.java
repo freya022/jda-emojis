@@ -16,7 +16,5 @@ interface EmojiLock {
 	
 	UnicodeEmoji OLD_KEY = new UnicodeEmojiImpl("🗝️");
 	
-	UnicodeEmoji OLD_KEY_UNQUALIFIED = new UnicodeEmojiImpl("🗝");
-	
 	
 }

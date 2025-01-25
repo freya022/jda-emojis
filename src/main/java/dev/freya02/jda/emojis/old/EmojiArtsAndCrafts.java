@@ -8,8 +8,6 @@ interface EmojiArtsAndCrafts {
 	
 	UnicodeEmoji FRAMED_PICTURE = new UnicodeEmojiImpl("🖼️");
 	
-	UnicodeEmoji FRAMED_PICTURE_UNQUALIFIED = new UnicodeEmojiImpl("🖼");
-	
 	UnicodeEmoji ARTIST_PALETTE = new UnicodeEmojiImpl("🎨");
 	
 	UnicodeEmoji THREAD = new UnicodeEmojiImpl("🧵");

@@ -8,8 +8,6 @@ interface EmojiDishware {
 	
 	UnicodeEmoji FORK_AND_KNIFE_WITH_PLATE = new UnicodeEmojiImpl("🍽️");
 	
-	UnicodeEmoji FORK_AND_KNIFE_WITH_PLATE_UNQUALIFIED = new UnicodeEmojiImpl("🍽");
-	
 	UnicodeEmoji FORK_AND_KNIFE = new UnicodeEmojiImpl("🍴");
 	
 	UnicodeEmoji SPOON = new UnicodeEmojiImpl("🥄");

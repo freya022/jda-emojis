@@ -16,15 +16,9 @@ interface EmojiTransportWater {
 	
 	UnicodeEmoji PASSENGER_SHIP = new UnicodeEmojiImpl("🛳️");
 	
-	UnicodeEmoji PASSENGER_SHIP_UNQUALIFIED = new UnicodeEmojiImpl("🛳");
-	
 	UnicodeEmoji FERRY = new UnicodeEmojiImpl("⛴️");
 	
-	UnicodeEmoji FERRY_UNQUALIFIED = new UnicodeEmojiImpl("⛴");
-	
 	UnicodeEmoji MOTOR_BOAT = new UnicodeEmojiImpl("🛥️");
-	
-	UnicodeEmoji MOTOR_BOAT_UNQUALIFIED = new UnicodeEmojiImpl("🛥");
 	
 	UnicodeEmoji SHIP = new UnicodeEmojiImpl("🚢");
 	

@@ -110,8 +110,6 @@ interface EmojiAnimalMammal {
 	
 	UnicodeEmoji CHIPMUNK = new UnicodeEmojiImpl("🐿️");
 	
-	UnicodeEmoji CHIPMUNK_UNQUALIFIED = new UnicodeEmojiImpl("🐿");
-	
 	UnicodeEmoji BEAVER = new UnicodeEmojiImpl("🦫");
 	
 	UnicodeEmoji HEDGEHOG = new UnicodeEmojiImpl("🦔");
@@ -121,8 +119,6 @@ interface EmojiAnimalMammal {
 	UnicodeEmoji BEAR = new UnicodeEmojiImpl("🐻");
 	
 	UnicodeEmoji POLAR_BEAR = new UnicodeEmojiImpl("🐻‍❄️");
-	
-	UnicodeEmoji POLAR_BEAR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🐻‍❄");
 	
 	UnicodeEmoji KOALA = new UnicodeEmojiImpl("🐨");
 	

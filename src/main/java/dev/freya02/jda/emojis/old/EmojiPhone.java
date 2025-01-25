@@ -10,8 +10,6 @@ interface EmojiPhone {
 	
 	UnicodeEmoji TELEPHONE = new UnicodeEmojiImpl("☎️");
 	
-	UnicodeEmoji TELEPHONE_UNQUALIFIED = new UnicodeEmojiImpl("☎");
-	
 	UnicodeEmoji TELEPHONE_RECEIVER = new UnicodeEmojiImpl("📞");
 	
 	UnicodeEmoji PAGER = new UnicodeEmojiImpl("📟");

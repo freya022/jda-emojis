@@ -6,11 +6,7 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiPunctuation {
 	UnicodeEmoji DOUBLE_EXCLAMATION_MARK = new UnicodeEmojiImpl("‼️");
 	
-	UnicodeEmoji DOUBLE_EXCLAMATION_MARK_UNQUALIFIED = new UnicodeEmojiImpl("‼");
-	
 	UnicodeEmoji EXCLAMATION_QUESTION_MARK = new UnicodeEmojiImpl("⁉️");
-	
-	UnicodeEmoji EXCLAMATION_QUESTION_MARK_UNQUALIFIED = new UnicodeEmojiImpl("⁉");
 	
 	UnicodeEmoji RED_QUESTION_MARK = new UnicodeEmojiImpl("❓");
 	
@@ -21,8 +17,6 @@ interface EmojiPunctuation {
 	UnicodeEmoji RED_EXCLAMATION_MARK = new UnicodeEmojiImpl("❗");
 	
 	UnicodeEmoji WAVY_DASH = new UnicodeEmojiImpl("〰️");
-	
-	UnicodeEmoji WAVY_DASH_UNQUALIFIED = new UnicodeEmojiImpl("〰");
 	
 	
 }

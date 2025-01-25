@@ -12,19 +12,13 @@ interface EmojiOffice {
 	
 	UnicodeEmoji CARD_INDEX_DIVIDERS = new UnicodeEmojiImpl("🗂️");
 	
-	UnicodeEmoji CARD_INDEX_DIVIDERS_UNQUALIFIED = new UnicodeEmojiImpl("🗂");
-	
 	UnicodeEmoji CALENDAR = new UnicodeEmojiImpl("📅");
 	
 	UnicodeEmoji TEAR_OFF_CALENDAR = new UnicodeEmojiImpl("📆");
 	
 	UnicodeEmoji SPIRAL_NOTEPAD = new UnicodeEmojiImpl("🗒️");
 	
-	UnicodeEmoji SPIRAL_NOTEPAD_UNQUALIFIED = new UnicodeEmojiImpl("🗒");
-	
 	UnicodeEmoji SPIRAL_CALENDAR = new UnicodeEmojiImpl("🗓️");
-	
-	UnicodeEmoji SPIRAL_CALENDAR_UNQUALIFIED = new UnicodeEmojiImpl("🗓");
 	
 	UnicodeEmoji CARD_INDEX = new UnicodeEmojiImpl("📇");
 	
@@ -44,27 +38,17 @@ interface EmojiOffice {
 	
 	UnicodeEmoji LINKED_PAPERCLIPS = new UnicodeEmojiImpl("🖇️");
 	
-	UnicodeEmoji LINKED_PAPERCLIPS_UNQUALIFIED = new UnicodeEmojiImpl("🖇");
-	
 	UnicodeEmoji STRAIGHT_RULER = new UnicodeEmojiImpl("📏");
 	
 	UnicodeEmoji TRIANGULAR_RULER = new UnicodeEmojiImpl("📐");
 	
 	UnicodeEmoji SCISSORS = new UnicodeEmojiImpl("✂️");
 	
-	UnicodeEmoji SCISSORS_UNQUALIFIED = new UnicodeEmojiImpl("✂");
-	
 	UnicodeEmoji CARD_FILE_BOX = new UnicodeEmojiImpl("🗃️");
-	
-	UnicodeEmoji CARD_FILE_BOX_UNQUALIFIED = new UnicodeEmojiImpl("🗃");
 	
 	UnicodeEmoji FILE_CABINET = new UnicodeEmojiImpl("🗄️");
 	
-	UnicodeEmoji FILE_CABINET_UNQUALIFIED = new UnicodeEmojiImpl("🗄");
-	
 	UnicodeEmoji WASTEBASKET = new UnicodeEmojiImpl("🗑️");
-	
-	UnicodeEmoji WASTEBASKET_UNQUALIFIED = new UnicodeEmojiImpl("🗑");
 	
 	
 }

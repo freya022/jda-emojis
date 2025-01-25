@@ -46,8 +46,6 @@ interface EmojiSport {
 	
 	UnicodeEmoji ICE_SKATE = new UnicodeEmojiImpl("⛸️");
 	
-	UnicodeEmoji ICE_SKATE_UNQUALIFIED = new UnicodeEmojiImpl("⛸");
-	
 	UnicodeEmoji FISHING_POLE = new UnicodeEmojiImpl("🎣");
 	
 	UnicodeEmoji DIVING_MASK = new UnicodeEmojiImpl("🤿");

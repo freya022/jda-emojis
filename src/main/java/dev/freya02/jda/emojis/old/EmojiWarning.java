@@ -6,8 +6,6 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiWarning {
 	UnicodeEmoji WARNING = new UnicodeEmojiImpl("⚠️");
 	
-	UnicodeEmoji WARNING_UNQUALIFIED = new UnicodeEmojiImpl("⚠");
-	
 	UnicodeEmoji CHILDREN_CROSSING = new UnicodeEmojiImpl("🚸");
 	
 	UnicodeEmoji NO_ENTRY = new UnicodeEmojiImpl("⛔");
@@ -30,11 +28,7 @@ interface EmojiWarning {
 	
 	UnicodeEmoji RADIOACTIVE = new UnicodeEmojiImpl("☢️");
 	
-	UnicodeEmoji RADIOACTIVE_UNQUALIFIED = new UnicodeEmojiImpl("☢");
-	
 	UnicodeEmoji BIOHAZARD = new UnicodeEmojiImpl("☣️");
-	
-	UnicodeEmoji BIOHAZARD_UNQUALIFIED = new UnicodeEmojiImpl("☣");
 	
 	
 }

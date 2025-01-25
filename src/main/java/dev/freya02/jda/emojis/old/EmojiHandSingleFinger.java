@@ -66,8 +66,6 @@ interface EmojiHandSingleFinger {
 	
 	UnicodeEmoji INDEX_POINTING_UP = new UnicodeEmojiImpl("☝️");
 	
-	UnicodeEmoji INDEX_POINTING_UP_UNQUALIFIED = new UnicodeEmojiImpl("☝");
-	
 	UnicodeEmoji INDEX_POINTING_UP_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("☝🏻");
 	
 	UnicodeEmoji INDEX_POINTING_UP_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("☝🏼");

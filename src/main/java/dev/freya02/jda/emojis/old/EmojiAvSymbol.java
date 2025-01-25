@@ -12,27 +12,17 @@ interface EmojiAvSymbol {
 	
 	UnicodeEmoji PLAY_BUTTON = new UnicodeEmojiImpl("▶️");
 	
-	UnicodeEmoji PLAY_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("▶");
-	
 	UnicodeEmoji FAST_FORWARD_BUTTON = new UnicodeEmojiImpl("⏩");
 	
 	UnicodeEmoji NEXT_TRACK_BUTTON = new UnicodeEmojiImpl("⏭️");
 	
-	UnicodeEmoji NEXT_TRACK_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("⏭");
-	
 	UnicodeEmoji PLAY_OR_PAUSE_BUTTON = new UnicodeEmojiImpl("⏯️");
 	
-	UnicodeEmoji PLAY_OR_PAUSE_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("⏯");
-	
 	UnicodeEmoji REVERSE_BUTTON = new UnicodeEmojiImpl("◀️");
-	
-	UnicodeEmoji REVERSE_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("◀");
 	
 	UnicodeEmoji FAST_REVERSE_BUTTON = new UnicodeEmojiImpl("⏪");
 	
 	UnicodeEmoji LAST_TRACK_BUTTON = new UnicodeEmojiImpl("⏮️");
-	
-	UnicodeEmoji LAST_TRACK_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("⏮");
 	
 	UnicodeEmoji UPWARDS_BUTTON = new UnicodeEmojiImpl("🔼");
 	
@@ -44,19 +34,11 @@ interface EmojiAvSymbol {
 	
 	UnicodeEmoji PAUSE_BUTTON = new UnicodeEmojiImpl("⏸️");
 	
-	UnicodeEmoji PAUSE_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("⏸");
-	
 	UnicodeEmoji STOP_BUTTON = new UnicodeEmojiImpl("⏹️");
-	
-	UnicodeEmoji STOP_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("⏹");
 	
 	UnicodeEmoji RECORD_BUTTON = new UnicodeEmojiImpl("⏺️");
 	
-	UnicodeEmoji RECORD_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("⏺");
-	
 	UnicodeEmoji EJECT_BUTTON = new UnicodeEmojiImpl("⏏️");
-	
-	UnicodeEmoji EJECT_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("⏏");
 	
 	UnicodeEmoji CINEMA = new UnicodeEmojiImpl("🎦");
 	

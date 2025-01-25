@@ -14,8 +14,6 @@ interface EmojiPlaceMap {
 	
 	UnicodeEmoji WORLD_MAP = new UnicodeEmojiImpl("🗺️");
 	
-	UnicodeEmoji WORLD_MAP_UNQUALIFIED = new UnicodeEmojiImpl("🗺");
-	
 	UnicodeEmoji MAP_OF_JAPAN = new UnicodeEmojiImpl("🗾");
 	
 	UnicodeEmoji COMPASS = new UnicodeEmojiImpl("🧭");

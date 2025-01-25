@@ -24,21 +24,13 @@ interface EmojiHeart {
 	
 	UnicodeEmoji HEART_EXCLAMATION = new UnicodeEmojiImpl("❣️");
 	
-	UnicodeEmoji HEART_EXCLAMATION_UNQUALIFIED = new UnicodeEmojiImpl("❣");
-	
 	UnicodeEmoji BROKEN_HEART = new UnicodeEmojiImpl("💔");
 	
 	UnicodeEmoji HEART_ON_FIRE = new UnicodeEmojiImpl("❤️‍🔥");
 	
-	UnicodeEmoji HEART_ON_FIRE_UNQUALIFIED = new UnicodeEmojiImpl("❤‍🔥");
-	
 	UnicodeEmoji MENDING_HEART = new UnicodeEmojiImpl("❤️‍🩹");
 	
-	UnicodeEmoji MENDING_HEART_UNQUALIFIED = new UnicodeEmojiImpl("❤‍🩹");
-	
 	UnicodeEmoji RED_HEART = new UnicodeEmojiImpl("❤️");
-	
-	UnicodeEmoji RED_HEART_UNQUALIFIED = new UnicodeEmojiImpl("❤");
 	
 	UnicodeEmoji PINK_HEART = new UnicodeEmojiImpl("🩷");
 	

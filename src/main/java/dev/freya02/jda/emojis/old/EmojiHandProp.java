@@ -6,8 +6,6 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiHandProp {
 	UnicodeEmoji WRITING_HAND = new UnicodeEmojiImpl("✍️");
 	
-	UnicodeEmoji WRITING_HAND_UNQUALIFIED = new UnicodeEmojiImpl("✍");
-	
 	UnicodeEmoji WRITING_HAND_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("✍🏻");
 	
 	UnicodeEmoji WRITING_HAND_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("✍🏼");

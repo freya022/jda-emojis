@@ -22,8 +22,6 @@ interface EmojiGame {
 	
 	UnicodeEmoji JOYSTICK = new UnicodeEmojiImpl("🕹️");
 	
-	UnicodeEmoji JOYSTICK_UNQUALIFIED = new UnicodeEmojiImpl("🕹");
-	
 	UnicodeEmoji SLOT_MACHINE = new UnicodeEmojiImpl("🎰");
 	
 	UnicodeEmoji GAME_DIE = new UnicodeEmojiImpl("🎲");
@@ -40,23 +38,13 @@ interface EmojiGame {
 	
 	UnicodeEmoji SPADE_SUIT = new UnicodeEmojiImpl("♠️");
 	
-	UnicodeEmoji SPADE_SUIT_UNQUALIFIED = new UnicodeEmojiImpl("♠");
-	
 	UnicodeEmoji HEART_SUIT = new UnicodeEmojiImpl("♥️");
-	
-	UnicodeEmoji HEART_SUIT_UNQUALIFIED = new UnicodeEmojiImpl("♥");
 	
 	UnicodeEmoji DIAMOND_SUIT = new UnicodeEmojiImpl("♦️");
 	
-	UnicodeEmoji DIAMOND_SUIT_UNQUALIFIED = new UnicodeEmojiImpl("♦");
-	
 	UnicodeEmoji CLUB_SUIT = new UnicodeEmojiImpl("♣️");
 	
-	UnicodeEmoji CLUB_SUIT_UNQUALIFIED = new UnicodeEmojiImpl("♣");
-	
 	UnicodeEmoji CHESS_PAWN = new UnicodeEmojiImpl("♟️");
-	
-	UnicodeEmoji CHESS_PAWN_UNQUALIFIED = new UnicodeEmojiImpl("♟");
 	
 	UnicodeEmoji JOKER = new UnicodeEmojiImpl("🃏");
 	

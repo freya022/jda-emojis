@@ -14,7 +14,5 @@ interface EmojiFaceSleepy {
 	
 	UnicodeEmoji SLEEPING_FACE = new UnicodeEmojiImpl("😴");
 	
-	UnicodeEmoji FACE_WITH_BAGS_UNDER_EYES = new UnicodeEmojiImpl("🫩");
-	
 	
 }

@@ -14,23 +14,13 @@ interface EmojiComputer {
 	
 	UnicodeEmoji DESKTOP_COMPUTER = new UnicodeEmojiImpl("🖥️");
 	
-	UnicodeEmoji DESKTOP_COMPUTER_UNQUALIFIED = new UnicodeEmojiImpl("🖥");
-	
 	UnicodeEmoji PRINTER = new UnicodeEmojiImpl("🖨️");
-	
-	UnicodeEmoji PRINTER_UNQUALIFIED = new UnicodeEmojiImpl("🖨");
 	
 	UnicodeEmoji KEYBOARD = new UnicodeEmojiImpl("⌨️");
 	
-	UnicodeEmoji KEYBOARD_UNQUALIFIED = new UnicodeEmojiImpl("⌨");
-	
 	UnicodeEmoji COMPUTER_MOUSE = new UnicodeEmojiImpl("🖱️");
 	
-	UnicodeEmoji COMPUTER_MOUSE_UNQUALIFIED = new UnicodeEmojiImpl("🖱");
-	
 	UnicodeEmoji TRACKBALL = new UnicodeEmojiImpl("🖲️");
-	
-	UnicodeEmoji TRACKBALL_UNQUALIFIED = new UnicodeEmojiImpl("🖲");
 	
 	UnicodeEmoji COMPUTER_DISK = new UnicodeEmojiImpl("💽");
 	

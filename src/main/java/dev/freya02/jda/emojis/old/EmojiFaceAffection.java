@@ -16,8 +16,6 @@ interface EmojiFaceAffection {
 	
 	UnicodeEmoji SMILING_FACE = new UnicodeEmojiImpl("☺️");
 	
-	UnicodeEmoji SMILING_FACE_UNQUALIFIED = new UnicodeEmojiImpl("☺");
-	
 	UnicodeEmoji KISSING_FACE_WITH_CLOSED_EYES = new UnicodeEmojiImpl("😚");
 	
 	UnicodeEmoji KISSING_FACE_WITH_SMILING_EYES = new UnicodeEmojiImpl("😙");

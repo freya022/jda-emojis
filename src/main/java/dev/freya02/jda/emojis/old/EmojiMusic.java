@@ -12,15 +12,9 @@ interface EmojiMusic {
 	
 	UnicodeEmoji STUDIO_MICROPHONE = new UnicodeEmojiImpl("🎙️");
 	
-	UnicodeEmoji STUDIO_MICROPHONE_UNQUALIFIED = new UnicodeEmojiImpl("🎙");
-	
 	UnicodeEmoji LEVEL_SLIDER = new UnicodeEmojiImpl("🎚️");
 	
-	UnicodeEmoji LEVEL_SLIDER_UNQUALIFIED = new UnicodeEmojiImpl("🎚");
-	
 	UnicodeEmoji CONTROL_KNOBS = new UnicodeEmojiImpl("🎛️");
-	
-	UnicodeEmoji CONTROL_KNOBS_UNQUALIFIED = new UnicodeEmojiImpl("🎛");
 	
 	UnicodeEmoji MICROPHONE = new UnicodeEmojiImpl("🎤");
 	

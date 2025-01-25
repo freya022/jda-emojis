@@ -24,11 +24,7 @@ interface EmojiAnimalBug {
 	
 	UnicodeEmoji SPIDER = new UnicodeEmojiImpl("🕷️");
 	
-	UnicodeEmoji SPIDER_UNQUALIFIED = new UnicodeEmojiImpl("🕷");
-	
 	UnicodeEmoji SPIDER_WEB = new UnicodeEmojiImpl("🕸️");
-	
-	UnicodeEmoji SPIDER_WEB_UNQUALIFIED = new UnicodeEmojiImpl("🕸");
 	
 	UnicodeEmoji SCORPION = new UnicodeEmojiImpl("🦂");
 	

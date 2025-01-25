@@ -30,8 +30,6 @@ interface EmojiHandFingersOpen {
 	
 	UnicodeEmoji HAND_WITH_FINGERS_SPLAYED = new UnicodeEmojiImpl("🖐️");
 	
-	UnicodeEmoji HAND_WITH_FINGERS_SPLAYED_UNQUALIFIED = new UnicodeEmojiImpl("🖐");
-	
 	UnicodeEmoji HAND_WITH_FINGERS_SPLAYED_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🖐🏻");
 	
 	UnicodeEmoji HAND_WITH_FINGERS_SPLAYED_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🖐🏼");

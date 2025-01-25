@@ -42,11 +42,7 @@ interface EmojiGeometric {
 	
 	UnicodeEmoji BLACK_MEDIUM_SQUARE = new UnicodeEmojiImpl("◼️");
 	
-	UnicodeEmoji BLACK_MEDIUM_SQUARE_UNQUALIFIED = new UnicodeEmojiImpl("◼");
-	
 	UnicodeEmoji WHITE_MEDIUM_SQUARE = new UnicodeEmojiImpl("◻️");
-	
-	UnicodeEmoji WHITE_MEDIUM_SQUARE_UNQUALIFIED = new UnicodeEmojiImpl("◻");
 	
 	UnicodeEmoji BLACK_MEDIUM_SMALL_SQUARE = new UnicodeEmojiImpl("◾");
 	
@@ -54,11 +50,7 @@ interface EmojiGeometric {
 	
 	UnicodeEmoji BLACK_SMALL_SQUARE = new UnicodeEmojiImpl("▪️");
 	
-	UnicodeEmoji BLACK_SMALL_SQUARE_UNQUALIFIED = new UnicodeEmojiImpl("▪");
-	
 	UnicodeEmoji WHITE_SMALL_SQUARE = new UnicodeEmojiImpl("▫️");
-	
-	UnicodeEmoji WHITE_SMALL_SQUARE_UNQUALIFIED = new UnicodeEmojiImpl("▫");
 	
 	UnicodeEmoji LARGE_ORANGE_DIAMOND = new UnicodeEmojiImpl("🔶");
 	

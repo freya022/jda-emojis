@@ -102,51 +102,27 @@ interface EmojiPerson {
 	
 	UnicodeEmoji MAN_BEARD = new UnicodeEmojiImpl("🧔‍♂️");
 	
-	UnicodeEmoji MAN_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔‍♂");
-	
 	UnicodeEmoji MAN_LIGHT_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏻‍♂️");
-	
-	UnicodeEmoji MAN_LIGHT_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏻‍♂");
 	
 	UnicodeEmoji MAN_MEDIUM_LIGHT_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏼‍♂️");
 	
-	UnicodeEmoji MAN_MEDIUM_LIGHT_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏼‍♂");
-	
 	UnicodeEmoji MAN_MEDIUM_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏽‍♂️");
-	
-	UnicodeEmoji MAN_MEDIUM_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏽‍♂");
 	
 	UnicodeEmoji MAN_MEDIUM_DARK_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏾‍♂️");
 	
-	UnicodeEmoji MAN_MEDIUM_DARK_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏾‍♂");
-	
 	UnicodeEmoji MAN_DARK_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏿‍♂️");
-	
-	UnicodeEmoji MAN_DARK_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏿‍♂");
 	
 	UnicodeEmoji WOMAN_BEARD = new UnicodeEmojiImpl("🧔‍♀️");
 	
-	UnicodeEmoji WOMAN_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔‍♀");
-	
 	UnicodeEmoji WOMAN_LIGHT_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏻‍♀️");
-	
-	UnicodeEmoji WOMAN_LIGHT_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏻‍♀");
 	
 	UnicodeEmoji WOMAN_MEDIUM_LIGHT_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏼‍♀️");
 	
-	UnicodeEmoji WOMAN_MEDIUM_LIGHT_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏼‍♀");
-	
 	UnicodeEmoji WOMAN_MEDIUM_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏽‍♀️");
-	
-	UnicodeEmoji WOMAN_MEDIUM_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏽‍♀");
 	
 	UnicodeEmoji WOMAN_MEDIUM_DARK_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏾‍♀️");
 	
-	UnicodeEmoji WOMAN_MEDIUM_DARK_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏾‍♀");
-	
 	UnicodeEmoji WOMAN_DARK_SKIN_TONE_BEARD = new UnicodeEmojiImpl("🧔🏿‍♀️");
-	
-	UnicodeEmoji WOMAN_DARK_SKIN_TONE_BEARD_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧔🏿‍♀");
 	
 	UnicodeEmoji MAN_RED_HAIR = new UnicodeEmojiImpl("👨‍🦰");
 	
@@ -306,51 +282,27 @@ interface EmojiPerson {
 	
 	UnicodeEmoji WOMAN_BLOND_HAIR = new UnicodeEmojiImpl("👱‍♀️");
 	
-	UnicodeEmoji WOMAN_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱‍♀");
-	
 	UnicodeEmoji WOMAN_LIGHT_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏻‍♀️");
-	
-	UnicodeEmoji WOMAN_LIGHT_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏻‍♀");
 	
 	UnicodeEmoji WOMAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏼‍♀️");
 	
-	UnicodeEmoji WOMAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏼‍♀");
-	
 	UnicodeEmoji WOMAN_MEDIUM_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏽‍♀️");
-	
-	UnicodeEmoji WOMAN_MEDIUM_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏽‍♀");
 	
 	UnicodeEmoji WOMAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏾‍♀️");
 	
-	UnicodeEmoji WOMAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏾‍♀");
-	
 	UnicodeEmoji WOMAN_DARK_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏿‍♀️");
-	
-	UnicodeEmoji WOMAN_DARK_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏿‍♀");
 	
 	UnicodeEmoji MAN_BLOND_HAIR = new UnicodeEmojiImpl("👱‍♂️");
 	
-	UnicodeEmoji MAN_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱‍♂");
-	
 	UnicodeEmoji MAN_LIGHT_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏻‍♂️");
-	
-	UnicodeEmoji MAN_LIGHT_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏻‍♂");
 	
 	UnicodeEmoji MAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏼‍♂️");
 	
-	UnicodeEmoji MAN_MEDIUM_LIGHT_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏼‍♂");
-	
 	UnicodeEmoji MAN_MEDIUM_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏽‍♂️");
-	
-	UnicodeEmoji MAN_MEDIUM_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏽‍♂");
 	
 	UnicodeEmoji MAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏾‍♂️");
 	
-	UnicodeEmoji MAN_MEDIUM_DARK_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏾‍♂");
-	
 	UnicodeEmoji MAN_DARK_SKIN_TONE_BLOND_HAIR = new UnicodeEmojiImpl("👱🏿‍♂️");
-	
-	UnicodeEmoji MAN_DARK_SKIN_TONE_BLOND_HAIR_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👱🏿‍♂");
 	
 	UnicodeEmoji OLDER_PERSON = new UnicodeEmojiImpl("🧓");
 	

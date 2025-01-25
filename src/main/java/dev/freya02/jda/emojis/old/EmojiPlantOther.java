@@ -22,8 +22,6 @@ interface EmojiPlantOther {
 	
 	UnicodeEmoji SHAMROCK = new UnicodeEmojiImpl("☘️");
 	
-	UnicodeEmoji SHAMROCK_UNQUALIFIED = new UnicodeEmojiImpl("☘");
-	
 	UnicodeEmoji FOUR_LEAF_CLOVER = new UnicodeEmojiImpl("🍀");
 	
 	UnicodeEmoji MAPLE_LEAF = new UnicodeEmojiImpl("🍁");
@@ -37,8 +35,6 @@ interface EmojiPlantOther {
 	UnicodeEmoji NEST_WITH_EGGS = new UnicodeEmojiImpl("🪺");
 	
 	UnicodeEmoji MUSHROOM = new UnicodeEmojiImpl("🍄");
-	
-	UnicodeEmoji LEAFLESS_TREE = new UnicodeEmojiImpl("🪾");
 	
 	
 }

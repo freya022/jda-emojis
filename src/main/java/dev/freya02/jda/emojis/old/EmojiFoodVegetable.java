@@ -16,8 +16,6 @@ interface EmojiFoodVegetable {
 	
 	UnicodeEmoji HOT_PEPPER = new UnicodeEmojiImpl("🌶️");
 	
-	UnicodeEmoji HOT_PEPPER_UNQUALIFIED = new UnicodeEmojiImpl("🌶");
-	
 	UnicodeEmoji BELL_PEPPER = new UnicodeEmojiImpl("🫑");
 	
 	UnicodeEmoji CUCUMBER = new UnicodeEmojiImpl("🥒");
@@ -41,8 +39,6 @@ interface EmojiFoodVegetable {
 	UnicodeEmoji PEA_POD = new UnicodeEmojiImpl("🫛");
 	
 	UnicodeEmoji BROWN_MUSHROOM = new UnicodeEmojiImpl("🍄‍🟫");
-	
-	UnicodeEmoji ROOT_VEGETABLE = new UnicodeEmojiImpl("🫜");
 	
 	
 }

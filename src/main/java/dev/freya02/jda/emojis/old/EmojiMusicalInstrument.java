@@ -26,7 +26,5 @@ interface EmojiMusicalInstrument {
 	
 	UnicodeEmoji FLUTE = new UnicodeEmojiImpl("🪈");
 	
-	UnicodeEmoji HARP = new UnicodeEmojiImpl("🪉");
-	
 	
 }

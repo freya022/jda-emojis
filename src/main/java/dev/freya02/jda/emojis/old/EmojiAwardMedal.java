@@ -6,8 +6,6 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiAwardMedal {
 	UnicodeEmoji MILITARY_MEDAL = new UnicodeEmojiImpl("🎖️");
 	
-	UnicodeEmoji MILITARY_MEDAL_UNQUALIFIED = new UnicodeEmojiImpl("🎖");
-	
 	UnicodeEmoji TROPHY = new UnicodeEmojiImpl("🏆");
 	
 	UnicodeEmoji SPORTS_MEDAL = new UnicodeEmojiImpl("🏅");

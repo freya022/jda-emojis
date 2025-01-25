@@ -10,23 +10,13 @@ interface EmojiTool {
 	
 	UnicodeEmoji PICK = new UnicodeEmojiImpl("⛏️");
 	
-	UnicodeEmoji PICK_UNQUALIFIED = new UnicodeEmojiImpl("⛏");
-	
 	UnicodeEmoji HAMMER_AND_PICK = new UnicodeEmojiImpl("⚒️");
-	
-	UnicodeEmoji HAMMER_AND_PICK_UNQUALIFIED = new UnicodeEmojiImpl("⚒");
 	
 	UnicodeEmoji HAMMER_AND_WRENCH = new UnicodeEmojiImpl("🛠️");
 	
-	UnicodeEmoji HAMMER_AND_WRENCH_UNQUALIFIED = new UnicodeEmojiImpl("🛠");
-	
 	UnicodeEmoji DAGGER = new UnicodeEmojiImpl("🗡️");
 	
-	UnicodeEmoji DAGGER_UNQUALIFIED = new UnicodeEmojiImpl("🗡");
-	
 	UnicodeEmoji CROSSED_SWORDS = new UnicodeEmojiImpl("⚔️");
-	
-	UnicodeEmoji CROSSED_SWORDS_UNQUALIFIED = new UnicodeEmojiImpl("⚔");
 	
 	UnicodeEmoji BOMB = new UnicodeEmojiImpl("💣");
 	
@@ -35,8 +25,6 @@ interface EmojiTool {
 	UnicodeEmoji BOW_AND_ARROW = new UnicodeEmojiImpl("🏹");
 	
 	UnicodeEmoji SHIELD = new UnicodeEmojiImpl("🛡️");
-	
-	UnicodeEmoji SHIELD_UNQUALIFIED = new UnicodeEmojiImpl("🛡");
 	
 	UnicodeEmoji CARPENTRY_SAW = new UnicodeEmojiImpl("🪚");
 	
@@ -48,15 +36,9 @@ interface EmojiTool {
 	
 	UnicodeEmoji GEAR = new UnicodeEmojiImpl("⚙️");
 	
-	UnicodeEmoji GEAR_UNQUALIFIED = new UnicodeEmojiImpl("⚙");
-	
 	UnicodeEmoji CLAMP = new UnicodeEmojiImpl("🗜️");
 	
-	UnicodeEmoji CLAMP_UNQUALIFIED = new UnicodeEmojiImpl("🗜");
-	
 	UnicodeEmoji BALANCE_SCALE = new UnicodeEmojiImpl("⚖️");
-	
-	UnicodeEmoji BALANCE_SCALE_UNQUALIFIED = new UnicodeEmojiImpl("⚖");
 	
 	UnicodeEmoji WHITE_CANE = new UnicodeEmojiImpl("🦯");
 	
@@ -64,11 +46,7 @@ interface EmojiTool {
 	
 	UnicodeEmoji BROKEN_CHAIN = new UnicodeEmojiImpl("⛓️‍💥");
 	
-	UnicodeEmoji BROKEN_CHAIN_UNQUALIFIED = new UnicodeEmojiImpl("⛓‍💥");
-	
 	UnicodeEmoji CHAINS = new UnicodeEmojiImpl("⛓️");
-	
-	UnicodeEmoji CHAINS_UNQUALIFIED = new UnicodeEmojiImpl("⛓");
 	
 	UnicodeEmoji HOOK = new UnicodeEmojiImpl("🪝");
 	
@@ -77,8 +55,6 @@ interface EmojiTool {
 	UnicodeEmoji MAGNET = new UnicodeEmojiImpl("🧲");
 	
 	UnicodeEmoji LADDER = new UnicodeEmojiImpl("🪜");
-	
-	UnicodeEmoji SHOVEL = new UnicodeEmojiImpl("🪏");
 	
 	
 }

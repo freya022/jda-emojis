@@ -18,8 +18,6 @@ interface EmojiFaceNeutralSkeptical {
 	
 	UnicodeEmoji FACE_IN_CLOUDS = new UnicodeEmojiImpl("😶‍🌫️");
 	
-	UnicodeEmoji FACE_IN_CLOUDS_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("😶‍🌫");
-	
 	UnicodeEmoji SMIRKING_FACE = new UnicodeEmojiImpl("😏");
 	
 	UnicodeEmoji UNAMUSED_FACE = new UnicodeEmojiImpl("😒");
@@ -36,11 +34,7 @@ interface EmojiFaceNeutralSkeptical {
 	
 	UnicodeEmoji HEAD_SHAKING_HORIZONTALLY = new UnicodeEmojiImpl("🙂‍↔️");
 	
-	UnicodeEmoji HEAD_SHAKING_HORIZONTALLY_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🙂‍↔");
-	
 	UnicodeEmoji HEAD_SHAKING_VERTICALLY = new UnicodeEmojiImpl("🙂‍↕️");
-	
-	UnicodeEmoji HEAD_SHAKING_VERTICALLY_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🙂‍↕");
 	
 	
 }

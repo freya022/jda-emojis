@@ -18,51 +18,27 @@ interface EmojiPersonResting {
 	
 	UnicodeEmoji MAN_IN_LOTUS_POSITION = new UnicodeEmojiImpl("🧘‍♂️");
 	
-	UnicodeEmoji MAN_IN_LOTUS_POSITION_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘‍♂");
-	
 	UnicodeEmoji MAN_IN_LOTUS_POSITION_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧘🏻‍♂️");
-	
-	UnicodeEmoji MAN_IN_LOTUS_POSITION_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏻‍♂");
 	
 	UnicodeEmoji MAN_IN_LOTUS_POSITION_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧘🏼‍♂️");
 	
-	UnicodeEmoji MAN_IN_LOTUS_POSITION_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏼‍♂");
-	
 	UnicodeEmoji MAN_IN_LOTUS_POSITION_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧘🏽‍♂️");
-	
-	UnicodeEmoji MAN_IN_LOTUS_POSITION_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏽‍♂");
 	
 	UnicodeEmoji MAN_IN_LOTUS_POSITION_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧘🏾‍♂️");
 	
-	UnicodeEmoji MAN_IN_LOTUS_POSITION_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏾‍♂");
-	
 	UnicodeEmoji MAN_IN_LOTUS_POSITION_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧘🏿‍♂️");
-	
-	UnicodeEmoji MAN_IN_LOTUS_POSITION_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏿‍♂");
 	
 	UnicodeEmoji WOMAN_IN_LOTUS_POSITION = new UnicodeEmojiImpl("🧘‍♀️");
 	
-	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘‍♀");
-	
 	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧘🏻‍♀️");
-	
-	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏻‍♀");
 	
 	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧘🏼‍♀️");
 	
-	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏼‍♀");
-	
 	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧘🏽‍♀️");
-	
-	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏽‍♀");
 	
 	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧘🏾‍♀️");
 	
-	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏾‍♀");
-	
 	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧘🏿‍♀️");
-	
-	UnicodeEmoji WOMAN_IN_LOTUS_POSITION_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧘🏿‍♀");
 	
 	UnicodeEmoji PERSON_TAKING_BATH = new UnicodeEmojiImpl("🛀");
 	

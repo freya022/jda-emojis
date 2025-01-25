@@ -64,11 +64,7 @@ interface EmojiTransportGround {
 	
 	UnicodeEmoji RACING_CAR = new UnicodeEmojiImpl("🏎️");
 	
-	UnicodeEmoji RACING_CAR_UNQUALIFIED = new UnicodeEmojiImpl("🏎");
-	
 	UnicodeEmoji MOTORCYCLE = new UnicodeEmojiImpl("🏍️");
-	
-	UnicodeEmoji MOTORCYCLE_UNQUALIFIED = new UnicodeEmojiImpl("🏍");
 	
 	UnicodeEmoji MOTOR_SCOOTER = new UnicodeEmojiImpl("🛵");
 	
@@ -90,15 +86,9 @@ interface EmojiTransportGround {
 	
 	UnicodeEmoji MOTORWAY = new UnicodeEmojiImpl("🛣️");
 	
-	UnicodeEmoji MOTORWAY_UNQUALIFIED = new UnicodeEmojiImpl("🛣");
-	
 	UnicodeEmoji RAILWAY_TRACK = new UnicodeEmojiImpl("🛤️");
 	
-	UnicodeEmoji RAILWAY_TRACK_UNQUALIFIED = new UnicodeEmojiImpl("🛤");
-	
 	UnicodeEmoji OIL_DRUM = new UnicodeEmojiImpl("🛢️");
-	
-	UnicodeEmoji OIL_DRUM_UNQUALIFIED = new UnicodeEmojiImpl("🛢");
 	
 	UnicodeEmoji FUEL_PUMP = new UnicodeEmojiImpl("⛽");
 	

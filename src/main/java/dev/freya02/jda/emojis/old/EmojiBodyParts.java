@@ -94,8 +94,6 @@ interface EmojiBodyParts {
 	
 	UnicodeEmoji EYE = new UnicodeEmojiImpl("👁️");
 	
-	UnicodeEmoji EYE_UNQUALIFIED = new UnicodeEmojiImpl("👁");
-	
 	UnicodeEmoji TONGUE = new UnicodeEmojiImpl("👅");
 	
 	UnicodeEmoji MOUTH = new UnicodeEmojiImpl("👄");

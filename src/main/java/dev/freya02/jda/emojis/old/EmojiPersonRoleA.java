@@ -6,75 +6,39 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiPersonRoleA {
 	UnicodeEmoji HEALTH_WORKER = new UnicodeEmojiImpl("🧑‍⚕️");
 	
-	UnicodeEmoji HEALTH_WORKER_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑‍⚕");
-	
 	UnicodeEmoji HEALTH_WORKER_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍⚕️");
-	
-	UnicodeEmoji HEALTH_WORKER_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏻‍⚕");
 	
 	UnicodeEmoji HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍⚕️");
 	
-	UnicodeEmoji HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏼‍⚕");
-	
 	UnicodeEmoji HEALTH_WORKER_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍⚕️");
-	
-	UnicodeEmoji HEALTH_WORKER_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏽‍⚕");
 	
 	UnicodeEmoji HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍⚕️");
 	
-	UnicodeEmoji HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏾‍⚕");
-	
 	UnicodeEmoji HEALTH_WORKER_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍⚕️");
-	
-	UnicodeEmoji HEALTH_WORKER_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏿‍⚕");
 	
 	UnicodeEmoji MAN_HEALTH_WORKER = new UnicodeEmojiImpl("👨‍⚕️");
 	
-	UnicodeEmoji MAN_HEALTH_WORKER_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨‍⚕");
-	
 	UnicodeEmoji MAN_HEALTH_WORKER_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍⚕️");
-	
-	UnicodeEmoji MAN_HEALTH_WORKER_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏻‍⚕");
 	
 	UnicodeEmoji MAN_HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍⚕️");
 	
-	UnicodeEmoji MAN_HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏼‍⚕");
-	
 	UnicodeEmoji MAN_HEALTH_WORKER_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍⚕️");
-	
-	UnicodeEmoji MAN_HEALTH_WORKER_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏽‍⚕");
 	
 	UnicodeEmoji MAN_HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍⚕️");
 	
-	UnicodeEmoji MAN_HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏾‍⚕");
-	
 	UnicodeEmoji MAN_HEALTH_WORKER_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍⚕️");
-	
-	UnicodeEmoji MAN_HEALTH_WORKER_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏿‍⚕");
 	
 	UnicodeEmoji WOMAN_HEALTH_WORKER = new UnicodeEmojiImpl("👩‍⚕️");
 	
-	UnicodeEmoji WOMAN_HEALTH_WORKER_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩‍⚕");
-	
 	UnicodeEmoji WOMAN_HEALTH_WORKER_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍⚕️");
-	
-	UnicodeEmoji WOMAN_HEALTH_WORKER_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍⚕");
 	
 	UnicodeEmoji WOMAN_HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍⚕️");
 	
-	UnicodeEmoji WOMAN_HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍⚕");
-	
 	UnicodeEmoji WOMAN_HEALTH_WORKER_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍⚕️");
-	
-	UnicodeEmoji WOMAN_HEALTH_WORKER_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍⚕");
 	
 	UnicodeEmoji WOMAN_HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍⚕️");
 	
-	UnicodeEmoji WOMAN_HEALTH_WORKER_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍⚕");
-	
 	UnicodeEmoji WOMAN_HEALTH_WORKER_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍⚕️");
-	
-	UnicodeEmoji WOMAN_HEALTH_WORKER_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍⚕");
 	
 	UnicodeEmoji STUDENT = new UnicodeEmojiImpl("🧑‍🎓");
 	
@@ -150,75 +114,39 @@ interface EmojiPersonRoleA {
 	
 	UnicodeEmoji JUDGE = new UnicodeEmojiImpl("🧑‍⚖️");
 	
-	UnicodeEmoji JUDGE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑‍⚖");
-	
 	UnicodeEmoji JUDGE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍⚖️");
-	
-	UnicodeEmoji JUDGE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏻‍⚖");
 	
 	UnicodeEmoji JUDGE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍⚖️");
 	
-	UnicodeEmoji JUDGE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏼‍⚖");
-	
 	UnicodeEmoji JUDGE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍⚖️");
-	
-	UnicodeEmoji JUDGE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏽‍⚖");
 	
 	UnicodeEmoji JUDGE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍⚖️");
 	
-	UnicodeEmoji JUDGE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏾‍⚖");
-	
 	UnicodeEmoji JUDGE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍⚖️");
-	
-	UnicodeEmoji JUDGE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏿‍⚖");
 	
 	UnicodeEmoji MAN_JUDGE = new UnicodeEmojiImpl("👨‍⚖️");
 	
-	UnicodeEmoji MAN_JUDGE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨‍⚖");
-	
 	UnicodeEmoji MAN_JUDGE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍⚖️");
-	
-	UnicodeEmoji MAN_JUDGE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏻‍⚖");
 	
 	UnicodeEmoji MAN_JUDGE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍⚖️");
 	
-	UnicodeEmoji MAN_JUDGE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏼‍⚖");
-	
 	UnicodeEmoji MAN_JUDGE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍⚖️");
-	
-	UnicodeEmoji MAN_JUDGE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏽‍⚖");
 	
 	UnicodeEmoji MAN_JUDGE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍⚖️");
 	
-	UnicodeEmoji MAN_JUDGE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏾‍⚖");
-	
 	UnicodeEmoji MAN_JUDGE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍⚖️");
-	
-	UnicodeEmoji MAN_JUDGE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏿‍⚖");
 	
 	UnicodeEmoji WOMAN_JUDGE = new UnicodeEmojiImpl("👩‍⚖️");
 	
-	UnicodeEmoji WOMAN_JUDGE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩‍⚖");
-	
 	UnicodeEmoji WOMAN_JUDGE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍⚖️");
-	
-	UnicodeEmoji WOMAN_JUDGE_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍⚖");
 	
 	UnicodeEmoji WOMAN_JUDGE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍⚖️");
 	
-	UnicodeEmoji WOMAN_JUDGE_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍⚖");
-	
 	UnicodeEmoji WOMAN_JUDGE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍⚖️");
-	
-	UnicodeEmoji WOMAN_JUDGE_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏽‍⚖");
 	
 	UnicodeEmoji WOMAN_JUDGE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍⚖️");
 	
-	UnicodeEmoji WOMAN_JUDGE_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏾‍⚖");
-	
 	UnicodeEmoji WOMAN_JUDGE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍⚖️");
-	
-	UnicodeEmoji WOMAN_JUDGE_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏿‍⚖");
 	
 	UnicodeEmoji FARMER = new UnicodeEmojiImpl("🧑‍🌾");
 	
@@ -546,63 +474,33 @@ interface EmojiPersonRoleA {
 	
 	UnicodeEmoji PILOT = new UnicodeEmojiImpl("🧑‍✈️");
 	
-	UnicodeEmoji PILOT_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑‍✈");
-	
 	UnicodeEmoji PILOT_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍✈️");
-	
-	UnicodeEmoji PILOT_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏻‍✈");
 	
 	UnicodeEmoji PILOT_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍✈️");
 	
-	UnicodeEmoji PILOT_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏼‍✈");
-	
 	UnicodeEmoji PILOT_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍✈️");
-	
-	UnicodeEmoji PILOT_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏽‍✈");
 	
 	UnicodeEmoji PILOT_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍✈️");
 	
-	UnicodeEmoji PILOT_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏾‍✈");
-	
 	UnicodeEmoji PILOT_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍✈️");
-	
-	UnicodeEmoji PILOT_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("🧑🏿‍✈");
 	
 	UnicodeEmoji MAN_PILOT = new UnicodeEmojiImpl("👨‍✈️");
 	
-	UnicodeEmoji MAN_PILOT_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨‍✈");
-	
 	UnicodeEmoji MAN_PILOT_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍✈️");
-	
-	UnicodeEmoji MAN_PILOT_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏻‍✈");
 	
 	UnicodeEmoji MAN_PILOT_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍✈️");
 	
-	UnicodeEmoji MAN_PILOT_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏼‍✈");
-	
 	UnicodeEmoji MAN_PILOT_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍✈️");
-	
-	UnicodeEmoji MAN_PILOT_MEDIUM_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏽‍✈");
 	
 	UnicodeEmoji MAN_PILOT_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍✈️");
 	
-	UnicodeEmoji MAN_PILOT_MEDIUM_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏾‍✈");
-	
 	UnicodeEmoji MAN_PILOT_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍✈️");
-	
-	UnicodeEmoji MAN_PILOT_DARK_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👨🏿‍✈");
 	
 	UnicodeEmoji WOMAN_PILOT = new UnicodeEmojiImpl("👩‍✈️");
 	
-	UnicodeEmoji WOMAN_PILOT_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩‍✈");
-	
 	UnicodeEmoji WOMAN_PILOT_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍✈️");
 	
-	UnicodeEmoji WOMAN_PILOT_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏻‍✈");
-	
 	UnicodeEmoji WOMAN_PILOT_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍✈️");
-	
-	UnicodeEmoji WOMAN_PILOT_MEDIUM_LIGHT_SKIN_TONE_MINIMALLY_QUALIFIED = new UnicodeEmojiImpl("👩🏼‍✈");
 	
 	
 }

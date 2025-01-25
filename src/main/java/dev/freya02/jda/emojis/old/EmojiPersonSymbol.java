@@ -6,8 +6,6 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiPersonSymbol {
 	UnicodeEmoji SPEAKING_HEAD = new UnicodeEmojiImpl("🗣️");
 	
-	UnicodeEmoji SPEAKING_HEAD_UNQUALIFIED = new UnicodeEmojiImpl("🗣");
-	
 	UnicodeEmoji BUST_IN_SILHOUETTE = new UnicodeEmojiImpl("👤");
 	
 	UnicodeEmoji BUSTS_IN_SILHOUETTE = new UnicodeEmojiImpl("👥");
@@ -25,8 +23,6 @@ interface EmojiPersonSymbol {
 	UnicodeEmoji FAMILY_ADULT_CHILD_CHILD = new UnicodeEmojiImpl("🧑‍🧒‍🧒");
 	
 	UnicodeEmoji FOOTPRINTS = new UnicodeEmojiImpl("👣");
-	
-	UnicodeEmoji FINGERPRINT = new UnicodeEmojiImpl("🫆");
 	
 	
 }

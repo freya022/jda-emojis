@@ -20,7 +20,5 @@ interface EmojiFaceNegative {
 	
 	UnicodeEmoji SKULL_AND_CROSSBONES = new UnicodeEmojiImpl("☠️");
 	
-	UnicodeEmoji SKULL_AND_CROSSBONES_UNQUALIFIED = new UnicodeEmojiImpl("☠");
-	
 	
 }

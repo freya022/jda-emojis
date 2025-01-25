@@ -6,15 +6,9 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiPlaceBuilding {
 	UnicodeEmoji STADIUM = new UnicodeEmojiImpl("🏟️");
 	
-	UnicodeEmoji STADIUM_UNQUALIFIED = new UnicodeEmojiImpl("🏟");
-	
 	UnicodeEmoji CLASSICAL_BUILDING = new UnicodeEmojiImpl("🏛️");
 	
-	UnicodeEmoji CLASSICAL_BUILDING_UNQUALIFIED = new UnicodeEmojiImpl("🏛");
-	
 	UnicodeEmoji BUILDING_CONSTRUCTION = new UnicodeEmojiImpl("🏗️");
-	
-	UnicodeEmoji BUILDING_CONSTRUCTION_UNQUALIFIED = new UnicodeEmojiImpl("🏗");
 	
 	UnicodeEmoji BRICK = new UnicodeEmojiImpl("🧱");
 	
@@ -26,11 +20,7 @@ interface EmojiPlaceBuilding {
 	
 	UnicodeEmoji HOUSES = new UnicodeEmojiImpl("🏘️");
 	
-	UnicodeEmoji HOUSES_UNQUALIFIED = new UnicodeEmojiImpl("🏘");
-	
 	UnicodeEmoji DERELICT_HOUSE = new UnicodeEmojiImpl("🏚️");
-	
-	UnicodeEmoji DERELICT_HOUSE_UNQUALIFIED = new UnicodeEmojiImpl("🏚");
 	
 	UnicodeEmoji HOUSE = new UnicodeEmojiImpl("🏠");
 	

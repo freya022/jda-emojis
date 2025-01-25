@@ -14,8 +14,6 @@ interface EmojiPlaceOther {
 	
 	UnicodeEmoji CITYSCAPE = new UnicodeEmojiImpl("🏙️");
 	
-	UnicodeEmoji CITYSCAPE_UNQUALIFIED = new UnicodeEmojiImpl("🏙");
-	
 	UnicodeEmoji SUNRISE_OVER_MOUNTAINS = new UnicodeEmojiImpl("🌄");
 	
 	UnicodeEmoji SUNRISE = new UnicodeEmojiImpl("🌅");
@@ -27,8 +25,6 @@ interface EmojiPlaceOther {
 	UnicodeEmoji BRIDGE_AT_NIGHT = new UnicodeEmojiImpl("🌉");
 	
 	UnicodeEmoji HOT_SPRINGS = new UnicodeEmojiImpl("♨️");
-	
-	UnicodeEmoji HOT_SPRINGS_UNQUALIFIED = new UnicodeEmojiImpl("♨");
 	
 	UnicodeEmoji CAROUSEL_HORSE = new UnicodeEmojiImpl("🎠");
 	

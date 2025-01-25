@@ -8,8 +8,6 @@ interface EmojiClothing {
 	
 	UnicodeEmoji SUNGLASSES = new UnicodeEmojiImpl("🕶️");
 	
-	UnicodeEmoji SUNGLASSES_UNQUALIFIED = new UnicodeEmojiImpl("🕶");
-	
 	UnicodeEmoji GOGGLES = new UnicodeEmojiImpl("🥽");
 	
 	UnicodeEmoji LAB_COAT = new UnicodeEmojiImpl("🥼");
@@ -56,8 +54,6 @@ interface EmojiClothing {
 	
 	UnicodeEmoji SHOPPING_BAGS = new UnicodeEmojiImpl("🛍️");
 	
-	UnicodeEmoji SHOPPING_BAGS_UNQUALIFIED = new UnicodeEmojiImpl("🛍");
-	
 	UnicodeEmoji BACKPACK = new UnicodeEmojiImpl("🎒");
 	
 	UnicodeEmoji THONG_SANDAL = new UnicodeEmojiImpl("🩴");
@@ -93,8 +89,6 @@ interface EmojiClothing {
 	UnicodeEmoji MILITARY_HELMET = new UnicodeEmojiImpl("🪖");
 	
 	UnicodeEmoji RESCUE_WORKER_S_HELMET = new UnicodeEmojiImpl("⛑️");
-	
-	UnicodeEmoji RESCUE_WORKER_S_HELMET_UNQUALIFIED = new UnicodeEmojiImpl("⛑");
 	
 	UnicodeEmoji PRAYER_BEADS = new UnicodeEmojiImpl("📿");
 	

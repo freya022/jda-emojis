@@ -22,8 +22,6 @@ interface EmojiAnimalBird {
 	
 	UnicodeEmoji DOVE = new UnicodeEmojiImpl("🕊️");
 	
-	UnicodeEmoji DOVE_UNQUALIFIED = new UnicodeEmojiImpl("🕊");
-	
 	UnicodeEmoji EAGLE = new UnicodeEmojiImpl("🦅");
 	
 	UnicodeEmoji DUCK = new UnicodeEmojiImpl("🦆");

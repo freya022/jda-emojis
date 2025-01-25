@@ -6,8 +6,6 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiMail {
 	UnicodeEmoji ENVELOPE = new UnicodeEmojiImpl("✉️");
 	
-	UnicodeEmoji ENVELOPE_UNQUALIFIED = new UnicodeEmojiImpl("✉");
-	
 	UnicodeEmoji E_MAIL = new UnicodeEmojiImpl("📧");
 	
 	UnicodeEmoji INCOMING_ENVELOPE = new UnicodeEmojiImpl("📨");
@@ -31,8 +29,6 @@ interface EmojiMail {
 	UnicodeEmoji POSTBOX = new UnicodeEmojiImpl("📮");
 	
 	UnicodeEmoji BALLOT_BOX_WITH_BALLOT = new UnicodeEmojiImpl("🗳️");
-	
-	UnicodeEmoji BALLOT_BOX_WITH_BALLOT_UNQUALIFIED = new UnicodeEmojiImpl("🗳");
 	
 	
 }

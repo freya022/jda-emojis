@@ -32,15 +32,11 @@ interface EmojiBookPaper {
 	
 	UnicodeEmoji ROLLED_UP_NEWSPAPER = new UnicodeEmojiImpl("🗞️");
 	
-	UnicodeEmoji ROLLED_UP_NEWSPAPER_UNQUALIFIED = new UnicodeEmojiImpl("🗞");
-	
 	UnicodeEmoji BOOKMARK_TABS = new UnicodeEmojiImpl("📑");
 	
 	UnicodeEmoji BOOKMARK = new UnicodeEmojiImpl("🔖");
 	
 	UnicodeEmoji LABEL = new UnicodeEmojiImpl("🏷️");
-	
-	UnicodeEmoji LABEL_UNQUALIFIED = new UnicodeEmojiImpl("🏷");
 	
 	
 }

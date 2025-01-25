@@ -14,8 +14,6 @@ interface EmojiPlaceReligious {
 	
 	UnicodeEmoji SHINTO_SHRINE = new UnicodeEmojiImpl("⛩️");
 	
-	UnicodeEmoji SHINTO_SHRINE_UNQUALIFIED = new UnicodeEmojiImpl("⛩");
-	
 	UnicodeEmoji KAABA = new UnicodeEmojiImpl("🕋");
 	
 	

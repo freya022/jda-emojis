@@ -8,11 +8,7 @@ interface EmojiLightAndVideo {
 	
 	UnicodeEmoji FILM_FRAMES = new UnicodeEmojiImpl("🎞️");
 	
-	UnicodeEmoji FILM_FRAMES_UNQUALIFIED = new UnicodeEmojiImpl("🎞");
-	
 	UnicodeEmoji FILM_PROJECTOR = new UnicodeEmojiImpl("📽️");
-	
-	UnicodeEmoji FILM_PROJECTOR_UNQUALIFIED = new UnicodeEmojiImpl("📽");
 	
 	UnicodeEmoji CLAPPER_BOARD = new UnicodeEmojiImpl("🎬");
 	
@@ -31,8 +27,6 @@ interface EmojiLightAndVideo {
 	UnicodeEmoji MAGNIFYING_GLASS_TILTED_RIGHT = new UnicodeEmojiImpl("🔎");
 	
 	UnicodeEmoji CANDLE = new UnicodeEmojiImpl("🕯️");
-	
-	UnicodeEmoji CANDLE_UNQUALIFIED = new UnicodeEmojiImpl("🕯");
 	
 	UnicodeEmoji LIGHT_BULB = new UnicodeEmojiImpl("💡");
 	

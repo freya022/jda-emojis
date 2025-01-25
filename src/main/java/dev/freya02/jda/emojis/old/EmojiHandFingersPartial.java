@@ -42,8 +42,6 @@ interface EmojiHandFingersPartial {
 	
 	UnicodeEmoji VICTORY_HAND = new UnicodeEmojiImpl("✌️");
 	
-	UnicodeEmoji VICTORY_HAND_UNQUALIFIED = new UnicodeEmojiImpl("✌");
-	
 	UnicodeEmoji VICTORY_HAND_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("✌🏻");
 	
 	UnicodeEmoji VICTORY_HAND_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("✌🏼");

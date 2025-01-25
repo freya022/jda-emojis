@@ -42,11 +42,7 @@ interface EmojiEvent {
 	
 	UnicodeEmoji REMINDER_RIBBON = new UnicodeEmojiImpl("🎗️");
 	
-	UnicodeEmoji REMINDER_RIBBON_UNQUALIFIED = new UnicodeEmojiImpl("🎗");
-	
 	UnicodeEmoji ADMISSION_TICKETS = new UnicodeEmojiImpl("🎟️");
-	
-	UnicodeEmoji ADMISSION_TICKETS_UNQUALIFIED = new UnicodeEmojiImpl("🎟");
 	
 	UnicodeEmoji TICKET = new UnicodeEmojiImpl("🎫");
 	

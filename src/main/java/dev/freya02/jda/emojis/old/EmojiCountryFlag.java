@@ -106,8 +106,6 @@ interface EmojiCountryFlag {
 	
 	UnicodeEmoji FLAG_CLIPPERTON_ISLAND = new UnicodeEmojiImpl("🇨🇵");
 	
-	UnicodeEmoji FLAG_SARK = new UnicodeEmojiImpl("🇨🇶");
-	
 	UnicodeEmoji FLAG_COSTA_RICA = new UnicodeEmojiImpl("🇨🇷");
 	
 	UnicodeEmoji FLAG_CUBA = new UnicodeEmojiImpl("🇨🇺");

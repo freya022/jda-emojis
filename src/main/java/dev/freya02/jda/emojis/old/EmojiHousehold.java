@@ -14,11 +14,7 @@ interface EmojiHousehold {
 	
 	UnicodeEmoji BED = new UnicodeEmojiImpl("🛏️");
 	
-	UnicodeEmoji BED_UNQUALIFIED = new UnicodeEmojiImpl("🛏");
-	
 	UnicodeEmoji COUCH_AND_LAMP = new UnicodeEmojiImpl("🛋️");
-	
-	UnicodeEmoji COUCH_AND_LAMP_UNQUALIFIED = new UnicodeEmojiImpl("🛋");
 	
 	UnicodeEmoji CHAIR = new UnicodeEmojiImpl("🪑");
 	

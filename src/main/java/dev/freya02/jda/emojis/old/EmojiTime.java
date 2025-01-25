@@ -14,15 +14,9 @@ interface EmojiTime {
 	
 	UnicodeEmoji STOPWATCH = new UnicodeEmojiImpl("⏱️");
 	
-	UnicodeEmoji STOPWATCH_UNQUALIFIED = new UnicodeEmojiImpl("⏱");
-	
 	UnicodeEmoji TIMER_CLOCK = new UnicodeEmojiImpl("⏲️");
 	
-	UnicodeEmoji TIMER_CLOCK_UNQUALIFIED = new UnicodeEmojiImpl("⏲");
-	
 	UnicodeEmoji MANTELPIECE_CLOCK = new UnicodeEmojiImpl("🕰️");
-	
-	UnicodeEmoji MANTELPIECE_CLOCK_UNQUALIFIED = new UnicodeEmojiImpl("🕰");
 	
 	UnicodeEmoji TWELVE_O_CLOCK = new UnicodeEmojiImpl("🕛");
 	

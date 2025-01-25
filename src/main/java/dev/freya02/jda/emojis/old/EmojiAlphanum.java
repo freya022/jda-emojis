@@ -16,13 +16,9 @@ interface EmojiAlphanum {
 	
 	UnicodeEmoji A_BUTTON_BLOOD_TYPE = new UnicodeEmojiImpl("🅰️");
 	
-	UnicodeEmoji A_BUTTON_BLOOD_TYPE_UNQUALIFIED = new UnicodeEmojiImpl("🅰");
-	
 	UnicodeEmoji AB_BUTTON_BLOOD_TYPE = new UnicodeEmojiImpl("🆎");
 	
 	UnicodeEmoji B_BUTTON_BLOOD_TYPE = new UnicodeEmojiImpl("🅱️");
-	
-	UnicodeEmoji B_BUTTON_BLOOD_TYPE_UNQUALIFIED = new UnicodeEmojiImpl("🅱");
 	
 	UnicodeEmoji CL_BUTTON = new UnicodeEmojiImpl("🆑");
 	
@@ -32,13 +28,9 @@ interface EmojiAlphanum {
 	
 	UnicodeEmoji INFORMATION = new UnicodeEmojiImpl("ℹ️");
 	
-	UnicodeEmoji INFORMATION_UNQUALIFIED = new UnicodeEmojiImpl("ℹ");
-	
 	UnicodeEmoji ID_BUTTON = new UnicodeEmojiImpl("🆔");
 	
 	UnicodeEmoji CIRCLED_M = new UnicodeEmojiImpl("Ⓜ️");
-	
-	UnicodeEmoji CIRCLED_M_UNQUALIFIED = new UnicodeEmojiImpl("Ⓜ");
 	
 	UnicodeEmoji NEW_BUTTON = new UnicodeEmojiImpl("🆕");
 	
@@ -46,13 +38,9 @@ interface EmojiAlphanum {
 	
 	UnicodeEmoji O_BUTTON_BLOOD_TYPE = new UnicodeEmojiImpl("🅾️");
 	
-	UnicodeEmoji O_BUTTON_BLOOD_TYPE_UNQUALIFIED = new UnicodeEmojiImpl("🅾");
-	
 	UnicodeEmoji OK_BUTTON = new UnicodeEmojiImpl("🆗");
 	
 	UnicodeEmoji P_BUTTON = new UnicodeEmojiImpl("🅿️");
-	
-	UnicodeEmoji P_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("🅿");
 	
 	UnicodeEmoji SOS_BUTTON = new UnicodeEmojiImpl("🆘");
 	
@@ -64,11 +52,7 @@ interface EmojiAlphanum {
 	
 	UnicodeEmoji JAPANESE_SERVICE_CHARGE_BUTTON = new UnicodeEmojiImpl("🈂️");
 	
-	UnicodeEmoji JAPANESE_SERVICE_CHARGE_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("🈂");
-	
 	UnicodeEmoji JAPANESE_MONTHLY_AMOUNT_BUTTON = new UnicodeEmojiImpl("🈷️");
-	
-	UnicodeEmoji JAPANESE_MONTHLY_AMOUNT_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("🈷");
 	
 	UnicodeEmoji JAPANESE_NOT_FREE_OF_CHARGE_BUTTON = new UnicodeEmojiImpl("🈶");
 	
@@ -92,11 +76,7 @@ interface EmojiAlphanum {
 	
 	UnicodeEmoji JAPANESE_CONGRATULATIONS_BUTTON = new UnicodeEmojiImpl("㊗️");
 	
-	UnicodeEmoji JAPANESE_CONGRATULATIONS_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("㊗");
-	
 	UnicodeEmoji JAPANESE_SECRET_BUTTON = new UnicodeEmojiImpl("㊙️");
-	
-	UnicodeEmoji JAPANESE_SECRET_BUTTON_UNQUALIFIED = new UnicodeEmojiImpl("㊙");
 	
 	UnicodeEmoji JAPANESE_OPEN_FOR_BUSINESS_BUTTON = new UnicodeEmojiImpl("🈺");
 	

@@ -6,8 +6,6 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiScience {
 	UnicodeEmoji ALEMBIC = new UnicodeEmojiImpl("⚗️");
 	
-	UnicodeEmoji ALEMBIC_UNQUALIFIED = new UnicodeEmojiImpl("⚗");
-	
 	UnicodeEmoji TEST_TUBE = new UnicodeEmojiImpl("🧪");
 	
 	UnicodeEmoji PETRI_DISH = new UnicodeEmojiImpl("🧫");
