@@ -25,4 +25,4 @@ jobs:
           ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.ORG_GRADLE_PROJECT_MAVENCENTRALPASSWORD }}
           ORG_GRADLE_PROJECT_mavenGpgSecretKey: ${{ secrets.ORG_GRADLE_PROJECT_MAVENGPGSECRETKEY }}
           ORG_GRADLE_PROJECT_mavenGpgKeyId: ${{ secrets.ORG_GRADLE_PROJECT_MAVENGPGKEYID }}
-        run: ./gradlew release
+        run: ./gradlew publishToMavenCentral
