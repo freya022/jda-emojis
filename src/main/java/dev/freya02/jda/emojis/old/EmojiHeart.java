@@ -6,15 +6,15 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiHeart {
 	UnicodeEmoji LOVE_LETTER = new UnicodeEmojiImpl("💌");
 	
-	UnicodeEmoji HEART_WITH_ARROW = new UnicodeEmojiImpl("💘");
+	UnicodeEmoji CUPID = new UnicodeEmojiImpl("💘");
 	
-	UnicodeEmoji HEART_WITH_RIBBON = new UnicodeEmojiImpl("💝");
+	UnicodeEmoji GIFT_HEART = new UnicodeEmojiImpl("💝");
 	
 	UnicodeEmoji SPARKLING_HEART = new UnicodeEmojiImpl("💖");
 	
-	UnicodeEmoji GROWING_HEART = new UnicodeEmojiImpl("💗");
+	UnicodeEmoji HEARTPULSE = new UnicodeEmojiImpl("💗");
 	
-	UnicodeEmoji BEATING_HEART = new UnicodeEmojiImpl("💓");
+	UnicodeEmoji HEARTBEAT = new UnicodeEmojiImpl("💓");
 	
 	UnicodeEmoji REVOLVING_HEARTS = new UnicodeEmojiImpl("💞");
 	
@@ -30,7 +30,7 @@ interface EmojiHeart {
 	
 	UnicodeEmoji MENDING_HEART = new UnicodeEmojiImpl("❤️‍🩹");
 	
-	UnicodeEmoji RED_HEART = new UnicodeEmojiImpl("❤️");
+	UnicodeEmoji HEART = new UnicodeEmojiImpl("❤️");
 	
 	UnicodeEmoji PINK_HEART = new UnicodeEmojiImpl("🩷");
 	

@@ -18,7 +18,7 @@ interface EmojiZodiac {
 	
 	UnicodeEmoji LIBRA = new UnicodeEmojiImpl("♎");
 	
-	UnicodeEmoji SCORPIO = new UnicodeEmojiImpl("♏");
+	UnicodeEmoji SCORPIUS = new UnicodeEmojiImpl("♏");
 	
 	UnicodeEmoji SAGITTARIUS = new UnicodeEmojiImpl("♐");
 	

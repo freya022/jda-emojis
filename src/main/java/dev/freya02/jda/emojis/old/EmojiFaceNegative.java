@@ -4,21 +4,21 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiFaceNegative {
-	UnicodeEmoji FACE_WITH_STEAM_FROM_NOSE = new UnicodeEmojiImpl("😤");
+	UnicodeEmoji TRIUMPH = new UnicodeEmojiImpl("😤");
 	
-	UnicodeEmoji ENRAGED_FACE = new UnicodeEmojiImpl("😡");
+	UnicodeEmoji RAGE = new UnicodeEmojiImpl("😡");
 	
-	UnicodeEmoji ANGRY_FACE = new UnicodeEmojiImpl("😠");
+	UnicodeEmoji ANGRY = new UnicodeEmojiImpl("😠");
 	
-	UnicodeEmoji FACE_WITH_SYMBOLS_ON_MOUTH = new UnicodeEmojiImpl("🤬");
+	UnicodeEmoji FACE_WITH_SYMBOLS_OVER_MOUTH = new UnicodeEmojiImpl("🤬");
 	
-	UnicodeEmoji SMILING_FACE_WITH_HORNS = new UnicodeEmojiImpl("😈");
+	UnicodeEmoji SMILING_IMP = new UnicodeEmojiImpl("😈");
 	
-	UnicodeEmoji ANGRY_FACE_WITH_HORNS = new UnicodeEmojiImpl("👿");
+	UnicodeEmoji IMP = new UnicodeEmojiImpl("👿");
 	
 	UnicodeEmoji SKULL = new UnicodeEmojiImpl("💀");
 	
-	UnicodeEmoji SKULL_AND_CROSSBONES = new UnicodeEmojiImpl("☠️");
+	UnicodeEmoji SKULL_CROSSBONES = new UnicodeEmojiImpl("☠️");
 	
 	
 }

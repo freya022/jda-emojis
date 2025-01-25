@@ -4,11 +4,11 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiSubdivisionFlag {
-	UnicodeEmoji FLAG_ENGLAND = new UnicodeEmojiImpl("🏴󠁧󠁢󠁥󠁮󠁧󠁿");
+	UnicodeEmoji ENGLAND = new UnicodeEmojiImpl("🏴󠁧󠁢󠁥󠁮󠁧󠁿");
 	
-	UnicodeEmoji FLAG_SCOTLAND = new UnicodeEmojiImpl("🏴󠁧󠁢󠁳󠁣󠁴󠁿");
+	UnicodeEmoji SCOTLAND = new UnicodeEmojiImpl("🏴󠁧󠁢󠁳󠁣󠁴󠁿");
 	
-	UnicodeEmoji FLAG_WALES = new UnicodeEmojiImpl("🏴󠁧󠁢󠁷󠁬󠁳󠁿");
+	UnicodeEmoji WALES = new UnicodeEmojiImpl("🏴󠁧󠁢󠁷󠁬󠁳󠁿");
 	
 	
 }

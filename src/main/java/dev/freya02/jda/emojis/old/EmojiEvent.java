@@ -18,31 +18,31 @@ interface EmojiEvent {
 	
 	UnicodeEmoji BALLOON = new UnicodeEmojiImpl("🎈");
 	
-	UnicodeEmoji PARTY_POPPER = new UnicodeEmojiImpl("🎉");
+	UnicodeEmoji TADA = new UnicodeEmojiImpl("🎉");
 	
 	UnicodeEmoji CONFETTI_BALL = new UnicodeEmojiImpl("🎊");
 	
 	UnicodeEmoji TANABATA_TREE = new UnicodeEmojiImpl("🎋");
 	
-	UnicodeEmoji PINE_DECORATION = new UnicodeEmojiImpl("🎍");
+	UnicodeEmoji BAMBOO = new UnicodeEmojiImpl("🎍");
 	
-	UnicodeEmoji JAPANESE_DOLLS = new UnicodeEmojiImpl("🎎");
+	UnicodeEmoji DOLLS = new UnicodeEmojiImpl("🎎");
 	
-	UnicodeEmoji CARP_STREAMER = new UnicodeEmojiImpl("🎏");
+	UnicodeEmoji FLAGS = new UnicodeEmojiImpl("🎏");
 	
 	UnicodeEmoji WIND_CHIME = new UnicodeEmojiImpl("🎐");
 	
-	UnicodeEmoji MOON_VIEWING_CEREMONY = new UnicodeEmojiImpl("🎑");
+	UnicodeEmoji RICE_SCENE = new UnicodeEmojiImpl("🎑");
 	
 	UnicodeEmoji RED_ENVELOPE = new UnicodeEmojiImpl("🧧");
 	
 	UnicodeEmoji RIBBON = new UnicodeEmojiImpl("🎀");
 	
-	UnicodeEmoji WRAPPED_GIFT = new UnicodeEmojiImpl("🎁");
+	UnicodeEmoji GIFT = new UnicodeEmojiImpl("🎁");
 	
 	UnicodeEmoji REMINDER_RIBBON = new UnicodeEmojiImpl("🎗️");
 	
-	UnicodeEmoji ADMISSION_TICKETS = new UnicodeEmojiImpl("🎟️");
+	UnicodeEmoji TICKETS = new UnicodeEmojiImpl("🎟️");
 	
 	UnicodeEmoji TICKET = new UnicodeEmojiImpl("🎫");
 	

@@ -12,7 +12,7 @@ interface EmojiAnimalBug {
 	
 	UnicodeEmoji ANT = new UnicodeEmojiImpl("🐜");
 	
-	UnicodeEmoji HONEYBEE = new UnicodeEmojiImpl("🐝");
+	UnicodeEmoji BEE = new UnicodeEmojiImpl("🐝");
 	
 	UnicodeEmoji BEETLE = new UnicodeEmojiImpl("🪲");
 	

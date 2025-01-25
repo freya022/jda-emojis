@@ -10,23 +10,23 @@ interface EmojiComputer {
 	
 	UnicodeEmoji ELECTRIC_PLUG = new UnicodeEmojiImpl("🔌");
 	
-	UnicodeEmoji LAPTOP = new UnicodeEmojiImpl("💻");
+	UnicodeEmoji COMPUTER = new UnicodeEmojiImpl("💻");
 	
-	UnicodeEmoji DESKTOP_COMPUTER = new UnicodeEmojiImpl("🖥️");
+	UnicodeEmoji DESKTOP = new UnicodeEmojiImpl("🖥️");
 	
 	UnicodeEmoji PRINTER = new UnicodeEmojiImpl("🖨️");
 	
 	UnicodeEmoji KEYBOARD = new UnicodeEmojiImpl("⌨️");
 	
-	UnicodeEmoji COMPUTER_MOUSE = new UnicodeEmojiImpl("🖱️");
+	UnicodeEmoji MOUSE_THREE_BUTTON = new UnicodeEmojiImpl("🖱️");
 	
 	UnicodeEmoji TRACKBALL = new UnicodeEmojiImpl("🖲️");
 	
-	UnicodeEmoji COMPUTER_DISK = new UnicodeEmojiImpl("💽");
+	UnicodeEmoji MINIDISC = new UnicodeEmojiImpl("💽");
 	
 	UnicodeEmoji FLOPPY_DISK = new UnicodeEmojiImpl("💾");
 	
-	UnicodeEmoji OPTICAL_DISK = new UnicodeEmojiImpl("💿");
+	UnicodeEmoji CD = new UnicodeEmojiImpl("💿");
 	
 	UnicodeEmoji DVD = new UnicodeEmojiImpl("📀");
 	

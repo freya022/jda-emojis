@@ -4,13 +4,13 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiGame {
-	UnicodeEmoji BULLSEYE = new UnicodeEmojiImpl("🎯");
+	UnicodeEmoji DART = new UnicodeEmojiImpl("🎯");
 	
 	UnicodeEmoji YO_YO = new UnicodeEmojiImpl("🪀");
 	
 	UnicodeEmoji KITE = new UnicodeEmojiImpl("🪁");
 	
-	UnicodeEmoji WATER_PISTOL = new UnicodeEmojiImpl("🔫");
+	UnicodeEmoji GUN = new UnicodeEmojiImpl("🔫");
 	
 	UnicodeEmoji POOL_8_BALL = new UnicodeEmojiImpl("🎱");
 	
@@ -26,29 +26,29 @@ interface EmojiGame {
 	
 	UnicodeEmoji GAME_DIE = new UnicodeEmojiImpl("🎲");
 	
-	UnicodeEmoji PUZZLE_PIECE = new UnicodeEmojiImpl("🧩");
+	UnicodeEmoji JIGSAW = new UnicodeEmojiImpl("🧩");
 	
 	UnicodeEmoji TEDDY_BEAR = new UnicodeEmojiImpl("🧸");
 	
-	UnicodeEmoji PI_ATA = new UnicodeEmojiImpl("🪅");
+	UnicodeEmoji PIÑATA = new UnicodeEmojiImpl("🪅");
 	
 	UnicodeEmoji MIRROR_BALL = new UnicodeEmojiImpl("🪩");
 	
 	UnicodeEmoji NESTING_DOLLS = new UnicodeEmojiImpl("🪆");
 	
-	UnicodeEmoji SPADE_SUIT = new UnicodeEmojiImpl("♠️");
+	UnicodeEmoji SPADES = new UnicodeEmojiImpl("♠️");
 	
-	UnicodeEmoji HEART_SUIT = new UnicodeEmojiImpl("♥️");
+	UnicodeEmoji HEARTS = new UnicodeEmojiImpl("♥️");
 	
-	UnicodeEmoji DIAMOND_SUIT = new UnicodeEmojiImpl("♦️");
+	UnicodeEmoji DIAMONDS = new UnicodeEmojiImpl("♦️");
 	
-	UnicodeEmoji CLUB_SUIT = new UnicodeEmojiImpl("♣️");
+	UnicodeEmoji CLUBS = new UnicodeEmojiImpl("♣️");
 	
 	UnicodeEmoji CHESS_PAWN = new UnicodeEmojiImpl("♟️");
 	
-	UnicodeEmoji JOKER = new UnicodeEmojiImpl("🃏");
+	UnicodeEmoji BLACK_JOKER = new UnicodeEmojiImpl("🃏");
 	
-	UnicodeEmoji MAHJONG_RED_DRAGON = new UnicodeEmojiImpl("🀄");
+	UnicodeEmoji MAHJONG = new UnicodeEmojiImpl("🀄");
 	
 	UnicodeEmoji FLOWER_PLAYING_CARDS = new UnicodeEmojiImpl("🎴");
 	

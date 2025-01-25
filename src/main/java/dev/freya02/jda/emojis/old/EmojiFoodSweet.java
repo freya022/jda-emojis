@@ -4,7 +4,7 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiFoodSweet {
-	UnicodeEmoji SOFT_ICE_CREAM = new UnicodeEmojiImpl("🍦");
+	UnicodeEmoji ICECREAM = new UnicodeEmojiImpl("🍦");
 	
 	UnicodeEmoji SHAVED_ICE = new UnicodeEmojiImpl("🍧");
 	
@@ -14,9 +14,9 @@ interface EmojiFoodSweet {
 	
 	UnicodeEmoji COOKIE = new UnicodeEmojiImpl("🍪");
 	
-	UnicodeEmoji BIRTHDAY_CAKE = new UnicodeEmojiImpl("🎂");
+	UnicodeEmoji BIRTHDAY = new UnicodeEmojiImpl("🎂");
 	
-	UnicodeEmoji SHORTCAKE = new UnicodeEmojiImpl("🍰");
+	UnicodeEmoji CAKE = new UnicodeEmojiImpl("🍰");
 	
 	UnicodeEmoji CUPCAKE = new UnicodeEmojiImpl("🧁");
 	

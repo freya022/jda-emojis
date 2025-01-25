@@ -16,7 +16,7 @@ interface EmojiScience {
 	
 	UnicodeEmoji TELESCOPE = new UnicodeEmojiImpl("🔭");
 	
-	UnicodeEmoji SATELLITE_ANTENNA = new UnicodeEmojiImpl("📡");
+	UnicodeEmoji SATELLITE = new UnicodeEmojiImpl("📡");
 	
 	
 }

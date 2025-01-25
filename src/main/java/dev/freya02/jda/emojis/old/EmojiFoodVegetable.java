@@ -12,7 +12,7 @@ interface EmojiFoodVegetable {
 	
 	UnicodeEmoji CARROT = new UnicodeEmojiImpl("🥕");
 	
-	UnicodeEmoji EAR_OF_CORN = new UnicodeEmojiImpl("🌽");
+	UnicodeEmoji CORN = new UnicodeEmojiImpl("🌽");
 	
 	UnicodeEmoji HOT_PEPPER = new UnicodeEmojiImpl("🌶️");
 	

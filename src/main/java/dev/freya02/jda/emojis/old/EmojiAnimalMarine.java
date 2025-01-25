@@ -4,9 +4,9 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiAnimalMarine {
-	UnicodeEmoji SPOUTING_WHALE = new UnicodeEmojiImpl("🐳");
+	UnicodeEmoji WHALE = new UnicodeEmojiImpl("🐳");
 	
-	UnicodeEmoji WHALE = new UnicodeEmojiImpl("🐋");
+	UnicodeEmoji WHALE2 = new UnicodeEmojiImpl("🐋");
 	
 	UnicodeEmoji DOLPHIN = new UnicodeEmojiImpl("🐬");
 	
@@ -22,7 +22,7 @@ interface EmojiAnimalMarine {
 	
 	UnicodeEmoji OCTOPUS = new UnicodeEmojiImpl("🐙");
 	
-	UnicodeEmoji SPIRAL_SHELL = new UnicodeEmojiImpl("🐚");
+	UnicodeEmoji SHELL = new UnicodeEmojiImpl("🐚");
 	
 	UnicodeEmoji CORAL = new UnicodeEmojiImpl("🪸");
 	

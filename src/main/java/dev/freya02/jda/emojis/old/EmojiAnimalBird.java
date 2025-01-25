@@ -14,7 +14,7 @@ interface EmojiAnimalBird {
 	
 	UnicodeEmoji BABY_CHICK = new UnicodeEmojiImpl("🐤");
 	
-	UnicodeEmoji FRONT_FACING_BABY_CHICK = new UnicodeEmojiImpl("🐥");
+	UnicodeEmoji HATCHED_CHICK = new UnicodeEmojiImpl("🐥");
 	
 	UnicodeEmoji BIRD = new UnicodeEmojiImpl("🐦");
 	

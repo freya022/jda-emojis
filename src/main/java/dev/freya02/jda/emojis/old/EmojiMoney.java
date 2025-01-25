@@ -4,17 +4,17 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiMoney {
-	UnicodeEmoji MONEY_BAG = new UnicodeEmojiImpl("💰");
+	UnicodeEmoji MONEYBAG = new UnicodeEmojiImpl("💰");
 	
 	UnicodeEmoji COIN = new UnicodeEmojiImpl("🪙");
 	
-	UnicodeEmoji YEN_BANKNOTE = new UnicodeEmojiImpl("💴");
+	UnicodeEmoji YEN = new UnicodeEmojiImpl("💴");
 	
-	UnicodeEmoji DOLLAR_BANKNOTE = new UnicodeEmojiImpl("💵");
+	UnicodeEmoji DOLLAR = new UnicodeEmojiImpl("💵");
 	
-	UnicodeEmoji EURO_BANKNOTE = new UnicodeEmojiImpl("💶");
+	UnicodeEmoji EURO = new UnicodeEmojiImpl("💶");
 	
-	UnicodeEmoji POUND_BANKNOTE = new UnicodeEmojiImpl("💷");
+	UnicodeEmoji POUND = new UnicodeEmojiImpl("💷");
 	
 	UnicodeEmoji MONEY_WITH_WINGS = new UnicodeEmojiImpl("💸");
 	
@@ -22,7 +22,7 @@ interface EmojiMoney {
 	
 	UnicodeEmoji RECEIPT = new UnicodeEmojiImpl("🧾");
 	
-	UnicodeEmoji CHART_INCREASING_WITH_YEN = new UnicodeEmojiImpl("💹");
+	UnicodeEmoji CHART = new UnicodeEmojiImpl("💹");
 	
 	
 }

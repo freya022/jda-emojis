@@ -6,29 +6,29 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiDrink {
 	UnicodeEmoji BABY_BOTTLE = new UnicodeEmojiImpl("🍼");
 	
-	UnicodeEmoji GLASS_OF_MILK = new UnicodeEmojiImpl("🥛");
+	UnicodeEmoji MILK = new UnicodeEmojiImpl("🥛");
 	
-	UnicodeEmoji HOT_BEVERAGE = new UnicodeEmojiImpl("☕");
+	UnicodeEmoji COFFEE = new UnicodeEmojiImpl("☕");
 	
 	UnicodeEmoji TEAPOT = new UnicodeEmojiImpl("🫖");
 	
-	UnicodeEmoji TEACUP_WITHOUT_HANDLE = new UnicodeEmojiImpl("🍵");
+	UnicodeEmoji TEA = new UnicodeEmojiImpl("🍵");
 	
 	UnicodeEmoji SAKE = new UnicodeEmojiImpl("🍶");
 	
-	UnicodeEmoji BOTTLE_WITH_POPPING_CORK = new UnicodeEmojiImpl("🍾");
+	UnicodeEmoji CHAMPAGNE = new UnicodeEmojiImpl("🍾");
 	
 	UnicodeEmoji WINE_GLASS = new UnicodeEmojiImpl("🍷");
 	
-	UnicodeEmoji COCKTAIL_GLASS = new UnicodeEmojiImpl("🍸");
+	UnicodeEmoji COCKTAIL = new UnicodeEmojiImpl("🍸");
 	
 	UnicodeEmoji TROPICAL_DRINK = new UnicodeEmojiImpl("🍹");
 	
-	UnicodeEmoji BEER_MUG = new UnicodeEmojiImpl("🍺");
+	UnicodeEmoji BEER = new UnicodeEmojiImpl("🍺");
 	
-	UnicodeEmoji CLINKING_BEER_MUGS = new UnicodeEmojiImpl("🍻");
+	UnicodeEmoji BEERS = new UnicodeEmojiImpl("🍻");
 	
-	UnicodeEmoji CLINKING_GLASSES = new UnicodeEmojiImpl("🥂");
+	UnicodeEmoji CHAMPAGNE_GLASS = new UnicodeEmojiImpl("🥂");
 	
 	UnicodeEmoji TUMBLER_GLASS = new UnicodeEmojiImpl("🥃");
 	
@@ -42,7 +42,7 @@ interface EmojiDrink {
 	
 	UnicodeEmoji MATE = new UnicodeEmojiImpl("🧉");
 	
-	UnicodeEmoji ICE = new UnicodeEmojiImpl("🧊");
+	UnicodeEmoji ICE_CUBE = new UnicodeEmojiImpl("🧊");
 	
 	
 }

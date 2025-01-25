@@ -18,17 +18,17 @@ interface EmojiMail {
 	
 	UnicodeEmoji PACKAGE = new UnicodeEmojiImpl("📦");
 	
-	UnicodeEmoji CLOSED_MAILBOX_WITH_RAISED_FLAG = new UnicodeEmojiImpl("📫");
+	UnicodeEmoji MAILBOX = new UnicodeEmojiImpl("📫");
 	
-	UnicodeEmoji CLOSED_MAILBOX_WITH_LOWERED_FLAG = new UnicodeEmojiImpl("📪");
+	UnicodeEmoji MAILBOX_CLOSED = new UnicodeEmojiImpl("📪");
 	
-	UnicodeEmoji OPEN_MAILBOX_WITH_RAISED_FLAG = new UnicodeEmojiImpl("📬");
+	UnicodeEmoji MAILBOX_WITH_MAIL = new UnicodeEmojiImpl("📬");
 	
-	UnicodeEmoji OPEN_MAILBOX_WITH_LOWERED_FLAG = new UnicodeEmojiImpl("📭");
+	UnicodeEmoji MAILBOX_WITH_NO_MAIL = new UnicodeEmojiImpl("📭");
 	
 	UnicodeEmoji POSTBOX = new UnicodeEmojiImpl("📮");
 	
-	UnicodeEmoji BALLOT_BOX_WITH_BALLOT = new UnicodeEmojiImpl("🗳️");
+	UnicodeEmoji BALLOT_BOX = new UnicodeEmojiImpl("🗳️");
 	
 	
 }

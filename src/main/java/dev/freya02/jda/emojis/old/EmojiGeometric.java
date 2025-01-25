@@ -60,11 +60,11 @@ interface EmojiGeometric {
 	
 	UnicodeEmoji SMALL_BLUE_DIAMOND = new UnicodeEmojiImpl("🔹");
 	
-	UnicodeEmoji RED_TRIANGLE_POINTED_UP = new UnicodeEmojiImpl("🔺");
+	UnicodeEmoji SMALL_RED_TRIANGLE = new UnicodeEmojiImpl("🔺");
 	
-	UnicodeEmoji RED_TRIANGLE_POINTED_DOWN = new UnicodeEmojiImpl("🔻");
+	UnicodeEmoji SMALL_RED_TRIANGLE_DOWN = new UnicodeEmojiImpl("🔻");
 	
-	UnicodeEmoji DIAMOND_WITH_A_DOT = new UnicodeEmojiImpl("💠");
+	UnicodeEmoji DIAMOND_SHAPE_WITH_A_DOT_INSIDE = new UnicodeEmojiImpl("💠");
 	
 	UnicodeEmoji RADIO_BUTTON = new UnicodeEmojiImpl("🔘");
 	

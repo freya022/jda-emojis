@@ -10,9 +10,9 @@ interface EmojiTool {
 	
 	UnicodeEmoji PICK = new UnicodeEmojiImpl("⛏️");
 	
-	UnicodeEmoji HAMMER_AND_PICK = new UnicodeEmojiImpl("⚒️");
+	UnicodeEmoji HAMMER_PICK = new UnicodeEmojiImpl("⚒️");
 	
-	UnicodeEmoji HAMMER_AND_WRENCH = new UnicodeEmojiImpl("🛠️");
+	UnicodeEmoji TOOLS = new UnicodeEmojiImpl("🛠️");
 	
 	UnicodeEmoji DAGGER = new UnicodeEmojiImpl("🗡️");
 	
@@ -36,11 +36,11 @@ interface EmojiTool {
 	
 	UnicodeEmoji GEAR = new UnicodeEmojiImpl("⚙️");
 	
-	UnicodeEmoji CLAMP = new UnicodeEmojiImpl("🗜️");
+	UnicodeEmoji COMPRESSION = new UnicodeEmojiImpl("🗜️");
 	
-	UnicodeEmoji BALANCE_SCALE = new UnicodeEmojiImpl("⚖️");
+	UnicodeEmoji SCALES = new UnicodeEmojiImpl("⚖️");
 	
-	UnicodeEmoji WHITE_CANE = new UnicodeEmojiImpl("🦯");
+	UnicodeEmoji PROBING_CANE = new UnicodeEmojiImpl("🦯");
 	
 	UnicodeEmoji LINK = new UnicodeEmojiImpl("🔗");
 	

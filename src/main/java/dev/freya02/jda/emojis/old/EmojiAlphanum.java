@@ -4,83 +4,83 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiAlphanum {
-	UnicodeEmoji INPUT_LATIN_UPPERCASE = new UnicodeEmojiImpl("🔠");
+	UnicodeEmoji CAPITAL_ABCD = new UnicodeEmojiImpl("🔠");
 	
-	UnicodeEmoji INPUT_LATIN_LOWERCASE = new UnicodeEmojiImpl("🔡");
+	UnicodeEmoji ABCD = new UnicodeEmojiImpl("🔡");
 	
 	UnicodeEmoji INPUT_NUMBERS = new UnicodeEmojiImpl("🔢");
 	
-	UnicodeEmoji INPUT_SYMBOLS = new UnicodeEmojiImpl("🔣");
+	UnicodeEmoji SYMBOLS = new UnicodeEmojiImpl("🔣");
 	
-	UnicodeEmoji INPUT_LATIN_LETTERS = new UnicodeEmojiImpl("🔤");
+	UnicodeEmoji ABC = new UnicodeEmojiImpl("🔤");
 	
-	UnicodeEmoji A_BUTTON_BLOOD_TYPE = new UnicodeEmojiImpl("🅰️");
+	UnicodeEmoji A = new UnicodeEmojiImpl("🅰️");
 	
-	UnicodeEmoji AB_BUTTON_BLOOD_TYPE = new UnicodeEmojiImpl("🆎");
+	UnicodeEmoji AB = new UnicodeEmojiImpl("🆎");
 	
-	UnicodeEmoji B_BUTTON_BLOOD_TYPE = new UnicodeEmojiImpl("🅱️");
+	UnicodeEmoji B = new UnicodeEmojiImpl("🅱️");
 	
-	UnicodeEmoji CL_BUTTON = new UnicodeEmojiImpl("🆑");
+	UnicodeEmoji CL = new UnicodeEmojiImpl("🆑");
 	
-	UnicodeEmoji COOL_BUTTON = new UnicodeEmojiImpl("🆒");
+	UnicodeEmoji COOL = new UnicodeEmojiImpl("🆒");
 	
-	UnicodeEmoji FREE_BUTTON = new UnicodeEmojiImpl("🆓");
+	UnicodeEmoji FREE = new UnicodeEmojiImpl("🆓");
 	
-	UnicodeEmoji INFORMATION = new UnicodeEmojiImpl("ℹ️");
+	UnicodeEmoji INFORMATION_SOURCE = new UnicodeEmojiImpl("ℹ️");
 	
-	UnicodeEmoji ID_BUTTON = new UnicodeEmojiImpl("🆔");
+	UnicodeEmoji ID = new UnicodeEmojiImpl("🆔");
 	
-	UnicodeEmoji CIRCLED_M = new UnicodeEmojiImpl("Ⓜ️");
+	UnicodeEmoji M = new UnicodeEmojiImpl("Ⓜ️");
 	
-	UnicodeEmoji NEW_BUTTON = new UnicodeEmojiImpl("🆕");
+	UnicodeEmoji NEW = new UnicodeEmojiImpl("🆕");
 	
-	UnicodeEmoji NG_BUTTON = new UnicodeEmojiImpl("🆖");
+	UnicodeEmoji NG = new UnicodeEmojiImpl("🆖");
 	
-	UnicodeEmoji O_BUTTON_BLOOD_TYPE = new UnicodeEmojiImpl("🅾️");
+	UnicodeEmoji O2 = new UnicodeEmojiImpl("🅾️");
 	
-	UnicodeEmoji OK_BUTTON = new UnicodeEmojiImpl("🆗");
+	UnicodeEmoji OK = new UnicodeEmojiImpl("🆗");
 	
-	UnicodeEmoji P_BUTTON = new UnicodeEmojiImpl("🅿️");
+	UnicodeEmoji PARKING = new UnicodeEmojiImpl("🅿️");
 	
-	UnicodeEmoji SOS_BUTTON = new UnicodeEmojiImpl("🆘");
+	UnicodeEmoji SOS = new UnicodeEmojiImpl("🆘");
 	
-	UnicodeEmoji UP_BUTTON = new UnicodeEmojiImpl("🆙");
+	UnicodeEmoji UP = new UnicodeEmojiImpl("🆙");
 	
-	UnicodeEmoji VS_BUTTON = new UnicodeEmojiImpl("🆚");
+	UnicodeEmoji VS = new UnicodeEmojiImpl("🆚");
 	
-	UnicodeEmoji JAPANESE_HERE_BUTTON = new UnicodeEmojiImpl("🈁");
+	UnicodeEmoji KOKO = new UnicodeEmojiImpl("🈁");
 	
-	UnicodeEmoji JAPANESE_SERVICE_CHARGE_BUTTON = new UnicodeEmojiImpl("🈂️");
+	UnicodeEmoji SA = new UnicodeEmojiImpl("🈂️");
 	
-	UnicodeEmoji JAPANESE_MONTHLY_AMOUNT_BUTTON = new UnicodeEmojiImpl("🈷️");
+	UnicodeEmoji U6708 = new UnicodeEmojiImpl("🈷️");
 	
-	UnicodeEmoji JAPANESE_NOT_FREE_OF_CHARGE_BUTTON = new UnicodeEmojiImpl("🈶");
+	UnicodeEmoji U6709 = new UnicodeEmojiImpl("🈶");
 	
-	UnicodeEmoji JAPANESE_RESERVED_BUTTON = new UnicodeEmojiImpl("🈯");
+	UnicodeEmoji U6307 = new UnicodeEmojiImpl("🈯");
 	
-	UnicodeEmoji JAPANESE_BARGAIN_BUTTON = new UnicodeEmojiImpl("🉐");
+	UnicodeEmoji IDEOGRAPH_ADVANTAGE = new UnicodeEmojiImpl("🉐");
 	
-	UnicodeEmoji JAPANESE_DISCOUNT_BUTTON = new UnicodeEmojiImpl("🈹");
+	UnicodeEmoji U5272 = new UnicodeEmojiImpl("🈹");
 	
-	UnicodeEmoji JAPANESE_FREE_OF_CHARGE_BUTTON = new UnicodeEmojiImpl("🈚");
+	UnicodeEmoji U7121 = new UnicodeEmojiImpl("🈚");
 	
-	UnicodeEmoji JAPANESE_PROHIBITED_BUTTON = new UnicodeEmojiImpl("🈲");
+	UnicodeEmoji U7981 = new UnicodeEmojiImpl("🈲");
 	
-	UnicodeEmoji JAPANESE_ACCEPTABLE_BUTTON = new UnicodeEmojiImpl("🉑");
+	UnicodeEmoji ACCEPT = new UnicodeEmojiImpl("🉑");
 	
-	UnicodeEmoji JAPANESE_APPLICATION_BUTTON = new UnicodeEmojiImpl("🈸");
+	UnicodeEmoji U7533 = new UnicodeEmojiImpl("🈸");
 	
-	UnicodeEmoji JAPANESE_PASSING_GRADE_BUTTON = new UnicodeEmojiImpl("🈴");
+	UnicodeEmoji U5408 = new UnicodeEmojiImpl("🈴");
 	
-	UnicodeEmoji JAPANESE_VACANCY_BUTTON = new UnicodeEmojiImpl("🈳");
+	UnicodeEmoji U7A7A = new UnicodeEmojiImpl("🈳");
 	
-	UnicodeEmoji JAPANESE_CONGRATULATIONS_BUTTON = new UnicodeEmojiImpl("㊗️");
+	UnicodeEmoji CONGRATULATIONS = new UnicodeEmojiImpl("㊗️");
 	
-	UnicodeEmoji JAPANESE_SECRET_BUTTON = new UnicodeEmojiImpl("㊙️");
+	UnicodeEmoji SECRET = new UnicodeEmojiImpl("㊙️");
 	
-	UnicodeEmoji JAPANESE_OPEN_FOR_BUSINESS_BUTTON = new UnicodeEmojiImpl("🈺");
+	UnicodeEmoji U55B6 = new UnicodeEmojiImpl("🈺");
 	
-	UnicodeEmoji JAPANESE_NO_VACANCY_BUTTON = new UnicodeEmojiImpl("🈵");
+	UnicodeEmoji U6E80 = new UnicodeEmojiImpl("🈵");
 	
 	
 }

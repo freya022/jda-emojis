@@ -12,111 +12,111 @@ interface EmojiPersonSportB {
 	
 	UnicodeEmoji PERSON_PLAYING_WATER_POLO = new UnicodeEmojiImpl("🤽");
 	
-	UnicodeEmoji PERSON_PLAYING_WATER_POLO_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤽🏻");
+	UnicodeEmoji PERSON_PLAYING_WATER_POLO_TONE1 = new UnicodeEmojiImpl("🤽🏻");
 	
-	UnicodeEmoji PERSON_PLAYING_WATER_POLO_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤽🏼");
+	UnicodeEmoji PERSON_PLAYING_WATER_POLO_TONE2 = new UnicodeEmojiImpl("🤽🏼");
 	
-	UnicodeEmoji PERSON_PLAYING_WATER_POLO_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤽🏽");
+	UnicodeEmoji PERSON_PLAYING_WATER_POLO_TONE3 = new UnicodeEmojiImpl("🤽🏽");
 	
-	UnicodeEmoji PERSON_PLAYING_WATER_POLO_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤽🏾");
+	UnicodeEmoji PERSON_PLAYING_WATER_POLO_TONE4 = new UnicodeEmojiImpl("🤽🏾");
 	
-	UnicodeEmoji PERSON_PLAYING_WATER_POLO_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤽🏿");
+	UnicodeEmoji PERSON_PLAYING_WATER_POLO_TONE5 = new UnicodeEmojiImpl("🤽🏿");
 	
 	UnicodeEmoji MAN_PLAYING_WATER_POLO = new UnicodeEmojiImpl("🤽‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_WATER_POLO_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤽🏻‍♂️");
+	UnicodeEmoji MAN_PLAYING_WATER_POLO_TONE1 = new UnicodeEmojiImpl("🤽🏻‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_WATER_POLO_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤽🏼‍♂️");
+	UnicodeEmoji MAN_PLAYING_WATER_POLO_TONE2 = new UnicodeEmojiImpl("🤽🏼‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_WATER_POLO_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤽🏽‍♂️");
+	UnicodeEmoji MAN_PLAYING_WATER_POLO_TONE3 = new UnicodeEmojiImpl("🤽🏽‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_WATER_POLO_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤽🏾‍♂️");
+	UnicodeEmoji MAN_PLAYING_WATER_POLO_TONE4 = new UnicodeEmojiImpl("🤽🏾‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_WATER_POLO_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤽🏿‍♂️");
+	UnicodeEmoji MAN_PLAYING_WATER_POLO_TONE5 = new UnicodeEmojiImpl("🤽🏿‍♂️");
 	
 	UnicodeEmoji WOMAN_PLAYING_WATER_POLO = new UnicodeEmojiImpl("🤽‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤽🏻‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_TONE1 = new UnicodeEmojiImpl("🤽🏻‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤽🏼‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_TONE2 = new UnicodeEmojiImpl("🤽🏼‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤽🏽‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_TONE3 = new UnicodeEmojiImpl("🤽🏽‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤽🏾‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_TONE4 = new UnicodeEmojiImpl("🤽🏾‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤽🏿‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_WATER_POLO_TONE5 = new UnicodeEmojiImpl("🤽🏿‍♀️");
 	
 	UnicodeEmoji PERSON_PLAYING_HANDBALL = new UnicodeEmojiImpl("🤾");
 	
-	UnicodeEmoji PERSON_PLAYING_HANDBALL_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤾🏻");
+	UnicodeEmoji PERSON_PLAYING_HANDBALL_TONE1 = new UnicodeEmojiImpl("🤾🏻");
 	
-	UnicodeEmoji PERSON_PLAYING_HANDBALL_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤾🏼");
+	UnicodeEmoji PERSON_PLAYING_HANDBALL_TONE2 = new UnicodeEmojiImpl("🤾🏼");
 	
-	UnicodeEmoji PERSON_PLAYING_HANDBALL_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤾🏽");
+	UnicodeEmoji PERSON_PLAYING_HANDBALL_TONE3 = new UnicodeEmojiImpl("🤾🏽");
 	
-	UnicodeEmoji PERSON_PLAYING_HANDBALL_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤾🏾");
+	UnicodeEmoji PERSON_PLAYING_HANDBALL_TONE4 = new UnicodeEmojiImpl("🤾🏾");
 	
-	UnicodeEmoji PERSON_PLAYING_HANDBALL_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤾🏿");
+	UnicodeEmoji PERSON_PLAYING_HANDBALL_TONE5 = new UnicodeEmojiImpl("🤾🏿");
 	
 	UnicodeEmoji MAN_PLAYING_HANDBALL = new UnicodeEmojiImpl("🤾‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_HANDBALL_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤾🏻‍♂️");
+	UnicodeEmoji MAN_PLAYING_HANDBALL_TONE1 = new UnicodeEmojiImpl("🤾🏻‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_HANDBALL_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤾🏼‍♂️");
+	UnicodeEmoji MAN_PLAYING_HANDBALL_TONE2 = new UnicodeEmojiImpl("🤾🏼‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_HANDBALL_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤾🏽‍♂️");
+	UnicodeEmoji MAN_PLAYING_HANDBALL_TONE3 = new UnicodeEmojiImpl("🤾🏽‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_HANDBALL_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤾🏾‍♂️");
+	UnicodeEmoji MAN_PLAYING_HANDBALL_TONE4 = new UnicodeEmojiImpl("🤾🏾‍♂️");
 	
-	UnicodeEmoji MAN_PLAYING_HANDBALL_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤾🏿‍♂️");
+	UnicodeEmoji MAN_PLAYING_HANDBALL_TONE5 = new UnicodeEmojiImpl("🤾🏿‍♂️");
 	
 	UnicodeEmoji WOMAN_PLAYING_HANDBALL = new UnicodeEmojiImpl("🤾‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_HANDBALL_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤾🏻‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_HANDBALL_TONE1 = new UnicodeEmojiImpl("🤾🏻‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_HANDBALL_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤾🏼‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_HANDBALL_TONE2 = new UnicodeEmojiImpl("🤾🏼‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_HANDBALL_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤾🏽‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_HANDBALL_TONE3 = new UnicodeEmojiImpl("🤾🏽‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_HANDBALL_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤾🏾‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_HANDBALL_TONE4 = new UnicodeEmojiImpl("🤾🏾‍♀️");
 	
-	UnicodeEmoji WOMAN_PLAYING_HANDBALL_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤾🏿‍♀️");
+	UnicodeEmoji WOMAN_PLAYING_HANDBALL_TONE5 = new UnicodeEmojiImpl("🤾🏿‍♀️");
 	
 	UnicodeEmoji PERSON_JUGGLING = new UnicodeEmojiImpl("🤹");
 	
-	UnicodeEmoji PERSON_JUGGLING_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤹🏻");
+	UnicodeEmoji PERSON_JUGGLING_TONE1 = new UnicodeEmojiImpl("🤹🏻");
 	
-	UnicodeEmoji PERSON_JUGGLING_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤹🏼");
+	UnicodeEmoji PERSON_JUGGLING_TONE2 = new UnicodeEmojiImpl("🤹🏼");
 	
-	UnicodeEmoji PERSON_JUGGLING_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤹🏽");
+	UnicodeEmoji PERSON_JUGGLING_TONE3 = new UnicodeEmojiImpl("🤹🏽");
 	
-	UnicodeEmoji PERSON_JUGGLING_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤹🏾");
+	UnicodeEmoji PERSON_JUGGLING_TONE4 = new UnicodeEmojiImpl("🤹🏾");
 	
-	UnicodeEmoji PERSON_JUGGLING_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤹🏿");
+	UnicodeEmoji PERSON_JUGGLING_TONE5 = new UnicodeEmojiImpl("🤹🏿");
 	
 	UnicodeEmoji MAN_JUGGLING = new UnicodeEmojiImpl("🤹‍♂️");
 	
-	UnicodeEmoji MAN_JUGGLING_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤹🏻‍♂️");
+	UnicodeEmoji MAN_JUGGLING_TONE1 = new UnicodeEmojiImpl("🤹🏻‍♂️");
 	
-	UnicodeEmoji MAN_JUGGLING_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤹🏼‍♂️");
+	UnicodeEmoji MAN_JUGGLING_TONE2 = new UnicodeEmojiImpl("🤹🏼‍♂️");
 	
-	UnicodeEmoji MAN_JUGGLING_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤹🏽‍♂️");
+	UnicodeEmoji MAN_JUGGLING_TONE3 = new UnicodeEmojiImpl("🤹🏽‍♂️");
 	
-	UnicodeEmoji MAN_JUGGLING_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤹🏾‍♂️");
+	UnicodeEmoji MAN_JUGGLING_TONE4 = new UnicodeEmojiImpl("🤹🏾‍♂️");
 	
-	UnicodeEmoji MAN_JUGGLING_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤹🏿‍♂️");
+	UnicodeEmoji MAN_JUGGLING_TONE5 = new UnicodeEmojiImpl("🤹🏿‍♂️");
 	
 	UnicodeEmoji WOMAN_JUGGLING = new UnicodeEmojiImpl("🤹‍♀️");
 	
-	UnicodeEmoji WOMAN_JUGGLING_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤹🏻‍♀️");
+	UnicodeEmoji WOMAN_JUGGLING_TONE1 = new UnicodeEmojiImpl("🤹🏻‍♀️");
 	
-	UnicodeEmoji WOMAN_JUGGLING_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🤹🏼‍♀️");
+	UnicodeEmoji WOMAN_JUGGLING_TONE2 = new UnicodeEmojiImpl("🤹🏼‍♀️");
 	
-	UnicodeEmoji WOMAN_JUGGLING_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🤹🏽‍♀️");
+	UnicodeEmoji WOMAN_JUGGLING_TONE3 = new UnicodeEmojiImpl("🤹🏽‍♀️");
 	
-	UnicodeEmoji WOMAN_JUGGLING_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤹🏾‍♀️");
+	UnicodeEmoji WOMAN_JUGGLING_TONE4 = new UnicodeEmojiImpl("🤹🏾‍♀️");
 	
-	UnicodeEmoji WOMAN_JUGGLING_DARK_SKIN_TONE = new UnicodeEmojiImpl("🤹🏿‍♀️");
+	UnicodeEmoji WOMAN_JUGGLING_TONE5 = new UnicodeEmojiImpl("🤹🏿‍♀️");
 	
 	
 }

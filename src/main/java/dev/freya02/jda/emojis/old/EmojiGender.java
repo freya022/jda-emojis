@@ -8,7 +8,7 @@ interface EmojiGender {
 	
 	UnicodeEmoji MALE_SIGN = new UnicodeEmojiImpl("♂️");
 	
-	UnicodeEmoji TRANSGENDER_SYMBOL_UNQUALIFIED = new UnicodeEmojiImpl("⚧");
+	UnicodeEmoji TRANSGENDER_SYMBOL = new UnicodeEmojiImpl("⚧");
 	
 	
 }

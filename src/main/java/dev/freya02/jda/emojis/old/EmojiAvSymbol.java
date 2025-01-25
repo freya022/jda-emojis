@@ -4,33 +4,33 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiAvSymbol {
-	UnicodeEmoji SHUFFLE_TRACKS_BUTTON = new UnicodeEmojiImpl("🔀");
+	UnicodeEmoji TWISTED_RIGHTWARDS_ARROWS = new UnicodeEmojiImpl("🔀");
 	
-	UnicodeEmoji REPEAT_BUTTON = new UnicodeEmojiImpl("🔁");
+	UnicodeEmoji REPEAT = new UnicodeEmojiImpl("🔁");
 	
-	UnicodeEmoji REPEAT_SINGLE_BUTTON = new UnicodeEmojiImpl("🔂");
+	UnicodeEmoji REPEAT_ONE = new UnicodeEmojiImpl("🔂");
 	
-	UnicodeEmoji PLAY_BUTTON = new UnicodeEmojiImpl("▶️");
+	UnicodeEmoji ARROW_FORWARD = new UnicodeEmojiImpl("▶️");
 	
-	UnicodeEmoji FAST_FORWARD_BUTTON = new UnicodeEmojiImpl("⏩");
+	UnicodeEmoji FAST_FORWARD = new UnicodeEmojiImpl("⏩");
 	
-	UnicodeEmoji NEXT_TRACK_BUTTON = new UnicodeEmojiImpl("⏭️");
+	UnicodeEmoji TRACK_NEXT = new UnicodeEmojiImpl("⏭️");
 	
-	UnicodeEmoji PLAY_OR_PAUSE_BUTTON = new UnicodeEmojiImpl("⏯️");
+	UnicodeEmoji PLAY_PAUSE = new UnicodeEmojiImpl("⏯️");
 	
-	UnicodeEmoji REVERSE_BUTTON = new UnicodeEmojiImpl("◀️");
+	UnicodeEmoji ARROW_BACKWARD = new UnicodeEmojiImpl("◀️");
 	
-	UnicodeEmoji FAST_REVERSE_BUTTON = new UnicodeEmojiImpl("⏪");
+	UnicodeEmoji REWIND = new UnicodeEmojiImpl("⏪");
 	
-	UnicodeEmoji LAST_TRACK_BUTTON = new UnicodeEmojiImpl("⏮️");
+	UnicodeEmoji TRACK_PREVIOUS = new UnicodeEmojiImpl("⏮️");
 	
-	UnicodeEmoji UPWARDS_BUTTON = new UnicodeEmojiImpl("🔼");
+	UnicodeEmoji ARROW_UP_SMALL = new UnicodeEmojiImpl("🔼");
 	
-	UnicodeEmoji FAST_UP_BUTTON = new UnicodeEmojiImpl("⏫");
+	UnicodeEmoji ARROW_DOUBLE_UP = new UnicodeEmojiImpl("⏫");
 	
-	UnicodeEmoji DOWNWARDS_BUTTON = new UnicodeEmojiImpl("🔽");
+	UnicodeEmoji ARROW_DOWN_SMALL = new UnicodeEmojiImpl("🔽");
 	
-	UnicodeEmoji FAST_DOWN_BUTTON = new UnicodeEmojiImpl("⏬");
+	UnicodeEmoji ARROW_DOUBLE_DOWN = new UnicodeEmojiImpl("⏬");
 	
 	UnicodeEmoji PAUSE_BUTTON = new UnicodeEmojiImpl("⏸️");
 	
@@ -38,15 +38,15 @@ interface EmojiAvSymbol {
 	
 	UnicodeEmoji RECORD_BUTTON = new UnicodeEmojiImpl("⏺️");
 	
-	UnicodeEmoji EJECT_BUTTON = new UnicodeEmojiImpl("⏏️");
+	UnicodeEmoji EJECT = new UnicodeEmojiImpl("⏏️");
 	
 	UnicodeEmoji CINEMA = new UnicodeEmojiImpl("🎦");
 	
-	UnicodeEmoji DIM_BUTTON = new UnicodeEmojiImpl("🔅");
+	UnicodeEmoji LOW_BRIGHTNESS = new UnicodeEmojiImpl("🔅");
 	
-	UnicodeEmoji BRIGHT_BUTTON = new UnicodeEmojiImpl("🔆");
+	UnicodeEmoji HIGH_BRIGHTNESS = new UnicodeEmojiImpl("🔆");
 	
-	UnicodeEmoji ANTENNA_BARS = new UnicodeEmojiImpl("📶");
+	UnicodeEmoji SIGNAL_STRENGTH = new UnicodeEmojiImpl("📶");
 	
 	UnicodeEmoji WIRELESS = new UnicodeEmojiImpl("🛜");
 	

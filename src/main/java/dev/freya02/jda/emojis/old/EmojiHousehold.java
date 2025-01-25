@@ -14,7 +14,7 @@ interface EmojiHousehold {
 	
 	UnicodeEmoji BED = new UnicodeEmojiImpl("🛏️");
 	
-	UnicodeEmoji COUCH_AND_LAMP = new UnicodeEmojiImpl("🛋️");
+	UnicodeEmoji COUCH = new UnicodeEmojiImpl("🛋️");
 	
 	UnicodeEmoji CHAIR = new UnicodeEmojiImpl("🪑");
 	
@@ -30,7 +30,7 @@ interface EmojiHousehold {
 	
 	UnicodeEmoji RAZOR = new UnicodeEmojiImpl("🪒");
 	
-	UnicodeEmoji LOTION_BOTTLE = new UnicodeEmojiImpl("🧴");
+	UnicodeEmoji SQUEEZE_BOTTLE = new UnicodeEmojiImpl("🧴");
 	
 	UnicodeEmoji SAFETY_PIN = new UnicodeEmojiImpl("🧷");
 	

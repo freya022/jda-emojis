@@ -4,17 +4,17 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiFaceTongue {
-	UnicodeEmoji FACE_SAVORING_FOOD = new UnicodeEmojiImpl("😋");
+	UnicodeEmoji YUM = new UnicodeEmojiImpl("😋");
 	
-	UnicodeEmoji FACE_WITH_TONGUE = new UnicodeEmojiImpl("😛");
+	UnicodeEmoji STUCK_OUT_TONGUE = new UnicodeEmojiImpl("😛");
 	
-	UnicodeEmoji WINKING_FACE_WITH_TONGUE = new UnicodeEmojiImpl("😜");
+	UnicodeEmoji STUCK_OUT_TONGUE_WINKING_EYE = new UnicodeEmojiImpl("😜");
 	
 	UnicodeEmoji ZANY_FACE = new UnicodeEmojiImpl("🤪");
 	
-	UnicodeEmoji SQUINTING_FACE_WITH_TONGUE = new UnicodeEmojiImpl("😝");
+	UnicodeEmoji STUCK_OUT_TONGUE_CLOSED_EYES = new UnicodeEmojiImpl("😝");
 	
-	UnicodeEmoji MONEY_MOUTH_FACE = new UnicodeEmojiImpl("🤑");
+	UnicodeEmoji MONEY_MOUTH = new UnicodeEmojiImpl("🤑");
 	
 	
 }

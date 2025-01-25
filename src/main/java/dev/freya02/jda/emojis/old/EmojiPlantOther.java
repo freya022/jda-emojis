@@ -16,7 +16,7 @@ interface EmojiPlantOther {
 	
 	UnicodeEmoji CACTUS = new UnicodeEmojiImpl("🌵");
 	
-	UnicodeEmoji SHEAF_OF_RICE = new UnicodeEmojiImpl("🌾");
+	UnicodeEmoji EAR_OF_RICE = new UnicodeEmojiImpl("🌾");
 	
 	UnicodeEmoji HERB = new UnicodeEmojiImpl("🌿");
 	
@@ -28,7 +28,7 @@ interface EmojiPlantOther {
 	
 	UnicodeEmoji FALLEN_LEAF = new UnicodeEmojiImpl("🍂");
 	
-	UnicodeEmoji LEAF_FLUTTERING_IN_WIND = new UnicodeEmojiImpl("🍃");
+	UnicodeEmoji LEAVES = new UnicodeEmojiImpl("🍃");
 	
 	UnicodeEmoji EMPTY_NEST = new UnicodeEmojiImpl("🪹");
 	

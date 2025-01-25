@@ -4,9 +4,9 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiClothing {
-	UnicodeEmoji GLASSES = new UnicodeEmojiImpl("👓");
+	UnicodeEmoji EYEGLASSES = new UnicodeEmojiImpl("👓");
 	
-	UnicodeEmoji SUNGLASSES = new UnicodeEmojiImpl("🕶️");
+	UnicodeEmoji DARK_SUNGLASSES = new UnicodeEmojiImpl("🕶️");
 	
 	UnicodeEmoji GOGGLES = new UnicodeEmojiImpl("🥽");
 	
@@ -16,7 +16,7 @@ interface EmojiClothing {
 	
 	UnicodeEmoji NECKTIE = new UnicodeEmojiImpl("👔");
 	
-	UnicodeEmoji T_SHIRT = new UnicodeEmojiImpl("👕");
+	UnicodeEmoji SHIRT = new UnicodeEmojiImpl("👕");
 	
 	UnicodeEmoji JEANS = new UnicodeEmojiImpl("👖");
 	
@@ -42,7 +42,7 @@ interface EmojiClothing {
 	
 	UnicodeEmoji BIKINI = new UnicodeEmojiImpl("👙");
 	
-	UnicodeEmoji WOMAN_S_CLOTHES = new UnicodeEmojiImpl("👚");
+	UnicodeEmoji WOMANS_CLOTHES = new UnicodeEmojiImpl("👚");
 	
 	UnicodeEmoji FOLDING_HAND_FAN = new UnicodeEmojiImpl("🪭");
 	
@@ -50,45 +50,45 @@ interface EmojiClothing {
 	
 	UnicodeEmoji HANDBAG = new UnicodeEmojiImpl("👜");
 	
-	UnicodeEmoji CLUTCH_BAG = new UnicodeEmojiImpl("👝");
+	UnicodeEmoji POUCH = new UnicodeEmojiImpl("👝");
 	
 	UnicodeEmoji SHOPPING_BAGS = new UnicodeEmojiImpl("🛍️");
 	
-	UnicodeEmoji BACKPACK = new UnicodeEmojiImpl("🎒");
+	UnicodeEmoji SCHOOL_SATCHEL = new UnicodeEmojiImpl("🎒");
 	
 	UnicodeEmoji THONG_SANDAL = new UnicodeEmojiImpl("🩴");
 	
-	UnicodeEmoji MAN_S_SHOE = new UnicodeEmojiImpl("👞");
+	UnicodeEmoji MANS_SHOE = new UnicodeEmojiImpl("👞");
 	
-	UnicodeEmoji RUNNING_SHOE = new UnicodeEmojiImpl("👟");
+	UnicodeEmoji ATHLETIC_SHOE = new UnicodeEmojiImpl("👟");
 	
 	UnicodeEmoji HIKING_BOOT = new UnicodeEmojiImpl("🥾");
 	
-	UnicodeEmoji FLAT_SHOE = new UnicodeEmojiImpl("🥿");
+	UnicodeEmoji WOMANS_FLAT_SHOE = new UnicodeEmojiImpl("🥿");
 	
-	UnicodeEmoji HIGH_HEELED_SHOE = new UnicodeEmojiImpl("👠");
+	UnicodeEmoji HIGH_HEEL = new UnicodeEmojiImpl("👠");
 	
-	UnicodeEmoji WOMAN_S_SANDAL = new UnicodeEmojiImpl("👡");
+	UnicodeEmoji SANDAL = new UnicodeEmojiImpl("👡");
 	
 	UnicodeEmoji BALLET_SHOES = new UnicodeEmojiImpl("🩰");
 	
-	UnicodeEmoji WOMAN_S_BOOT = new UnicodeEmojiImpl("👢");
+	UnicodeEmoji BOOT = new UnicodeEmojiImpl("👢");
 	
 	UnicodeEmoji HAIR_PICK = new UnicodeEmojiImpl("🪮");
 	
 	UnicodeEmoji CROWN = new UnicodeEmojiImpl("👑");
 	
-	UnicodeEmoji WOMAN_S_HAT = new UnicodeEmojiImpl("👒");
+	UnicodeEmoji WOMANS_HAT = new UnicodeEmojiImpl("👒");
 	
-	UnicodeEmoji TOP_HAT = new UnicodeEmojiImpl("🎩");
+	UnicodeEmoji TOPHAT = new UnicodeEmojiImpl("🎩");
 	
-	UnicodeEmoji GRADUATION_CAP = new UnicodeEmojiImpl("🎓");
+	UnicodeEmoji MORTAR_BOARD = new UnicodeEmojiImpl("🎓");
 	
 	UnicodeEmoji BILLED_CAP = new UnicodeEmojiImpl("🧢");
 	
 	UnicodeEmoji MILITARY_HELMET = new UnicodeEmojiImpl("🪖");
 	
-	UnicodeEmoji RESCUE_WORKER_S_HELMET = new UnicodeEmojiImpl("⛑️");
+	UnicodeEmoji HELMET_WITH_CROSS = new UnicodeEmojiImpl("⛑️");
 	
 	UnicodeEmoji PRAYER_BEADS = new UnicodeEmojiImpl("📿");
 	
@@ -96,7 +96,7 @@ interface EmojiClothing {
 	
 	UnicodeEmoji RING = new UnicodeEmojiImpl("💍");
 	
-	UnicodeEmoji GEM_STONE = new UnicodeEmojiImpl("💎");
+	UnicodeEmoji GEM = new UnicodeEmojiImpl("💎");
 	
 	
 }

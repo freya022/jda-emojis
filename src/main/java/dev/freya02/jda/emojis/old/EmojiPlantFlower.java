@@ -16,7 +16,7 @@ interface EmojiPlantFlower {
 	
 	UnicodeEmoji ROSE = new UnicodeEmojiImpl("🌹");
 	
-	UnicodeEmoji WILTED_FLOWER = new UnicodeEmojiImpl("🥀");
+	UnicodeEmoji WILTED_ROSE = new UnicodeEmojiImpl("🥀");
 	
 	UnicodeEmoji HIBISCUS = new UnicodeEmojiImpl("🌺");
 	

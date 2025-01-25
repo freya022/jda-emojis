@@ -6,9 +6,9 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiReligion {
 	UnicodeEmoji PLACE_OF_WORSHIP = new UnicodeEmojiImpl("🛐");
 	
-	UnicodeEmoji ATOM_SYMBOL = new UnicodeEmojiImpl("⚛️");
+	UnicodeEmoji ATOM = new UnicodeEmojiImpl("⚛️");
 	
-	UnicodeEmoji OM = new UnicodeEmojiImpl("🕉️");
+	UnicodeEmoji OM_SYMBOL = new UnicodeEmojiImpl("🕉️");
 	
 	UnicodeEmoji STAR_OF_DAVID = new UnicodeEmojiImpl("✡️");
 	
@@ -16,17 +16,17 @@ interface EmojiReligion {
 	
 	UnicodeEmoji YIN_YANG = new UnicodeEmojiImpl("☯️");
 	
-	UnicodeEmoji LATIN_CROSS = new UnicodeEmojiImpl("✝️");
+	UnicodeEmoji CROSS = new UnicodeEmojiImpl("✝️");
 	
 	UnicodeEmoji ORTHODOX_CROSS = new UnicodeEmojiImpl("☦️");
 	
 	UnicodeEmoji STAR_AND_CRESCENT = new UnicodeEmojiImpl("☪️");
 	
-	UnicodeEmoji PEACE_SYMBOL = new UnicodeEmojiImpl("☮️");
+	UnicodeEmoji PEACE = new UnicodeEmojiImpl("☮️");
 	
 	UnicodeEmoji MENORAH = new UnicodeEmojiImpl("🕎");
 	
-	UnicodeEmoji DOTTED_SIX_POINTED_STAR = new UnicodeEmojiImpl("🔯");
+	UnicodeEmoji SIX_POINTED_STAR = new UnicodeEmojiImpl("🔯");
 	
 	UnicodeEmoji KHANDA = new UnicodeEmojiImpl("🪯");
 	

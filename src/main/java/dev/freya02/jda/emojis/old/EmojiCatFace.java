@@ -4,21 +4,21 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiCatFace {
-	UnicodeEmoji GRINNING_CAT = new UnicodeEmojiImpl("😺");
+	UnicodeEmoji SMILEY_CAT = new UnicodeEmojiImpl("😺");
 	
-	UnicodeEmoji GRINNING_CAT_WITH_SMILING_EYES = new UnicodeEmojiImpl("😸");
+	UnicodeEmoji SMILE_CAT = new UnicodeEmojiImpl("😸");
 	
-	UnicodeEmoji CAT_WITH_TEARS_OF_JOY = new UnicodeEmojiImpl("😹");
+	UnicodeEmoji JOY_CAT = new UnicodeEmojiImpl("😹");
 	
-	UnicodeEmoji SMILING_CAT_WITH_HEART_EYES = new UnicodeEmojiImpl("😻");
+	UnicodeEmoji HEART_EYES_CAT = new UnicodeEmojiImpl("😻");
 	
-	UnicodeEmoji CAT_WITH_WRY_SMILE = new UnicodeEmojiImpl("😼");
+	UnicodeEmoji SMIRK_CAT = new UnicodeEmojiImpl("😼");
 	
 	UnicodeEmoji KISSING_CAT = new UnicodeEmojiImpl("😽");
 	
-	UnicodeEmoji WEARY_CAT = new UnicodeEmojiImpl("🙀");
+	UnicodeEmoji SCREAM_CAT = new UnicodeEmojiImpl("🙀");
 	
-	UnicodeEmoji CRYING_CAT = new UnicodeEmojiImpl("😿");
+	UnicodeEmoji CRYING_CAT_FACE = new UnicodeEmojiImpl("😿");
 	
 	UnicodeEmoji POUTING_CAT = new UnicodeEmojiImpl("😾");
 	

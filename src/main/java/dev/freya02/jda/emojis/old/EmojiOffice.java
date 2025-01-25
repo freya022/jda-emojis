@@ -10,21 +10,21 @@ interface EmojiOffice {
 	
 	UnicodeEmoji OPEN_FILE_FOLDER = new UnicodeEmojiImpl("📂");
 	
-	UnicodeEmoji CARD_INDEX_DIVIDERS = new UnicodeEmojiImpl("🗂️");
+	UnicodeEmoji DIVIDERS = new UnicodeEmojiImpl("🗂️");
 	
-	UnicodeEmoji CALENDAR = new UnicodeEmojiImpl("📅");
+	UnicodeEmoji DATE = new UnicodeEmojiImpl("📅");
 	
-	UnicodeEmoji TEAR_OFF_CALENDAR = new UnicodeEmojiImpl("📆");
+	UnicodeEmoji CALENDAR = new UnicodeEmojiImpl("📆");
 	
-	UnicodeEmoji SPIRAL_NOTEPAD = new UnicodeEmojiImpl("🗒️");
+	UnicodeEmoji NOTEPAD_SPIRAL = new UnicodeEmojiImpl("🗒️");
 	
-	UnicodeEmoji SPIRAL_CALENDAR = new UnicodeEmojiImpl("🗓️");
+	UnicodeEmoji CALENDAR_SPIRAL = new UnicodeEmojiImpl("🗓️");
 	
 	UnicodeEmoji CARD_INDEX = new UnicodeEmojiImpl("📇");
 	
-	UnicodeEmoji CHART_INCREASING = new UnicodeEmojiImpl("📈");
+	UnicodeEmoji CHART_WITH_UPWARDS_TREND = new UnicodeEmojiImpl("📈");
 	
-	UnicodeEmoji CHART_DECREASING = new UnicodeEmojiImpl("📉");
+	UnicodeEmoji CHART_WITH_DOWNWARDS_TREND = new UnicodeEmojiImpl("📉");
 	
 	UnicodeEmoji BAR_CHART = new UnicodeEmojiImpl("📊");
 	
@@ -36,7 +36,7 @@ interface EmojiOffice {
 	
 	UnicodeEmoji PAPERCLIP = new UnicodeEmojiImpl("📎");
 	
-	UnicodeEmoji LINKED_PAPERCLIPS = new UnicodeEmojiImpl("🖇️");
+	UnicodeEmoji PAPERCLIPS = new UnicodeEmojiImpl("🖇️");
 	
 	UnicodeEmoji STRAIGHT_RULER = new UnicodeEmojiImpl("📏");
 	
@@ -44,7 +44,7 @@ interface EmojiOffice {
 	
 	UnicodeEmoji SCISSORS = new UnicodeEmojiImpl("✂️");
 	
-	UnicodeEmoji CARD_FILE_BOX = new UnicodeEmojiImpl("🗃️");
+	UnicodeEmoji CARD_BOX = new UnicodeEmojiImpl("🗃️");
 	
 	UnicodeEmoji FILE_CABINET = new UnicodeEmojiImpl("🗄️");
 	

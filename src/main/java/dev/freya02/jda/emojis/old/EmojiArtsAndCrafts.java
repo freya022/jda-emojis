@@ -6,9 +6,9 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiArtsAndCrafts {
 	UnicodeEmoji PERFORMING_ARTS = new UnicodeEmojiImpl("🎭");
 	
-	UnicodeEmoji FRAMED_PICTURE = new UnicodeEmojiImpl("🖼️");
+	UnicodeEmoji FRAME_PHOTO = new UnicodeEmojiImpl("🖼️");
 	
-	UnicodeEmoji ARTIST_PALETTE = new UnicodeEmojiImpl("🎨");
+	UnicodeEmoji ART = new UnicodeEmojiImpl("🎨");
 	
 	UnicodeEmoji THREAD = new UnicodeEmojiImpl("🧵");
 	

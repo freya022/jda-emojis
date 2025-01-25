@@ -8,11 +8,11 @@ interface EmojiLightAndVideo {
 	
 	UnicodeEmoji FILM_FRAMES = new UnicodeEmojiImpl("🎞️");
 	
-	UnicodeEmoji FILM_PROJECTOR = new UnicodeEmojiImpl("📽️");
+	UnicodeEmoji PROJECTOR = new UnicodeEmojiImpl("📽️");
 	
-	UnicodeEmoji CLAPPER_BOARD = new UnicodeEmojiImpl("🎬");
+	UnicodeEmoji CLAPPER = new UnicodeEmojiImpl("🎬");
 	
-	UnicodeEmoji TELEVISION = new UnicodeEmojiImpl("📺");
+	UnicodeEmoji TV = new UnicodeEmojiImpl("📺");
 	
 	UnicodeEmoji CAMERA = new UnicodeEmojiImpl("📷");
 	
@@ -20,19 +20,19 @@ interface EmojiLightAndVideo {
 	
 	UnicodeEmoji VIDEO_CAMERA = new UnicodeEmojiImpl("📹");
 	
-	UnicodeEmoji VIDEOCASSETTE = new UnicodeEmojiImpl("📼");
+	UnicodeEmoji VHS = new UnicodeEmojiImpl("📼");
 	
-	UnicodeEmoji MAGNIFYING_GLASS_TILTED_LEFT = new UnicodeEmojiImpl("🔍");
+	UnicodeEmoji MAG = new UnicodeEmojiImpl("🔍");
 	
-	UnicodeEmoji MAGNIFYING_GLASS_TILTED_RIGHT = new UnicodeEmojiImpl("🔎");
+	UnicodeEmoji MAG_RIGHT = new UnicodeEmojiImpl("🔎");
 	
 	UnicodeEmoji CANDLE = new UnicodeEmojiImpl("🕯️");
 	
-	UnicodeEmoji LIGHT_BULB = new UnicodeEmojiImpl("💡");
+	UnicodeEmoji BULB = new UnicodeEmojiImpl("💡");
 	
 	UnicodeEmoji FLASHLIGHT = new UnicodeEmojiImpl("🔦");
 	
-	UnicodeEmoji RED_PAPER_LANTERN = new UnicodeEmojiImpl("🏮");
+	UnicodeEmoji IZAKAYA_LANTERN = new UnicodeEmojiImpl("🏮");
 	
 	UnicodeEmoji DIYA_LAMP = new UnicodeEmojiImpl("🪔");
 	

@@ -4,7 +4,7 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiSport {
-	UnicodeEmoji SOCCER_BALL = new UnicodeEmojiImpl("⚽");
+	UnicodeEmoji SOCCER = new UnicodeEmojiImpl("⚽");
 	
 	UnicodeEmoji BASEBALL = new UnicodeEmojiImpl("⚾");
 	
@@ -14,7 +14,7 @@ interface EmojiSport {
 	
 	UnicodeEmoji VOLLEYBALL = new UnicodeEmojiImpl("🏐");
 	
-	UnicodeEmoji AMERICAN_FOOTBALL = new UnicodeEmojiImpl("🏈");
+	UnicodeEmoji FOOTBALL = new UnicodeEmojiImpl("🏈");
 	
 	UnicodeEmoji RUGBY_FOOTBALL = new UnicodeEmojiImpl("🏉");
 	
@@ -28,7 +28,7 @@ interface EmojiSport {
 	
 	UnicodeEmoji FIELD_HOCKEY = new UnicodeEmojiImpl("🏑");
 	
-	UnicodeEmoji ICE_HOCKEY = new UnicodeEmojiImpl("🏒");
+	UnicodeEmoji HOCKEY = new UnicodeEmojiImpl("🏒");
 	
 	UnicodeEmoji LACROSSE = new UnicodeEmojiImpl("🥍");
 	
@@ -40,19 +40,19 @@ interface EmojiSport {
 	
 	UnicodeEmoji MARTIAL_ARTS_UNIFORM = new UnicodeEmojiImpl("🥋");
 	
-	UnicodeEmoji GOAL_NET = new UnicodeEmojiImpl("🥅");
+	UnicodeEmoji GOAL = new UnicodeEmojiImpl("🥅");
 	
-	UnicodeEmoji FLAG_IN_HOLE = new UnicodeEmojiImpl("⛳");
+	UnicodeEmoji GOLF = new UnicodeEmojiImpl("⛳");
 	
 	UnicodeEmoji ICE_SKATE = new UnicodeEmojiImpl("⛸️");
 	
-	UnicodeEmoji FISHING_POLE = new UnicodeEmojiImpl("🎣");
+	UnicodeEmoji FISHING_POLE_AND_FISH = new UnicodeEmojiImpl("🎣");
 	
 	UnicodeEmoji DIVING_MASK = new UnicodeEmojiImpl("🤿");
 	
-	UnicodeEmoji RUNNING_SHIRT = new UnicodeEmojiImpl("🎽");
+	UnicodeEmoji RUNNING_SHIRT_WITH_SASH = new UnicodeEmojiImpl("🎽");
 	
-	UnicodeEmoji SKIS = new UnicodeEmojiImpl("🎿");
+	UnicodeEmoji SKI = new UnicodeEmojiImpl("🎿");
 	
 	UnicodeEmoji SLED = new UnicodeEmojiImpl("🛷");
 	

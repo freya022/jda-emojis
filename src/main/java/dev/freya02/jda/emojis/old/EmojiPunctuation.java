@@ -4,17 +4,17 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiPunctuation {
-	UnicodeEmoji DOUBLE_EXCLAMATION_MARK = new UnicodeEmojiImpl("‼️");
+	UnicodeEmoji BANGBANG = new UnicodeEmojiImpl("‼️");
 	
-	UnicodeEmoji EXCLAMATION_QUESTION_MARK = new UnicodeEmojiImpl("⁉️");
+	UnicodeEmoji INTERROBANG = new UnicodeEmojiImpl("⁉️");
 	
-	UnicodeEmoji RED_QUESTION_MARK = new UnicodeEmojiImpl("❓");
+	UnicodeEmoji QUESTION = new UnicodeEmojiImpl("❓");
 	
-	UnicodeEmoji WHITE_QUESTION_MARK = new UnicodeEmojiImpl("❔");
+	UnicodeEmoji GREY_QUESTION = new UnicodeEmojiImpl("❔");
 	
-	UnicodeEmoji WHITE_EXCLAMATION_MARK = new UnicodeEmojiImpl("❕");
+	UnicodeEmoji GREY_EXCLAMATION = new UnicodeEmojiImpl("❕");
 	
-	UnicodeEmoji RED_EXCLAMATION_MARK = new UnicodeEmojiImpl("❗");
+	UnicodeEmoji EXCLAMATION = new UnicodeEmojiImpl("❗");
 	
 	UnicodeEmoji WAVY_DASH = new UnicodeEmojiImpl("〰️");
 	

@@ -6,11 +6,11 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiTransportAir {
 	UnicodeEmoji AIRPLANE = new UnicodeEmojiImpl("✈️");
 	
-	UnicodeEmoji SMALL_AIRPLANE = new UnicodeEmojiImpl("🛩️");
+	UnicodeEmoji AIRPLANE_SMALL = new UnicodeEmojiImpl("🛩️");
 	
 	UnicodeEmoji AIRPLANE_DEPARTURE = new UnicodeEmojiImpl("🛫");
 	
-	UnicodeEmoji AIRPLANE_ARRIVAL = new UnicodeEmojiImpl("🛬");
+	UnicodeEmoji AIRPLANE_ARRIVING = new UnicodeEmojiImpl("🛬");
 	
 	UnicodeEmoji PARACHUTE = new UnicodeEmojiImpl("🪂");
 	
@@ -24,7 +24,7 @@ interface EmojiTransportAir {
 	
 	UnicodeEmoji AERIAL_TRAMWAY = new UnicodeEmojiImpl("🚡");
 	
-	UnicodeEmoji SATELLITE = new UnicodeEmojiImpl("🛰️");
+	UnicodeEmoji SATELLITE_ORBITAL = new UnicodeEmojiImpl("🛰️");
 	
 	UnicodeEmoji ROCKET = new UnicodeEmojiImpl("🚀");
 	

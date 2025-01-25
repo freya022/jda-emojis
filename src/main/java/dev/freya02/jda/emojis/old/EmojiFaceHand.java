@@ -4,7 +4,7 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiFaceHand {
-	UnicodeEmoji SMILING_FACE_WITH_OPEN_HANDS = new UnicodeEmojiImpl("🤗");
+	UnicodeEmoji HUGGING = new UnicodeEmojiImpl("🤗");
 	
 	UnicodeEmoji FACE_WITH_HAND_OVER_MOUTH = new UnicodeEmojiImpl("🤭");
 	
@@ -14,7 +14,7 @@ interface EmojiFaceHand {
 	
 	UnicodeEmoji SHUSHING_FACE = new UnicodeEmojiImpl("🤫");
 	
-	UnicodeEmoji THINKING_FACE = new UnicodeEmojiImpl("🤔");
+	UnicodeEmoji THINKING = new UnicodeEmojiImpl("🤔");
 	
 	UnicodeEmoji SALUTING_FACE = new UnicodeEmojiImpl("🫡");
 	

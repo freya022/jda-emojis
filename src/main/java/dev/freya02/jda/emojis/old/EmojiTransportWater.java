@@ -14,11 +14,11 @@ interface EmojiTransportWater {
 	
 	UnicodeEmoji SPEEDBOAT = new UnicodeEmojiImpl("🚤");
 	
-	UnicodeEmoji PASSENGER_SHIP = new UnicodeEmojiImpl("🛳️");
+	UnicodeEmoji CRUISE_SHIP = new UnicodeEmojiImpl("🛳️");
 	
 	UnicodeEmoji FERRY = new UnicodeEmojiImpl("⛴️");
 	
-	UnicodeEmoji MOTOR_BOAT = new UnicodeEmojiImpl("🛥️");
+	UnicodeEmoji MOTORBOAT = new UnicodeEmojiImpl("🛥️");
 	
 	UnicodeEmoji SHIP = new UnicodeEmojiImpl("🚢");
 	
