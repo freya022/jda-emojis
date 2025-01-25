@@ -49,7 +49,7 @@ abstract class GenerateEmojisTask : DefaultTask() {
         appendLine("import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;")
         appendLine("import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;")
         appendLine()
-        appendLine("public interface $name {")
+        appendLine("interface $name {")
         appendLine(buildString { block() }.prependIndent("\t"))
         appendLine("}")
     }

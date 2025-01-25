@@ -18,7 +18,7 @@ object EmojisTests {
         UnicodeEmojis::class.staticProperties
             .filter { it.returnType.classifier == UnicodeEmoji::class }
             .forEach { jdaProperty ->
-                val unicodeEmoji = jdaProperty.get() as UnicodeEmoji
+                val unicodeEmoji = jdaProperty.getAccessible() as UnicodeEmoji
                 val emoji = jemojiProperties.first { it.name == jdaProperty.name }.getAccessible() as Emoji
 
                 assertEquals(emoji.emoji, unicodeEmoji.name)
