@@ -1,15 +1,15 @@
+import com.vanniktech.maven.publish.SonatypeHost
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import java.net.URI
 
 plugins {
     `java-library`
     signing
-    `maven-publish`
+    id("com.vanniktech.maven.publish") version "0.30.0"
     alias(libs.plugins.kotlin)
 }
 
 group = "dev.freya02"
-version = "1.0.0"
+version = "1.0.0_DEV"
 
 val generateEmojisTask = tasks.register<GenerateEmojisTask>("generateEmojis")
 
@@ -24,9 +24,34 @@ sourceSets {
 java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
+}
 
-    withJavadocJar()
-    withSourcesJar()
+val targetJavaVersion = java.targetCompatibility.majorVersion
+val jvmVersion = JavaVersion.current().majorVersion
+tasks.withType<Javadoc> {
+    isFailOnError = true
+
+    options {
+        this as StandardJavadocDocletOptions
+        locale = "en"
+        charSet = "UTF-8"
+        encoding = "UTF-8"
+        docTitle = "jda-emojis ${project.version}"
+        windowTitle = "$docTitle Documentation"
+        links(
+            "https://docs.oracle.com/en/java/javase/$targetJavaVersion/docs/api",
+            "https://docs.jda.wiki",
+        )
+//        isUse = true
+        isSplitIndex = true
+
+        // Always 9+
+        addBooleanOption("html5", true)
+        addStringOption("-release", targetJavaVersion)
+        if (jvmVersion >= "23") {
+            addBooleanOption("-no-fonts", true)
+        }
+    }
 }
 
 kotlin {
@@ -55,11 +80,8 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
-val isCI = System.getProperty("GITHUB_ACTION") != null || System.getenv("GITHUB_ACTION") != null // GH actions
-        || System.getProperty("GIT_COMMIT") != null || System.getenv("GIT_COMMIT") != null // Jitpack
-
-val mavenUsername: String? by project
-val mavenPassword: String? by project
+val mavenCentralUsername: String? by project
+val mavenCentralPassword: String? by project
 /**
  * 1. Generate a key pair with `gpg --gen-key`, it will ask for a key name and an email address
  * 2. Start editing the key with `gpg --edit-key <key name>`, you should see a `gpg>` prompt
@@ -77,25 +99,46 @@ val mavenGpgKeyId: String? by project
 val mavenGpgSecretKey: String? by project
 
 val canSign = mavenGpgKeyId != null && mavenGpgSecretKey != null
-val canPublish = mavenUsername != null && mavenPassword != null && canSign
+val canPublish = mavenCentralUsername != null && mavenCentralPassword != null && canSign
 
-publishing {
-    publications {
-        create<MavenPublication>("jda-emojis") {
-            from(components["java"])
-        }
+if (canPublish) {
+    version = (version as String).replace("_DEV", "")
+
+    signing {
+        isRequired = canPublish
+
+        useInMemoryPgpKeys(mavenGpgKeyId, mavenGpgSecretKey, "")
     }
 
-    repositories {
-        maven {
-            url = URI("file:///C:/Users/freya02/Downloads/PublishingTest")
+    mavenPublishing {
+        publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
+
+        signAllPublications()
+
+        pom {
+            description = "Brings emojis to your JDA projects"
+            url = "https://github.com/freya022/jda-emojis"
+
+            licenses {
+                license {
+                    name = "Apache License, Version 2.0"
+                    url = "https://opensource.org/license/apache-2-0"
+                    distribution = "repo"
+                }
+            }
+
+            developers {
+                developer {
+                    name = "freya022"
+                    email = "41875020+freya022@users.noreply.github.com"
+                }
+            }
+
+            scm {
+                connection = "scm:git:https://github.com/freya022/jda-emojis.git"
+                developerConnection = "scm:git:https://github.com/freya022/jda-emojis.git"
+                url = "https://github.com/freya022/jda-emojis"
+            }
         }
     }
-}
-
-signing {
-//    isRequired = canPublish
-
-    useInMemoryPgpKeys(mavenGpgKeyId, mavenGpgSecretKey, "")
-    sign(publishing.publications["jda-emojis"])
 }
