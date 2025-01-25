@@ -2,7 +2,7 @@
 [jda-emojis-maven-central-link]: https://mvnrepository.com/artifact/dev.freya02/jda-emojis/latest
 
 ## JDA Emojis
-This is a lightweight and convenient alternative to [JEmoji](https://github.com/felldo/JEmoji), from which it it generated from.
+This is a lightweight and convenient alternative to [JEmoji](https://github.com/felldo/JEmoji), from which it is generated from.
 
 Assuming you only need to use the emojis, you can use them directly with JDA instead of having to convert them!
 
