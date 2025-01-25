@@ -6,15 +6,23 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiFoodAsian {
 	UnicodeEmoji BENTO = new UnicodeEmojiImpl("🍱");
 	
+	UnicodeEmoji BENTO_BOX = new UnicodeEmojiImpl("🍱");
+	
 	UnicodeEmoji RICE_CRACKER = new UnicodeEmojiImpl("🍘");
 	
 	UnicodeEmoji RICE_BALL = new UnicodeEmojiImpl("🍙");
 	
+	UnicodeEmoji COOKED_RICE = new UnicodeEmojiImpl("🍚");
+	
 	UnicodeEmoji RICE = new UnicodeEmojiImpl("🍚");
+	
+	UnicodeEmoji CURRY_RICE = new UnicodeEmojiImpl("🍛");
 	
 	UnicodeEmoji CURRY = new UnicodeEmojiImpl("🍛");
 	
 	UnicodeEmoji RAMEN = new UnicodeEmojiImpl("🍜");
+	
+	UnicodeEmoji STEAMING_BOWL = new UnicodeEmojiImpl("🍜");
 	
 	UnicodeEmoji SPAGHETTI = new UnicodeEmojiImpl("🍝");
 	

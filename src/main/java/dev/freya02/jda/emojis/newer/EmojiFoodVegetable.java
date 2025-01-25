@@ -14,6 +14,8 @@ interface EmojiFoodVegetable {
 	
 	UnicodeEmoji CORN = new UnicodeEmojiImpl("🌽");
 	
+	UnicodeEmoji EAR_OF_CORN = new UnicodeEmojiImpl("🌽");
+	
 	UnicodeEmoji HOT_PEPPER = new UnicodeEmojiImpl("🌶️");
 	
 	UnicodeEmoji BELL_PEPPER = new UnicodeEmojiImpl("🫑");
@@ -27,6 +29,8 @@ interface EmojiFoodVegetable {
 	UnicodeEmoji GARLIC = new UnicodeEmojiImpl("🧄");
 	
 	UnicodeEmoji ONION = new UnicodeEmojiImpl("🧅");
+	
+	UnicodeEmoji SHELLED_PEANUT = new UnicodeEmojiImpl("🥜");
 	
 	UnicodeEmoji PEANUTS = new UnicodeEmojiImpl("🥜");
 	

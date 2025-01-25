@@ -20,6 +20,8 @@ interface EmojiAnimalBird {
 	
 	UnicodeEmoji PENGUIN = new UnicodeEmojiImpl("🐧");
 	
+	UnicodeEmoji DOVE_OF_PEACE = new UnicodeEmojiImpl("🕊️");
+	
 	UnicodeEmoji DOVE = new UnicodeEmojiImpl("🕊️");
 	
 	UnicodeEmoji EAGLE = new UnicodeEmojiImpl("🦅");

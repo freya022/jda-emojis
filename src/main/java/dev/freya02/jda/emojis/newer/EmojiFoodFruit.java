@@ -24,6 +24,8 @@ interface EmojiFoodFruit {
 	
 	UnicodeEmoji APPLE = new UnicodeEmojiImpl("🍎");
 	
+	UnicodeEmoji RED_APPLE = new UnicodeEmojiImpl("🍎");
+	
 	UnicodeEmoji GREEN_APPLE = new UnicodeEmojiImpl("🍏");
 	
 	UnicodeEmoji PEAR = new UnicodeEmojiImpl("🍐");
@@ -37,6 +39,10 @@ interface EmojiFoodFruit {
 	UnicodeEmoji BLUEBERRIES = new UnicodeEmojiImpl("🫐");
 	
 	UnicodeEmoji KIWI = new UnicodeEmojiImpl("🥝");
+	
+	UnicodeEmoji KIWIFRUIT = new UnicodeEmojiImpl("🥝");
+	
+	UnicodeEmoji KIWI_FRUIT = new UnicodeEmojiImpl("🥝");
 	
 	UnicodeEmoji TOMATO = new UnicodeEmojiImpl("🍅");
 	

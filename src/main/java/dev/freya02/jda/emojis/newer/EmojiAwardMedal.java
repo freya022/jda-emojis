@@ -8,11 +8,19 @@ interface EmojiAwardMedal {
 	
 	UnicodeEmoji TROPHY = new UnicodeEmojiImpl("🏆");
 	
+	UnicodeEmoji SPORTS_MEDAL = new UnicodeEmojiImpl("🏅");
+	
 	UnicodeEmoji MEDAL = new UnicodeEmojiImpl("🏅");
 	
 	UnicodeEmoji FIRST_PLACE = new UnicodeEmojiImpl("🥇");
 	
+	UnicodeEmoji FIRST_PLACE_MEDAL = new UnicodeEmojiImpl("🥇");
+	
 	UnicodeEmoji SECOND_PLACE = new UnicodeEmojiImpl("🥈");
+	
+	UnicodeEmoji SECOND_PLACE_MEDAL = new UnicodeEmojiImpl("🥈");
+	
+	UnicodeEmoji THIRD_PLACE_MEDAL = new UnicodeEmojiImpl("🥉");
 	
 	UnicodeEmoji THIRD_PLACE = new UnicodeEmojiImpl("🥉");
 	

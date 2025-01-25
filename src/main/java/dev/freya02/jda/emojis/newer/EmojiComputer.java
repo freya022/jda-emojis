@@ -14,19 +14,27 @@ interface EmojiComputer {
 	
 	UnicodeEmoji DESKTOP = new UnicodeEmojiImpl("🖥️");
 	
+	UnicodeEmoji DESKTOP_COMPUTER = new UnicodeEmojiImpl("🖥️");
+	
 	UnicodeEmoji PRINTER = new UnicodeEmojiImpl("🖨️");
 	
 	UnicodeEmoji KEYBOARD = new UnicodeEmojiImpl("⌨️");
 	
+	UnicodeEmoji THREE_BUTTON_MOUSE = new UnicodeEmojiImpl("🖱️");
+	
 	UnicodeEmoji MOUSE_THREE_BUTTON = new UnicodeEmojiImpl("🖱️");
 	
 	UnicodeEmoji TRACKBALL = new UnicodeEmojiImpl("🖲️");
+	
+	UnicodeEmoji COMPUTER_DISK = new UnicodeEmojiImpl("💽");
 	
 	UnicodeEmoji MINIDISC = new UnicodeEmojiImpl("💽");
 	
 	UnicodeEmoji FLOPPY_DISK = new UnicodeEmojiImpl("💾");
 	
 	UnicodeEmoji CD = new UnicodeEmojiImpl("💿");
+	
+	UnicodeEmoji OPTICAL_DISK = new UnicodeEmojiImpl("💿");
 	
 	UnicodeEmoji DVD = new UnicodeEmojiImpl("📀");
 	

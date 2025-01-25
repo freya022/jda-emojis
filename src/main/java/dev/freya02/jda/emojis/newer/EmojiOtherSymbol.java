@@ -22,9 +22,13 @@ interface EmojiOtherSymbol {
 	
 	UnicodeEmoji BALLOT_BOX_WITH_CHECK = new UnicodeEmojiImpl("☑️");
 	
+	UnicodeEmoji CHECK_MARK = new UnicodeEmojiImpl("✔️");
+	
 	UnicodeEmoji HEAVY_CHECK_MARK = new UnicodeEmojiImpl("✔️");
 	
 	UnicodeEmoji X = new UnicodeEmojiImpl("❌");
+	
+	UnicodeEmoji CROSS_MARK = new UnicodeEmojiImpl("❌");
 	
 	UnicodeEmoji NEGATIVE_SQUARED_CROSS_MARK = new UnicodeEmojiImpl("❎");
 	
@@ -45,6 +49,8 @@ interface EmojiOtherSymbol {
 	UnicodeEmoji REGISTERED = new UnicodeEmojiImpl("®️");
 	
 	UnicodeEmoji TM = new UnicodeEmojiImpl("™️");
+	
+	UnicodeEmoji TRADE_MARK = new UnicodeEmojiImpl("™️");
 	
 	
 }

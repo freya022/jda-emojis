@@ -4,7 +4,11 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiReligion {
+	UnicodeEmoji WORSHIP_SYMBOL = new UnicodeEmojiImpl("🛐");
+	
 	UnicodeEmoji PLACE_OF_WORSHIP = new UnicodeEmojiImpl("🛐");
+	
+	UnicodeEmoji ATOM_SYMBOL = new UnicodeEmojiImpl("⚛️");
 	
 	UnicodeEmoji ATOM = new UnicodeEmojiImpl("⚛️");
 	
@@ -18,11 +22,15 @@ interface EmojiReligion {
 	
 	UnicodeEmoji CROSS = new UnicodeEmojiImpl("✝️");
 	
+	UnicodeEmoji LATIN_CROSS = new UnicodeEmojiImpl("✝️");
+	
 	UnicodeEmoji ORTHODOX_CROSS = new UnicodeEmojiImpl("☦️");
 	
 	UnicodeEmoji STAR_AND_CRESCENT = new UnicodeEmojiImpl("☪️");
 	
 	UnicodeEmoji PEACE = new UnicodeEmojiImpl("☮️");
+	
+	UnicodeEmoji PEACE_SYMBOL = new UnicodeEmojiImpl("☮️");
 	
 	UnicodeEmoji MENORAH = new UnicodeEmojiImpl("🕎");
 	

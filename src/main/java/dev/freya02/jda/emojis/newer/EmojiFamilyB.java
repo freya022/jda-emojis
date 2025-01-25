@@ -4,217 +4,427 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiFamilyB {
+	UnicodeEmoji KISS_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👩🏽");
+	
 	UnicodeEmoji KISS_WOMAN_WOMAN_TONE5_TONE3 = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👩🏽");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_TONE5_TONE4 = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👩🏾");
+	
+	UnicodeEmoji KISS_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👩🏾");
+	
+	UnicodeEmoji KISS_WOMAN_WOMAN_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👩🏿");
 	
 	UnicodeEmoji KISS_WOMAN_WOMAN_TONE5 = new UnicodeEmojiImpl("👩🏿‍❤️‍💋‍👩🏿");
 	
 	UnicodeEmoji COUPLE_WITH_HEART = new UnicodeEmojiImpl("💑");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("💑🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_TONE1 = new UnicodeEmojiImpl("💑🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("💑🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_TONE2 = new UnicodeEmojiImpl("💑🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("💑🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_TONE3 = new UnicodeEmojiImpl("💑🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("💑🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_TONE4 = new UnicodeEmojiImpl("💑🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_TONE5 = new UnicodeEmojiImpl("💑🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_DARK_SKIN_TONE = new UnicodeEmojiImpl("💑🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE1_TONE2 = new UnicodeEmojiImpl("🧑🏻‍❤️‍🧑🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍❤️‍🧑🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE1_TONE3 = new UnicodeEmojiImpl("🧑🏻‍❤️‍🧑🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍❤️‍🧑🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE1_TONE4 = new UnicodeEmojiImpl("🧑🏻‍❤️‍🧑🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍❤️‍🧑🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏻‍❤️‍🧑🏿");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE1_TONE5 = new UnicodeEmojiImpl("🧑🏻‍❤️‍🧑🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍❤️‍🧑🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE2_TONE1 = new UnicodeEmojiImpl("🧑🏼‍❤️‍🧑🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍❤️‍🧑🏽");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE2_TONE3 = new UnicodeEmojiImpl("🧑🏼‍❤️‍🧑🏽");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE2_TONE4 = new UnicodeEmojiImpl("🧑🏼‍❤️‍🧑🏾");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍❤️‍🧑🏾");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE2_TONE5 = new UnicodeEmojiImpl("🧑🏼‍❤️‍🧑🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏼‍❤️‍🧑🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍❤️‍🧑🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE3_TONE1 = new UnicodeEmojiImpl("🧑🏽‍❤️‍🧑🏻");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍❤️‍🧑🏼");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE3_TONE2 = new UnicodeEmojiImpl("🧑🏽‍❤️‍🧑🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍❤️‍🧑🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE3_TONE4 = new UnicodeEmojiImpl("🧑🏽‍❤️‍🧑🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE3_TONE5 = new UnicodeEmojiImpl("🧑🏽‍❤️‍🧑🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏽‍❤️‍🧑🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE4_TONE1 = new UnicodeEmojiImpl("🧑🏾‍❤️‍🧑🏻");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍❤️‍🧑🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍❤️‍🧑🏼");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE4_TONE2 = new UnicodeEmojiImpl("🧑🏾‍❤️‍🧑🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍❤️‍🧑🏽");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE4_TONE3 = new UnicodeEmojiImpl("🧑🏾‍❤️‍🧑🏽");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE4_TONE5 = new UnicodeEmojiImpl("🧑🏾‍❤️‍🧑🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏾‍❤️‍🧑🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE5_TONE1 = new UnicodeEmojiImpl("🧑🏿‍❤️‍🧑🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍❤️‍🧑🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE5_TONE2 = new UnicodeEmojiImpl("🧑🏿‍❤️‍🧑🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍❤️‍🧑🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍❤️‍🧑🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE5_TONE3 = new UnicodeEmojiImpl("🧑🏿‍❤️‍🧑🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🧑🏿‍❤️‍🧑🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_PERSON_PERSON_TONE5_TONE4 = new UnicodeEmojiImpl("🧑🏿‍❤️‍🧑🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN = new UnicodeEmojiImpl("👩‍❤️‍👨");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE1 = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE1_TONE2 = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE1_TONE3 = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE1_TONE4 = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏾");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏾");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE1_TONE5 = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE2_TONE1 = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE2 = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏼");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE2_TONE3 = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE2_TONE4 = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE2_TONE5 = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE3_TONE1 = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE3_TONE2 = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE3 = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE3_TONE4 = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE3_TONE5 = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👨🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE4_TONE1 = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE4_TONE2 = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏼");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE4_TONE3 = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE4 = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏾");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE4_TONE5 = new UnicodeEmojiImpl("👩🏾‍❤️‍👨🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE5_TONE1 = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE5_TONE2 = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE5_TONE3 = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE5_TONE4 = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏾");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_MAN_TONE5 = new UnicodeEmojiImpl("👩🏿‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MM = new UnicodeEmojiImpl("👨‍❤️‍👨");
 	
 	UnicodeEmoji COUPLE_MM = new UnicodeEmojiImpl("👨‍❤️‍👨");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE1 = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏻");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE1_TONE2 = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE1_TONE3 = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE1_TONE4 = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏾");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏾");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE1_TONE5 = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏻‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE2_TONE1 = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE2 = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE2_TONE3 = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE2_TONE4 = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE2_TONE5 = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏼‍❤️‍👨🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE3_TONE1 = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE3_TONE2 = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE3 = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE3_TONE4 = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏾");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏾");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE3_TONE5 = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏽‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE4_TONE1 = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE4_TONE2 = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE4_TONE3 = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏽");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE4 = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏾");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏾");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE4_TONE5 = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏾‍❤️‍👨🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE5_TONE1 = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE5_TONE2 = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE5_TONE3 = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE5_TONE4 = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_TONE5 = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_MAN_MAN_DARK_SKIN_TONE = new UnicodeEmojiImpl("👨🏿‍❤️‍👨🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WW = new UnicodeEmojiImpl("👩‍❤️‍👩");
+	
 	UnicodeEmoji COUPLE_WW = new UnicodeEmojiImpl("👩‍❤️‍👩");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE1 = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE1_TONE2 = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE1_TONE3 = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE1_TONE4 = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏾");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE1_TONE5 = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏿");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏻‍❤️‍👩🏿");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE2_TONE1 = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏻");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE2 = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE2_TONE3 = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏾");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE2_TONE4 = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏿");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE2_TONE5 = new UnicodeEmojiImpl("👩🏼‍❤️‍👩🏿");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE3_TONE1 = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏻");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE3_TONE2 = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE3 = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE3_TONE4 = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏾");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏾");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE3_TONE5 = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏽‍❤️‍👩🏿");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE4_TONE1 = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏻");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE4_TONE2 = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏼");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏼");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE4_TONE3 = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏽");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏾");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE4 = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏿");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE4_TONE5 = new UnicodeEmojiImpl("👩🏾‍❤️‍👩🏿");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE5_TONE1 = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏻");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏻");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE5_TONE2 = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏼");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏼");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE5_TONE3 = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏽");
 	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏽");
+	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE5_TONE4 = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏾");
+	
+	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_DARK_SKIN_TONE = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏿");
 	
 	UnicodeEmoji COUPLE_WITH_HEART_WOMAN_WOMAN_TONE5 = new UnicodeEmojiImpl("👩🏿‍❤️‍👩🏿");
 	

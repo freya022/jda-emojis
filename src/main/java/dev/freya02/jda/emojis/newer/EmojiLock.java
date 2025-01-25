@@ -4,7 +4,11 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiLock {
+	UnicodeEmoji LOCKED = new UnicodeEmojiImpl("🔒");
+	
 	UnicodeEmoji LOCK = new UnicodeEmojiImpl("🔒");
+	
+	UnicodeEmoji UNLOCKED = new UnicodeEmojiImpl("🔓");
 	
 	UnicodeEmoji UNLOCK = new UnicodeEmojiImpl("🔓");
 	
@@ -15,6 +19,8 @@ interface EmojiLock {
 	UnicodeEmoji KEY = new UnicodeEmojiImpl("🔑");
 	
 	UnicodeEmoji KEY2 = new UnicodeEmojiImpl("🗝️");
+	
+	UnicodeEmoji OLD_KEY = new UnicodeEmojiImpl("🗝️");
 	
 	
 }

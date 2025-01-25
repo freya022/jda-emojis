@@ -12,11 +12,15 @@ interface EmojiWarning {
 	
 	UnicodeEmoji NO_ENTRY_SIGN = new UnicodeEmojiImpl("🚫");
 	
+	UnicodeEmoji PROHIBITED = new UnicodeEmojiImpl("🚫");
+	
 	UnicodeEmoji NO_BICYCLES = new UnicodeEmojiImpl("🚳");
 	
 	UnicodeEmoji NO_SMOKING = new UnicodeEmojiImpl("🚭");
 	
 	UnicodeEmoji DO_NOT_LITTER = new UnicodeEmojiImpl("🚯");
+	
+	UnicodeEmoji NO_LITTERING = new UnicodeEmojiImpl("🚯");
 	
 	UnicodeEmoji NON_POTABLE_WATER = new UnicodeEmojiImpl("🚱");
 	
@@ -26,7 +30,11 @@ interface EmojiWarning {
 	
 	UnicodeEmoji UNDERAGE = new UnicodeEmojiImpl("🔞");
 	
+	UnicodeEmoji RADIOACTIVE_SIGN = new UnicodeEmojiImpl("☢️");
+	
 	UnicodeEmoji RADIOACTIVE = new UnicodeEmojiImpl("☢️");
+	
+	UnicodeEmoji BIOHAZARD_SIGN = new UnicodeEmojiImpl("☣️");
 	
 	UnicodeEmoji BIOHAZARD = new UnicodeEmojiImpl("☣️");
 	

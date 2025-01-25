@@ -8,9 +8,13 @@ interface EmojiPlaceBuilding {
 	
 	UnicodeEmoji CLASSICAL_BUILDING = new UnicodeEmojiImpl("🏛️");
 	
+	UnicodeEmoji BUILDING_CONSTRUCTION = new UnicodeEmojiImpl("🏗️");
+	
 	UnicodeEmoji CONSTRUCTION_SITE = new UnicodeEmojiImpl("🏗️");
 	
 	UnicodeEmoji BRICKS = new UnicodeEmojiImpl("🧱");
+	
+	UnicodeEmoji BRICK = new UnicodeEmojiImpl("🧱");
 	
 	UnicodeEmoji ROCK = new UnicodeEmojiImpl("🪨");
 	
@@ -18,9 +22,15 @@ interface EmojiPlaceBuilding {
 	
 	UnicodeEmoji HUT = new UnicodeEmojiImpl("🛖");
 	
+	UnicodeEmoji HOUSE_BUILDINGS = new UnicodeEmojiImpl("🏘️");
+	
+	UnicodeEmoji HOUSES = new UnicodeEmojiImpl("🏘️");
+	
 	UnicodeEmoji HOMES = new UnicodeEmojiImpl("🏘️");
 	
 	UnicodeEmoji HOUSE_ABANDONED = new UnicodeEmojiImpl("🏚️");
+	
+	UnicodeEmoji DERELICT_HOUSE_BUILDING = new UnicodeEmojiImpl("🏚️");
 	
 	UnicodeEmoji HOUSE = new UnicodeEmojiImpl("🏠");
 	
@@ -49,6 +59,8 @@ interface EmojiPlaceBuilding {
 	UnicodeEmoji FACTORY = new UnicodeEmojiImpl("🏭");
 	
 	UnicodeEmoji JAPANESE_CASTLE = new UnicodeEmojiImpl("🏯");
+	
+	UnicodeEmoji CASTLE = new UnicodeEmojiImpl("🏰");
 	
 	UnicodeEmoji EUROPEAN_CASTLE = new UnicodeEmojiImpl("🏰");
 	

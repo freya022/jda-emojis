@@ -8,6 +8,8 @@ interface EmojiPunctuation {
 	
 	UnicodeEmoji INTERROBANG = new UnicodeEmojiImpl("⁉️");
 	
+	UnicodeEmoji QUESTION_MARK = new UnicodeEmojiImpl("❓");
+	
 	UnicodeEmoji QUESTION = new UnicodeEmojiImpl("❓");
 	
 	UnicodeEmoji GREY_QUESTION = new UnicodeEmojiImpl("❔");

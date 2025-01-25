@@ -8,6 +8,8 @@ interface EmojiFoodPrepared {
 	
 	UnicodeEmoji CROISSANT = new UnicodeEmojiImpl("🥐");
 	
+	UnicodeEmoji BAGUETTE_BREAD = new UnicodeEmojiImpl("🥖");
+	
 	UnicodeEmoji FRENCH_BREAD = new UnicodeEmojiImpl("🥖");
 	
 	UnicodeEmoji FLATBREAD = new UnicodeEmojiImpl("🫓");
@@ -19,6 +21,8 @@ interface EmojiFoodPrepared {
 	UnicodeEmoji PANCAKES = new UnicodeEmojiImpl("🥞");
 	
 	UnicodeEmoji WAFFLE = new UnicodeEmojiImpl("🧇");
+	
+	UnicodeEmoji CHEESE_WEDGE = new UnicodeEmojiImpl("🧀");
 	
 	UnicodeEmoji CHEESE = new UnicodeEmojiImpl("🧀");
 	
@@ -32,9 +36,13 @@ interface EmojiFoodPrepared {
 	
 	UnicodeEmoji HAMBURGER = new UnicodeEmojiImpl("🍔");
 	
+	UnicodeEmoji FRENCH_FRIES = new UnicodeEmojiImpl("🍟");
+	
 	UnicodeEmoji FRIES = new UnicodeEmojiImpl("🍟");
 	
 	UnicodeEmoji PIZZA = new UnicodeEmojiImpl("🍕");
+	
+	UnicodeEmoji HOT_DOG = new UnicodeEmojiImpl("🌭");
 	
 	UnicodeEmoji HOTDOG = new UnicodeEmojiImpl("🌭");
 	
@@ -46,6 +54,8 @@ interface EmojiFoodPrepared {
 	
 	UnicodeEmoji TAMALE = new UnicodeEmojiImpl("🫔");
 	
+	UnicodeEmoji STUFFED_PITA = new UnicodeEmojiImpl("🥙");
+	
 	UnicodeEmoji STUFFED_FLATBREAD = new UnicodeEmojiImpl("🥙");
 	
 	UnicodeEmoji FALAFEL = new UnicodeEmojiImpl("🧆");
@@ -54,15 +64,21 @@ interface EmojiFoodPrepared {
 	
 	UnicodeEmoji COOKING = new UnicodeEmojiImpl("🍳");
 	
+	UnicodeEmoji PAELLA = new UnicodeEmojiImpl("🥘");
+	
 	UnicodeEmoji SHALLOW_PAN_OF_FOOD = new UnicodeEmojiImpl("🥘");
 	
 	UnicodeEmoji STEW = new UnicodeEmojiImpl("🍲");
+	
+	UnicodeEmoji POT_OF_FOOD = new UnicodeEmojiImpl("🍲");
 	
 	UnicodeEmoji FONDUE = new UnicodeEmojiImpl("🫕");
 	
 	UnicodeEmoji BOWL_WITH_SPOON = new UnicodeEmojiImpl("🥣");
 	
 	UnicodeEmoji SALAD = new UnicodeEmojiImpl("🥗");
+	
+	UnicodeEmoji GREEN_SALAD = new UnicodeEmojiImpl("🥗");
 	
 	UnicodeEmoji POPCORN = new UnicodeEmojiImpl("🍿");
 	

@@ -14,6 +14,8 @@ interface EmojiAvSymbol {
 	
 	UnicodeEmoji FAST_FORWARD = new UnicodeEmojiImpl("⏩");
 	
+	UnicodeEmoji NEXT_TRACK = new UnicodeEmojiImpl("⏭️");
+	
 	UnicodeEmoji TRACK_NEXT = new UnicodeEmojiImpl("⏭️");
 	
 	UnicodeEmoji PLAY_PAUSE = new UnicodeEmojiImpl("⏯️");
@@ -21,6 +23,8 @@ interface EmojiAvSymbol {
 	UnicodeEmoji ARROW_BACKWARD = new UnicodeEmojiImpl("◀️");
 	
 	UnicodeEmoji REWIND = new UnicodeEmojiImpl("⏪");
+	
+	UnicodeEmoji PREVIOUS_TRACK = new UnicodeEmojiImpl("⏮️");
 	
 	UnicodeEmoji TRACK_PREVIOUS = new UnicodeEmojiImpl("⏮️");
 	
@@ -32,11 +36,15 @@ interface EmojiAvSymbol {
 	
 	UnicodeEmoji ARROW_DOUBLE_DOWN = new UnicodeEmojiImpl("⏬");
 	
+	UnicodeEmoji DOUBLE_VERTICAL_BAR = new UnicodeEmojiImpl("⏸️");
+	
 	UnicodeEmoji PAUSE_BUTTON = new UnicodeEmojiImpl("⏸️");
 	
 	UnicodeEmoji STOP_BUTTON = new UnicodeEmojiImpl("⏹️");
 	
 	UnicodeEmoji RECORD_BUTTON = new UnicodeEmojiImpl("⏺️");
+	
+	UnicodeEmoji EJECT_SYMBOL = new UnicodeEmojiImpl("⏏️");
 	
 	UnicodeEmoji EJECT = new UnicodeEmojiImpl("⏏️");
 	
@@ -47,6 +55,8 @@ interface EmojiAvSymbol {
 	UnicodeEmoji HIGH_BRIGHTNESS = new UnicodeEmojiImpl("🔆");
 	
 	UnicodeEmoji SIGNAL_STRENGTH = new UnicodeEmojiImpl("📶");
+	
+	UnicodeEmoji ANTENNA_BARS = new UnicodeEmojiImpl("📶");
 	
 	UnicodeEmoji WIRELESS = new UnicodeEmojiImpl("🛜");
 	

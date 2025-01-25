@@ -42,15 +42,27 @@ interface EmojiHandSingleFinger {
 	
 	UnicodeEmoji MIDDLE_FINGER = new UnicodeEmojiImpl("🖕");
 	
+	UnicodeEmoji REVERSED_HAND_WITH_MIDDLE_FINGER_EXTENDED = new UnicodeEmojiImpl("🖕");
+	
 	UnicodeEmoji MIDDLE_FINGER_TONE1 = new UnicodeEmojiImpl("🖕🏻");
+	
+	UnicodeEmoji REVERSED_HAND_WITH_MIDDLE_FINGER_EXTENDED_TONE1 = new UnicodeEmojiImpl("🖕🏻");
 	
 	UnicodeEmoji MIDDLE_FINGER_TONE2 = new UnicodeEmojiImpl("🖕🏼");
 	
+	UnicodeEmoji REVERSED_HAND_WITH_MIDDLE_FINGER_EXTENDED_TONE2 = new UnicodeEmojiImpl("🖕🏼");
+	
 	UnicodeEmoji MIDDLE_FINGER_TONE3 = new UnicodeEmojiImpl("🖕🏽");
+	
+	UnicodeEmoji REVERSED_HAND_WITH_MIDDLE_FINGER_EXTENDED_TONE3 = new UnicodeEmojiImpl("🖕🏽");
 	
 	UnicodeEmoji MIDDLE_FINGER_TONE4 = new UnicodeEmojiImpl("🖕🏾");
 	
+	UnicodeEmoji REVERSED_HAND_WITH_MIDDLE_FINGER_EXTENDED_TONE4 = new UnicodeEmojiImpl("🖕🏾");
+	
 	UnicodeEmoji MIDDLE_FINGER_TONE5 = new UnicodeEmojiImpl("🖕🏿");
+	
+	UnicodeEmoji REVERSED_HAND_WITH_MIDDLE_FINGER_EXTENDED_TONE5 = new UnicodeEmojiImpl("🖕🏿");
 	
 	UnicodeEmoji POINT_DOWN = new UnicodeEmojiImpl("👇");
 	
@@ -80,11 +92,21 @@ interface EmojiHandSingleFinger {
 	
 	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_TONE1 = new UnicodeEmojiImpl("🫵🏻");
 	
+	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🫵🏻");
+	
 	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_TONE2 = new UnicodeEmojiImpl("🫵🏼");
+	
+	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_MEDIUM_LIGHT_SKIN_TONE = new UnicodeEmojiImpl("🫵🏼");
+	
+	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_MEDIUM_SKIN_TONE = new UnicodeEmojiImpl("🫵🏽");
 	
 	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_TONE3 = new UnicodeEmojiImpl("🫵🏽");
 	
+	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_MEDIUM_DARK_SKIN_TONE = new UnicodeEmojiImpl("🫵🏾");
+	
 	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_TONE4 = new UnicodeEmojiImpl("🫵🏾");
+	
+	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_DARK_SKIN_TONE = new UnicodeEmojiImpl("🫵🏿");
 	
 	UnicodeEmoji INDEX_POINTING_AT_THE_VIEWER_TONE5 = new UnicodeEmojiImpl("🫵🏿");
 	

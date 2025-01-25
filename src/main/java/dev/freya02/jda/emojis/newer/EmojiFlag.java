@@ -16,6 +16,8 @@ interface EmojiFlag {
 	
 	UnicodeEmoji RAINBOW_FLAG = new UnicodeEmojiImpl("🏳️‍🌈");
 	
+	UnicodeEmoji GAY_PRIDE_FLAG = new UnicodeEmojiImpl("🏳️‍🌈");
+	
 	UnicodeEmoji TRANSGENDER_FLAG = new UnicodeEmojiImpl("🏳️‍⚧️");
 	
 	UnicodeEmoji PIRATE_FLAG = new UnicodeEmojiImpl("🏴‍☠️");

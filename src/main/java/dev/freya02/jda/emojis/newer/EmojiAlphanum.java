@@ -10,6 +10,8 @@ interface EmojiAlphanum {
 	
 	UnicodeEmoji INPUT_NUMBERS = new UnicodeEmojiImpl("🔢");
 	
+	UnicodeEmoji INPUT_SYMBOLS = new UnicodeEmojiImpl("🔣");
+	
 	UnicodeEmoji SYMBOLS = new UnicodeEmojiImpl("🔣");
 	
 	UnicodeEmoji ABC = new UnicodeEmojiImpl("🔤");
@@ -28,7 +30,11 @@ interface EmojiAlphanum {
 	
 	UnicodeEmoji INFORMATION_SOURCE = new UnicodeEmojiImpl("ℹ️");
 	
+	UnicodeEmoji INFORMATION = new UnicodeEmojiImpl("ℹ️");
+	
 	UnicodeEmoji ID = new UnicodeEmojiImpl("🆔");
+	
+	UnicodeEmoji CIRCLED_M = new UnicodeEmojiImpl("Ⓜ️");
 	
 	UnicodeEmoji M = new UnicodeEmojiImpl("Ⓜ️");
 	

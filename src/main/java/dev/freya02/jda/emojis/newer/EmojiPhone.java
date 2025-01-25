@@ -6,6 +6,8 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiPhone {
 	UnicodeEmoji MOBILE_PHONE = new UnicodeEmojiImpl("📱");
 	
+	UnicodeEmoji IPHONE = new UnicodeEmojiImpl("📱");
+	
 	UnicodeEmoji CALLING = new UnicodeEmojiImpl("📲");
 	
 	UnicodeEmoji TELEPHONE = new UnicodeEmojiImpl("☎️");
@@ -13,6 +15,8 @@ interface EmojiPhone {
 	UnicodeEmoji TELEPHONE_RECEIVER = new UnicodeEmojiImpl("📞");
 	
 	UnicodeEmoji PAGER = new UnicodeEmojiImpl("📟");
+	
+	UnicodeEmoji FAX_MACHINE = new UnicodeEmojiImpl("📠");
 	
 	UnicodeEmoji FAX = new UnicodeEmojiImpl("📠");
 	

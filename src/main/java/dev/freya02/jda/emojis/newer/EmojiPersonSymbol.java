@@ -4,6 +4,8 @@ import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;
 import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 
 interface EmojiPersonSymbol {
+	UnicodeEmoji SPEAKING_HEAD_IN_SILHOUETTE = new UnicodeEmojiImpl("🗣️");
+	
 	UnicodeEmoji SPEAKING_HEAD = new UnicodeEmojiImpl("🗣️");
 	
 	UnicodeEmoji BUST_IN_SILHOUETTE = new UnicodeEmojiImpl("👤");

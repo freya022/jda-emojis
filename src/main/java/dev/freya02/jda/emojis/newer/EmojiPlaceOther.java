@@ -20,9 +20,15 @@ interface EmojiPlaceOther {
 	
 	UnicodeEmoji CITY_DUSK = new UnicodeEmojiImpl("🌆");
 	
+	UnicodeEmoji SUNSET = new UnicodeEmojiImpl("🌇");
+	
 	UnicodeEmoji CITY_SUNSET = new UnicodeEmojiImpl("🌇");
 	
+	UnicodeEmoji CITY_SUNRISE = new UnicodeEmojiImpl("🌇");
+	
 	UnicodeEmoji BRIDGE_AT_NIGHT = new UnicodeEmojiImpl("🌉");
+	
+	UnicodeEmoji HOT_SPRINGS = new UnicodeEmojiImpl("♨️");
 	
 	UnicodeEmoji HOTSPRINGS = new UnicodeEmojiImpl("♨️");
 	
@@ -35,6 +41,8 @@ interface EmojiPlaceOther {
 	UnicodeEmoji ROLLER_COASTER = new UnicodeEmojiImpl("🎢");
 	
 	UnicodeEmoji BARBER = new UnicodeEmojiImpl("💈");
+	
+	UnicodeEmoji BARBER_POLE = new UnicodeEmojiImpl("💈");
 	
 	UnicodeEmoji CIRCUS_TENT = new UnicodeEmojiImpl("🎪");
 	

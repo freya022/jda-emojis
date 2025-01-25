@@ -12,7 +12,11 @@ interface EmojiPlaceMap {
 	
 	UnicodeEmoji GLOBE_WITH_MERIDIANS = new UnicodeEmojiImpl("🌐");
 	
+	UnicodeEmoji WORLD_MAP = new UnicodeEmojiImpl("🗺️");
+	
 	UnicodeEmoji MAP = new UnicodeEmojiImpl("🗺️");
+	
+	UnicodeEmoji MAP_OF_JAPAN = new UnicodeEmojiImpl("🗾");
 	
 	UnicodeEmoji JAPAN = new UnicodeEmojiImpl("🗾");
 	

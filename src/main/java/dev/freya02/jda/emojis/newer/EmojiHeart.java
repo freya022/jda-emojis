@@ -12,7 +12,11 @@ interface EmojiHeart {
 	
 	UnicodeEmoji SPARKLING_HEART = new UnicodeEmojiImpl("💖");
 	
+	UnicodeEmoji GROWING_HEART = new UnicodeEmojiImpl("💗");
+	
 	UnicodeEmoji HEARTPULSE = new UnicodeEmojiImpl("💗");
+	
+	UnicodeEmoji BEATING_HEART = new UnicodeEmojiImpl("💓");
 	
 	UnicodeEmoji HEARTBEAT = new UnicodeEmojiImpl("💓");
 	
@@ -21,6 +25,8 @@ interface EmojiHeart {
 	UnicodeEmoji TWO_HEARTS = new UnicodeEmojiImpl("💕");
 	
 	UnicodeEmoji HEART_DECORATION = new UnicodeEmojiImpl("💟");
+	
+	UnicodeEmoji HEAVY_HEART_EXCLAMATION_MARK_ORNAMENT = new UnicodeEmojiImpl("❣️");
 	
 	UnicodeEmoji HEART_EXCLAMATION = new UnicodeEmojiImpl("❣️");
 	
@@ -31,6 +37,8 @@ interface EmojiHeart {
 	UnicodeEmoji MENDING_HEART = new UnicodeEmojiImpl("❤️‍🩹");
 	
 	UnicodeEmoji HEART = new UnicodeEmojiImpl("❤️");
+	
+	UnicodeEmoji RED_HEART = new UnicodeEmojiImpl("❤️");
 	
 	UnicodeEmoji PINK_HEART = new UnicodeEmojiImpl("🩷");
 	

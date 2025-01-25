@@ -22,6 +22,8 @@ interface EmojiAnimalMarine {
 	
 	UnicodeEmoji OCTOPUS = new UnicodeEmojiImpl("🐙");
 	
+	UnicodeEmoji SPIRAL_SHELL = new UnicodeEmojiImpl("🐚");
+	
 	UnicodeEmoji SHELL = new UnicodeEmojiImpl("🐚");
 	
 	UnicodeEmoji CORAL = new UnicodeEmojiImpl("🪸");

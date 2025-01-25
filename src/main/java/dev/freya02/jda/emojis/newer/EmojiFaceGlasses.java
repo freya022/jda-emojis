@@ -8,6 +8,8 @@ interface EmojiFaceGlasses {
 	
 	UnicodeEmoji NERD = new UnicodeEmojiImpl("🤓");
 	
+	UnicodeEmoji NERD_FACE = new UnicodeEmojiImpl("🤓");
+	
 	UnicodeEmoji FACE_WITH_MONOCLE = new UnicodeEmojiImpl("🧐");
 	
 	

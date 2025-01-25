@@ -20,6 +20,8 @@ interface EmojiMusicalInstrument {
 	
 	UnicodeEmoji DRUM = new UnicodeEmojiImpl("🥁");
 	
+	UnicodeEmoji DRUM_WITH_DRUMSTICKS = new UnicodeEmojiImpl("🥁");
+	
 	UnicodeEmoji LONG_DRUM = new UnicodeEmojiImpl("🪘");
 	
 	UnicodeEmoji MARACAS = new UnicodeEmojiImpl("🪇");

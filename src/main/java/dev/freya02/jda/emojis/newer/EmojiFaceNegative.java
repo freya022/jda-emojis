@@ -6,7 +6,11 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiFaceNegative {
 	UnicodeEmoji TRIUMPH = new UnicodeEmojiImpl("😤");
 	
+	UnicodeEmoji POUTING_FACE = new UnicodeEmojiImpl("😡");
+	
 	UnicodeEmoji RAGE = new UnicodeEmojiImpl("😡");
+	
+	UnicodeEmoji ANGRY_FACE = new UnicodeEmojiImpl("😠");
 	
 	UnicodeEmoji ANGRY = new UnicodeEmojiImpl("😠");
 	
@@ -18,7 +22,11 @@ interface EmojiFaceNegative {
 	
 	UnicodeEmoji SKULL = new UnicodeEmojiImpl("💀");
 	
+	UnicodeEmoji SKELETON = new UnicodeEmojiImpl("💀");
+	
 	UnicodeEmoji SKULL_CROSSBONES = new UnicodeEmojiImpl("☠️");
+	
+	UnicodeEmoji SKULL_AND_CROSSBONES = new UnicodeEmojiImpl("☠️");
 	
 	
 }

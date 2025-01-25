@@ -10,6 +10,10 @@ interface EmojiMusic {
 	
 	UnicodeEmoji NOTES = new UnicodeEmojiImpl("🎶");
 	
+	UnicodeEmoji MUSICAL_NOTES = new UnicodeEmojiImpl("🎶");
+	
+	UnicodeEmoji STUDIO_MICROPHONE = new UnicodeEmojiImpl("🎙️");
+	
 	UnicodeEmoji MICROPHONE2 = new UnicodeEmojiImpl("🎙️");
 	
 	UnicodeEmoji LEVEL_SLIDER = new UnicodeEmojiImpl("🎚️");
@@ -17,6 +21,8 @@ interface EmojiMusic {
 	UnicodeEmoji CONTROL_KNOBS = new UnicodeEmojiImpl("🎛️");
 	
 	UnicodeEmoji MICROPHONE = new UnicodeEmojiImpl("🎤");
+	
+	UnicodeEmoji HEADPHONE = new UnicodeEmojiImpl("🎧");
 	
 	UnicodeEmoji HEADPHONES = new UnicodeEmojiImpl("🎧");
 	

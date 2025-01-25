@@ -6,6 +6,8 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiClothing {
 	UnicodeEmoji EYEGLASSES = new UnicodeEmojiImpl("👓");
 	
+	UnicodeEmoji GLASSES = new UnicodeEmojiImpl("👓");
+	
 	UnicodeEmoji DARK_SUNGLASSES = new UnicodeEmojiImpl("🕶️");
 	
 	UnicodeEmoji GOGGLES = new UnicodeEmojiImpl("🥽");
@@ -15,6 +17,8 @@ interface EmojiClothing {
 	UnicodeEmoji SAFETY_VEST = new UnicodeEmojiImpl("🦺");
 	
 	UnicodeEmoji NECKTIE = new UnicodeEmojiImpl("👔");
+	
+	UnicodeEmoji T_SHIRT = new UnicodeEmojiImpl("👕");
 	
 	UnicodeEmoji SHIRT = new UnicodeEmojiImpl("👕");
 	
@@ -50,11 +54,15 @@ interface EmojiClothing {
 	
 	UnicodeEmoji HANDBAG = new UnicodeEmojiImpl("👜");
 	
+	UnicodeEmoji CLUTCH_BAG = new UnicodeEmojiImpl("👝");
+	
 	UnicodeEmoji POUCH = new UnicodeEmojiImpl("👝");
 	
 	UnicodeEmoji SHOPPING_BAGS = new UnicodeEmojiImpl("🛍️");
 	
 	UnicodeEmoji SCHOOL_SATCHEL = new UnicodeEmojiImpl("🎒");
+	
+	UnicodeEmoji BACKPACK = new UnicodeEmojiImpl("🎒");
 	
 	UnicodeEmoji THONG_SANDAL = new UnicodeEmojiImpl("🩴");
 	
@@ -62,15 +70,23 @@ interface EmojiClothing {
 	
 	UnicodeEmoji ATHLETIC_SHOE = new UnicodeEmojiImpl("👟");
 	
+	UnicodeEmoji RUNNING_SHOE = new UnicodeEmojiImpl("👟");
+	
 	UnicodeEmoji HIKING_BOOT = new UnicodeEmojiImpl("🥾");
 	
 	UnicodeEmoji WOMANS_FLAT_SHOE = new UnicodeEmojiImpl("🥿");
 	
+	UnicodeEmoji FLAT_SHOE = new UnicodeEmojiImpl("🥿");
+	
 	UnicodeEmoji HIGH_HEEL = new UnicodeEmojiImpl("👠");
+	
+	UnicodeEmoji WOMANS_SANDAL = new UnicodeEmojiImpl("👡");
 	
 	UnicodeEmoji SANDAL = new UnicodeEmojiImpl("👡");
 	
 	UnicodeEmoji BALLET_SHOES = new UnicodeEmojiImpl("🩰");
+	
+	UnicodeEmoji WOMANS_BOOT = new UnicodeEmojiImpl("👢");
 	
 	UnicodeEmoji BOOT = new UnicodeEmojiImpl("👢");
 	
@@ -82,6 +98,8 @@ interface EmojiClothing {
 	
 	UnicodeEmoji TOPHAT = new UnicodeEmojiImpl("🎩");
 	
+	UnicodeEmoji TOP_HAT = new UnicodeEmojiImpl("🎩");
+	
 	UnicodeEmoji MORTAR_BOARD = new UnicodeEmojiImpl("🎓");
 	
 	UnicodeEmoji BILLED_CAP = new UnicodeEmojiImpl("🧢");
@@ -90,11 +108,15 @@ interface EmojiClothing {
 	
 	UnicodeEmoji HELMET_WITH_CROSS = new UnicodeEmojiImpl("⛑️");
 	
+	UnicodeEmoji HELMET_WITH_WHITE_CROSS = new UnicodeEmojiImpl("⛑️");
+	
 	UnicodeEmoji PRAYER_BEADS = new UnicodeEmojiImpl("📿");
 	
 	UnicodeEmoji LIPSTICK = new UnicodeEmojiImpl("💄");
 	
 	UnicodeEmoji RING = new UnicodeEmojiImpl("💍");
+	
+	UnicodeEmoji GEM_STONE = new UnicodeEmojiImpl("💎");
 	
 	UnicodeEmoji GEM = new UnicodeEmojiImpl("💎");
 	

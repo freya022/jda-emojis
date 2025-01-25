@@ -8,11 +8,17 @@ interface EmojiLightAndVideo {
 	
 	UnicodeEmoji FILM_FRAMES = new UnicodeEmojiImpl("🎞️");
 	
+	UnicodeEmoji FILM_PROJECTOR = new UnicodeEmojiImpl("📽️");
+	
 	UnicodeEmoji PROJECTOR = new UnicodeEmojiImpl("📽️");
 	
 	UnicodeEmoji CLAPPER = new UnicodeEmojiImpl("🎬");
 	
+	UnicodeEmoji CLAPPER_BOARD = new UnicodeEmojiImpl("🎬");
+	
 	UnicodeEmoji TV = new UnicodeEmojiImpl("📺");
+	
+	UnicodeEmoji TELEVISION = new UnicodeEmojiImpl("📺");
 	
 	UnicodeEmoji CAMERA = new UnicodeEmojiImpl("📷");
 	
@@ -22,11 +28,15 @@ interface EmojiLightAndVideo {
 	
 	UnicodeEmoji VHS = new UnicodeEmojiImpl("📼");
 	
+	UnicodeEmoji VIDEOCASSETTE = new UnicodeEmojiImpl("📼");
+	
 	UnicodeEmoji MAG = new UnicodeEmojiImpl("🔍");
 	
 	UnicodeEmoji MAG_RIGHT = new UnicodeEmojiImpl("🔎");
 	
 	UnicodeEmoji CANDLE = new UnicodeEmojiImpl("🕯️");
+	
+	UnicodeEmoji LIGHT_BULB = new UnicodeEmojiImpl("💡");
 	
 	UnicodeEmoji BULB = new UnicodeEmojiImpl("💡");
 	

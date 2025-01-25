@@ -14,6 +14,8 @@ interface EmojiHousehold {
 	
 	UnicodeEmoji BED = new UnicodeEmojiImpl("🛏️");
 	
+	UnicodeEmoji COUCH_AND_LAMP = new UnicodeEmojiImpl("🛋️");
+	
 	UnicodeEmoji COUCH = new UnicodeEmojiImpl("🛋️");
 	
 	UnicodeEmoji CHAIR = new UnicodeEmojiImpl("🪑");
@@ -29,6 +31,8 @@ interface EmojiHousehold {
 	UnicodeEmoji MOUSE_TRAP = new UnicodeEmojiImpl("🪤");
 	
 	UnicodeEmoji RAZOR = new UnicodeEmojiImpl("🪒");
+	
+	UnicodeEmoji LOTION_BOTTLE = new UnicodeEmojiImpl("🧴");
 	
 	UnicodeEmoji SQUEEZE_BOTTLE = new UnicodeEmojiImpl("🧴");
 	
@@ -51,6 +55,8 @@ interface EmojiHousehold {
 	UnicodeEmoji SPONGE = new UnicodeEmojiImpl("🧽");
 	
 	UnicodeEmoji FIRE_EXTINGUISHER = new UnicodeEmojiImpl("🧯");
+	
+	UnicodeEmoji SHOPPING_TROLLEY = new UnicodeEmojiImpl("🛒");
 	
 	UnicodeEmoji SHOPPING_CART = new UnicodeEmojiImpl("🛒");
 	

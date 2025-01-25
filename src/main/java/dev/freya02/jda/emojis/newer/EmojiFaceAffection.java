@@ -14,6 +14,10 @@ interface EmojiFaceAffection {
 	
 	UnicodeEmoji KISSING = new UnicodeEmojiImpl("😗");
 	
+	UnicodeEmoji KISSING_FACE = new UnicodeEmojiImpl("😗");
+	
+	UnicodeEmoji SMILING_FACE = new UnicodeEmojiImpl("☺️");
+	
 	UnicodeEmoji RELAXED = new UnicodeEmojiImpl("☺️");
 	
 	UnicodeEmoji KISSING_CLOSED_EYES = new UnicodeEmojiImpl("😚");

@@ -8,6 +8,8 @@ interface EmojiMail {
 	
 	UnicodeEmoji E_MAIL = new UnicodeEmojiImpl("📧");
 	
+	UnicodeEmoji EMAIL = new UnicodeEmojiImpl("📧");
+	
 	UnicodeEmoji INCOMING_ENVELOPE = new UnicodeEmojiImpl("📨");
 	
 	UnicodeEmoji ENVELOPE_WITH_ARROW = new UnicodeEmojiImpl("📩");
@@ -27,6 +29,8 @@ interface EmojiMail {
 	UnicodeEmoji MAILBOX_WITH_NO_MAIL = new UnicodeEmojiImpl("📭");
 	
 	UnicodeEmoji POSTBOX = new UnicodeEmojiImpl("📮");
+	
+	UnicodeEmoji BALLOT_BOX_WITH_BALLOT = new UnicodeEmojiImpl("🗳️");
 	
 	UnicodeEmoji BALLOT_BOX = new UnicodeEmojiImpl("🗳️");
 	

@@ -8,13 +8,21 @@ interface EmojiFaceUnwell {
 	
 	UnicodeEmoji THERMOMETER_FACE = new UnicodeEmojiImpl("🤒");
 	
+	UnicodeEmoji FACE_WITH_THERMOMETER = new UnicodeEmojiImpl("🤒");
+	
+	UnicodeEmoji FACE_WITH_HEAD_BANDAGE = new UnicodeEmojiImpl("🤕");
+	
 	UnicodeEmoji HEAD_BANDAGE = new UnicodeEmojiImpl("🤕");
+	
+	UnicodeEmoji SICK = new UnicodeEmojiImpl("🤢");
 	
 	UnicodeEmoji NAUSEATED_FACE = new UnicodeEmojiImpl("🤢");
 	
 	UnicodeEmoji FACE_VOMITING = new UnicodeEmojiImpl("🤮");
 	
 	UnicodeEmoji SNEEZING_FACE = new UnicodeEmojiImpl("🤧");
+	
+	UnicodeEmoji SNEEZE = new UnicodeEmojiImpl("🤧");
 	
 	UnicodeEmoji HOT_FACE = new UnicodeEmojiImpl("🥵");
 	

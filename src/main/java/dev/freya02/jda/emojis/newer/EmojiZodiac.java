@@ -20,6 +20,8 @@ interface EmojiZodiac {
 	
 	UnicodeEmoji SCORPIUS = new UnicodeEmojiImpl("♏");
 	
+	UnicodeEmoji SCORPIO = new UnicodeEmojiImpl("♏");
+	
 	UnicodeEmoji SAGITTARIUS = new UnicodeEmojiImpl("♐");
 	
 	UnicodeEmoji CAPRICORN = new UnicodeEmojiImpl("♑");

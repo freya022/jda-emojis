@@ -6,6 +6,8 @@ import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;
 interface EmojiTransportAir {
 	UnicodeEmoji AIRPLANE = new UnicodeEmojiImpl("✈️");
 	
+	UnicodeEmoji SMALL_AIRPLANE = new UnicodeEmojiImpl("🛩️");
+	
 	UnicodeEmoji AIRPLANE_SMALL = new UnicodeEmojiImpl("🛩️");
 	
 	UnicodeEmoji AIRPLANE_DEPARTURE = new UnicodeEmojiImpl("🛫");

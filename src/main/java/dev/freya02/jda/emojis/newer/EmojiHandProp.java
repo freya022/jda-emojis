@@ -16,6 +16,8 @@ interface EmojiHandProp {
 	
 	UnicodeEmoji WRITING_HAND_TONE5 = new UnicodeEmojiImpl("✍🏿");
 	
+	UnicodeEmoji NAIL_POLISH = new UnicodeEmojiImpl("💅");
+	
 	UnicodeEmoji NAIL_CARE = new UnicodeEmojiImpl("💅");
 	
 	UnicodeEmoji NAIL_CARE_TONE1 = new UnicodeEmojiImpl("💅🏻");

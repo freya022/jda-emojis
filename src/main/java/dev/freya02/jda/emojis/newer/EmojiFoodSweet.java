@@ -14,9 +14,13 @@ interface EmojiFoodSweet {
 	
 	UnicodeEmoji COOKIE = new UnicodeEmojiImpl("🍪");
 	
+	UnicodeEmoji BIRTHDAY_CAKE = new UnicodeEmojiImpl("🎂");
+	
 	UnicodeEmoji BIRTHDAY = new UnicodeEmojiImpl("🎂");
 	
 	UnicodeEmoji CAKE = new UnicodeEmojiImpl("🍰");
+	
+	UnicodeEmoji SHORTCAKE = new UnicodeEmojiImpl("🍰");
 	
 	UnicodeEmoji CUPCAKE = new UnicodeEmojiImpl("🧁");
 	
@@ -27,6 +31,10 @@ interface EmojiFoodSweet {
 	UnicodeEmoji CANDY = new UnicodeEmojiImpl("🍬");
 	
 	UnicodeEmoji LOLLIPOP = new UnicodeEmojiImpl("🍭");
+	
+	UnicodeEmoji PUDDING = new UnicodeEmojiImpl("🍮");
+	
+	UnicodeEmoji FLAN = new UnicodeEmojiImpl("🍮");
 	
 	UnicodeEmoji CUSTARD = new UnicodeEmojiImpl("🍮");
 	

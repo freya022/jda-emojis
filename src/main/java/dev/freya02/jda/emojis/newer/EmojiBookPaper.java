@@ -8,6 +8,8 @@ interface EmojiBookPaper {
 	
 	UnicodeEmoji CLOSED_BOOK = new UnicodeEmojiImpl("📕");
 	
+	UnicodeEmoji OPEN_BOOK = new UnicodeEmojiImpl("📖");
+	
 	UnicodeEmoji BOOK = new UnicodeEmojiImpl("📖");
 	
 	UnicodeEmoji GREEN_BOOK = new UnicodeEmojiImpl("📗");
@@ -31,6 +33,8 @@ interface EmojiBookPaper {
 	UnicodeEmoji NEWSPAPER = new UnicodeEmojiImpl("📰");
 	
 	UnicodeEmoji NEWSPAPER2 = new UnicodeEmojiImpl("🗞️");
+	
+	UnicodeEmoji ROLLED_UP_NEWSPAPER = new UnicodeEmojiImpl("🗞️");
 	
 	UnicodeEmoji BOOKMARK_TABS = new UnicodeEmojiImpl("📑");
 	

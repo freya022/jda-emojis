@@ -12,13 +12,19 @@ interface EmojiTransportSign {
 	
 	UnicodeEmoji WHEELCHAIR = new UnicodeEmojiImpl("♿");
 	
+	UnicodeEmoji MENS_ROOM = new UnicodeEmojiImpl("🚹");
+	
 	UnicodeEmoji MENS = new UnicodeEmojiImpl("🚹");
 	
 	UnicodeEmoji WOMENS = new UnicodeEmojiImpl("🚺");
 	
+	UnicodeEmoji WOMENS_ROOM = new UnicodeEmojiImpl("🚺");
+	
 	UnicodeEmoji RESTROOM = new UnicodeEmojiImpl("🚻");
 	
 	UnicodeEmoji BABY_SYMBOL = new UnicodeEmojiImpl("🚼");
+	
+	UnicodeEmoji WATER_CLOSET = new UnicodeEmojiImpl("🚾");
 	
 	UnicodeEmoji WC = new UnicodeEmojiImpl("🚾");
 	

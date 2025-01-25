@@ -14,6 +14,8 @@ interface EmojiAnimalBug {
 	
 	UnicodeEmoji BEE = new UnicodeEmojiImpl("🐝");
 	
+	UnicodeEmoji HONEYBEE = new UnicodeEmojiImpl("🐝");
+	
 	UnicodeEmoji BEETLE = new UnicodeEmojiImpl("🪲");
 	
 	UnicodeEmoji LADY_BEETLE = new UnicodeEmojiImpl("🐞");

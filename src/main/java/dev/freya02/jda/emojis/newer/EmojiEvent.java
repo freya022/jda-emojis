@@ -20,6 +20,8 @@ interface EmojiEvent {
 	
 	UnicodeEmoji TADA = new UnicodeEmojiImpl("🎉");
 	
+	UnicodeEmoji PARTY_POPPER = new UnicodeEmojiImpl("🎉");
+	
 	UnicodeEmoji CONFETTI_BALL = new UnicodeEmojiImpl("🎊");
 	
 	UnicodeEmoji TANABATA_TREE = new UnicodeEmojiImpl("🎋");
@@ -27,6 +29,8 @@ interface EmojiEvent {
 	UnicodeEmoji BAMBOO = new UnicodeEmojiImpl("🎍");
 	
 	UnicodeEmoji DOLLS = new UnicodeEmojiImpl("🎎");
+	
+	UnicodeEmoji CARP_STREAMER = new UnicodeEmojiImpl("🎏");
 	
 	UnicodeEmoji FLAGS = new UnicodeEmojiImpl("🎏");
 	
@@ -38,11 +42,15 @@ interface EmojiEvent {
 	
 	UnicodeEmoji RIBBON = new UnicodeEmojiImpl("🎀");
 	
+	UnicodeEmoji WRAPPED_GIFT = new UnicodeEmojiImpl("🎁");
+	
 	UnicodeEmoji GIFT = new UnicodeEmojiImpl("🎁");
 	
 	UnicodeEmoji REMINDER_RIBBON = new UnicodeEmojiImpl("🎗️");
 	
 	UnicodeEmoji TICKETS = new UnicodeEmojiImpl("🎟️");
+	
+	UnicodeEmoji ADMISSION_TICKETS = new UnicodeEmojiImpl("🎟️");
 	
 	UnicodeEmoji TICKET = new UnicodeEmojiImpl("🎫");
 	
