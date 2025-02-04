@@ -36,6 +36,38 @@ There are two classes you can use `Emojis` and `UnicodeEmojis`, you can use eith
 
 This library only provides known emojis as constants, if you need to retrieve them from a string, you will have to use JEmoji.
 
+## Examples
+### Buttons
+```java
+Button approve = Button.primary("approve:data", "Approve").withEmoji(Emojis.WHITE_CHECK_MARK);
+```
+
+### Select menus
+```java
+StringSelectMenu choices = StringSelectMenu.create("choices:data")
+        .addOptions(
+                SelectOption.of("First choice", "1").withEmoji(Emojis.ONE)
+        )
+        .build();
+```
+
+### Reactions
+```java
+MessageCreateData messageData = new MessageCreateBuilder()
+        .addActionRow(approve)
+        .addActionRow(choices)
+        .build();
+
+event.reply(messageData)
+        // Since we reply to a slash command, we need to retrieve the message back
+        .flatMap(InteractionHook::retrieveOriginal)
+        // This emoji's name is slightly different as fields can't start with digits
+        .flatMap(message -> message.addReaction(Emojis.HUNDRED_POINTS))
+        .queue();
+```
+
+![example.png](assets/example.png)
+
 ## License
 This project is licensed using the Apache 2.0 license.
 
