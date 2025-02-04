@@ -1,4 +1,4 @@
-package dev.freya02.jda.emojis
+package dev.freya02.jda.emojis.unicode
 
 import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji
 import net.fellbaum.jemoji.EmojiManager

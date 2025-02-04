@@ -44,17 +44,17 @@ abstract class GenerateEmojisTask : DefaultTask() {
                     }
             }
 
-            writeOutput("dev.freya02.jda.emojis", className, fileContent)
+            writeOutput("dev.freya02.jda.emojis.unicode", className, fileContent)
         }
 
         val finalContent = """
-            package dev.freya02.jda.emojis;
+            package dev.freya02.jda.emojis.unicode;
             
             public interface Emojis extends ${interfaces.joinToString(", ") { it.simpleName }} {
                 
             }
         """.trimIndent()
-        writeOutput("dev.freya02.jda.emojis", "Emojis", finalContent)
+        writeOutput("dev.freya02.jda.emojis.unicode", "Emojis", finalContent)
     }
 
     private val fieldRegex = Regex("[a-z][\\w_]*", RegexOption.IGNORE_CASE)
@@ -72,7 +72,7 @@ abstract class GenerateEmojisTask : DefaultTask() {
     }
 
     private fun createClass(name: String, block: StringBuilder.() -> Unit): String = buildString {
-        appendLine("package dev.freya02.jda.emojis;")
+        appendLine("package dev.freya02.jda.emojis.unicode;")
         appendLine()
         appendLine("import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;")
         appendLine("import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;")
