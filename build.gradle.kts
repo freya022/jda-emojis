@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "dev.freya02"
-version = "2.0.0_DEV"
+version = "3.0.0_DEV"
 
 val generateEmojisTask = tasks.register<GenerateEmojisTask>("generateEmojis")
 
