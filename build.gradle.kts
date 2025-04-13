@@ -11,7 +11,9 @@ plugins {
 group = "dev.freya02"
 version = "3.0.0_DEV"
 
-val generateEmojisTask = tasks.register<GenerateEmojisTask>("generateEmojis")
+val generateEmojisTask = tasks.register<GenerateEmojisTask>("generateEmojis") {
+    outputs.upToDateWhen { false }
+}
 
 sourceSets {
     main {
