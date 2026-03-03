@@ -59,7 +59,6 @@ tasks.withType<Javadoc> {
 }
 
 repositories {
-    mavenLocal()
     mavenCentral()
 }
 
