@@ -1,12 +1,15 @@
+import de.undercouch.gradle.tasks.download.Download
+
 plugins {
     `java-library`
     signing
     id("com.vanniktech.maven.publish") version "0.36.0"
     alias(libs.plugins.kotlin)
+    id("de.undercouch.download") version "5.7.0"
 }
 
 group = "dev.freya02"
-version = "3.0.0_DEV"
+version = "3.1.0_DEV"
 
 val jvmVersion = 25
 java {
@@ -15,8 +18,14 @@ java {
     }
 }
 
+val downloadEmojiJson by tasks.registering(Download::class) {
+    src("https://raw.githubusercontent.com/Paillat-dev/discord-emojis/refs/heads/master/build/emojis.json")
+    dest(layout.buildDirectory)
+    onlyIfModified(true)
+}
+
 val generateEmojisTask = tasks.register<GenerateEmojisTask>("generateEmojis") {
-    outputs.upToDateWhen { false }
+    inputJson = downloadEmojiJson.map { it.outputFiles.single() }
 }
 
 sourceSets {
