@@ -1,5 +1,4 @@
 import com.vanniktech.maven.publish.SonatypeHost
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     `java-library`
@@ -23,9 +22,8 @@ sourceSets {
     }
 }
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+tasks.named<JavaCompile>("compileJava") {
+    options.release = 11
 }
 
 val targetJavaVersion = java.targetCompatibility.majorVersion
@@ -53,12 +51,6 @@ tasks.withType<Javadoc> {
         if (jvmVersion >= "23") {
             addBooleanOption("-no-fonts", true)
         }
-    }
-}
-
-kotlin {
-    compilerOptions {
-        jvmTarget = JvmTarget.JVM_11
     }
 }
 
