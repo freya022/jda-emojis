@@ -62,12 +62,13 @@ repositories {
 
 dependencies {
     api(libs.jspecify)
-    api(libs.jda)
+    compileOnly(libs.jda)
 
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly(libs.junit.platform.launcher)
     testImplementation(kotlin("test"))
     testImplementation(kotlin("reflect"))
+    testImplementation(libs.jda)
     testImplementation(libs.jemoji)
 }
 
