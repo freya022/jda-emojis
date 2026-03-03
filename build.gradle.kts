@@ -10,9 +10,10 @@ plugins {
 group = "dev.freya02"
 version = "3.0.0_DEV"
 
+val jvmVersion = 25
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(25)
+        languageVersion = JavaLanguageVersion.of(jvmVersion)
     }
 }
 
@@ -28,12 +29,11 @@ sourceSets {
     }
 }
 
+val targetJavaVersion = 11
 tasks.named<JavaCompile>("compileJava") {
-    options.release = 11
+    options.release = targetJavaVersion
 }
 
-val targetJavaVersion = java.targetCompatibility.majorVersion
-val jvmVersion = JavaVersion.current().majorVersion
 tasks.withType<Javadoc> {
     isFailOnError = true
 
@@ -53,10 +53,8 @@ tasks.withType<Javadoc> {
 
         // Always 9+
         addBooleanOption("html5", true)
-        addStringOption("-release", targetJavaVersion)
-        if (jvmVersion >= "23") {
-            addBooleanOption("-no-fonts", true)
-        }
+        addStringOption("-release", targetJavaVersion.toString())
+        addBooleanOption("-no-fonts", true)
     }
 }
 
