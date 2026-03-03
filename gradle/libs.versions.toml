@@ -1,14 +1,14 @@
 [versions]
-kotlin = "2.1.0"
+kotlin = "2.3.0"
 
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 
 [libraries]
-jda = { module = "net.dv8tion:JDA", version = "5.2.2" }
+jda = { module = "net.dv8tion:JDA", version = "6.3.1" }
 jspecify = { module = "org.jspecify:jspecify", version = "1.0.0" }
 
-junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version = "5.7.1" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version = "6.0.3" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
 jemoji = { module = "net.fellbaum:jemoji", version = "1.6.0" }
 
