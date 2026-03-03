@@ -10,6 +10,12 @@ plugins {
 group = "dev.freya02"
 version = "3.0.0_DEV"
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
 val generateEmojisTask = tasks.register<GenerateEmojisTask>("generateEmojis") {
     outputs.upToDateWhen { false }
 }
