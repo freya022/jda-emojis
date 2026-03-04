@@ -2,9 +2,7 @@
 [jda-emojis-maven-central-link]: https://mvnrepository.com/artifact/dev.freya02/jda-emojis/latest
 
 ## JDA Emojis
-This is a lightweight and convenient alternative to [JEmoji](https://github.com/felldo/JEmoji), from which it is generated from.
-
-Assuming you only need to use the emojis, you can use them directly with JDA instead of having to convert them!
+Lightweight library for [JDA](https://github.com/discord-jda/JDA), providing ready-to-use `UnicodeEmoji` objects.
 
 ## Installation
 [![jda-emojis-maven-central-shield]][jda-emojis-maven-central-link]
@@ -33,8 +31,6 @@ dependencies {
 
 ## Usage
 There are two classes you can use `Emojis` and `UnicodeEmojis`, you can use either of them, they are the same.
-
-This library only provides known emojis as constants, if you need to retrieve them from a string, you will have to use JEmoji.
 
 ## Examples
 ### Buttons
@@ -71,4 +67,7 @@ event.reply(messageData)
 ## License
 This project is licensed using the Apache 2.0 license.
 
-The code was also partially generated from JEmoji, using the [same license](https://github.com/felldo/JEmoji/blob/master/LICENSE).
+## Credits
+The code was generated from the emoji list provided by [discord-emojis](https://github.com/Paillat-dev/discord-emojis), which is extracted periodically from Discord.
+
+I also use [JEmoji](https://github.com/felldo/JEmoji) to group the emojis, to reduce the number of constructed emojis at a time.
