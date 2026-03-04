@@ -5,11 +5,14 @@ kotlin = "2.3.0"
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 
 [libraries]
+jackson-databind = "tools.jackson.core:jackson-databind:3.1.0"
+jackson-module-kotlin = "tools.jackson.module:jackson-module-kotlin:3.1.0"
+
 jda = { module = "net.dv8tion:JDA", version = "6.3.1" }
 jspecify = { module = "org.jspecify:jspecify", version = "1.0.0" }
 
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version = "6.0.3" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
-jemoji = { module = "net.fellbaum:jemoji", version = "1.6.0" }
+jemoji = { module = "net.fellbaum:jemoji", version = "1.7.5" }
 
 [bundles]

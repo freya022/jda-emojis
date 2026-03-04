@@ -1,47 +1,84 @@
-import net.fellbaum.jemoji.Emoji
-import net.fellbaum.jemoji.Emojis
+import net.fellbaum.jemoji.EmojiManager
+import net.fellbaum.jemoji.EmojiSubGroup
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.Directory
 import org.gradle.api.provider.Provider
+import org.gradle.api.tasks.InputFile
 import org.gradle.api.tasks.OutputDirectory
 import org.gradle.api.tasks.TaskAction
-import org.gradle.work.DisableCachingByDefault
-import java.lang.reflect.Field
+import tools.jackson.module.kotlin.jacksonObjectMapper
+import tools.jackson.module.kotlin.readValue
+import java.io.File
+import kotlin.jvm.optionals.getOrNull
 
-private val emojiReplacements = mapOf(
-    // JEmoji field name => Discord-like emoji name
-    "INPUT_NUMBERS" to "INPUT_NUMBERS",
-    "HUNDRED_POINTS" to "HUNDRED_POINTS",
-    "POOL_8_BALL" to "POOL_8_BALL",
-    "PI_ATA" to "PINATA",
+private val skippedNames = setOf(
+    "+1", "-1",
+    "+1_tone1", "+1_tone2", "+1_tone3", "+1_tone4", "+1_tone5",
+    "_1_tone1", "_1_tone2", "_1_tone3", "_1_tone4", "_1_tone5",
+    "1234",
 )
 
-@DisableCachingByDefault
+private val emojiReplacements = mapOf(
+    // Discord name => Field name
+    "100" to "HUNDRED_POINTS",
+    "8ball" to "POOL_8_BALL",
+    "piñata" to "PINATA",
+    "skin-tone-1" to "SKIN_TONE_1",
+    "skin-tone-2" to "SKIN_TONE_2",
+    "skin-tone-3" to "SKIN_TONE_3",
+    "skin-tone-4" to "SKIN_TONE_4",
+    "skin-tone-5" to "SKIN_TONE_5",
+)
+
+private val fieldRegex = Regex("[a-z][\\w_]*", RegexOption.IGNORE_CASE)
+private val objectMapper = jacksonObjectMapper()
+
 abstract class GenerateEmojisTask : DefaultTask() {
+    @get:InputFile
+    abstract var inputJson: Provider<File>
+
     @get:OutputDirectory
     val outputDir: Provider<Directory> = project.layout.buildDirectory.dir("generated/sources/jda-emojis/main/java")
 
     @TaskAction
     fun generate() {
-        val interfaces = Emojis::class.java.interfaces
-        interfaces.forEach { superinterface ->
-            val className = superinterface.simpleName
-            val fileContent = createClass(className) {
-                superinterface
-                    .fields
-                    .filter { it.type == Emoji::class.java }
-                    .forEach forEachField@{ field ->
-                        field.isAccessible = true
+        val emojiJson = inputJson.get().readText()
+        val discordEmojis = objectMapper.readValue<DiscordEmojis>(emojiJson)
 
-                        val emoji = field.get(null) as Emoji
-                        if (emoji.discordAliases.isEmpty()) return@forEachField
+        val classNames = mutableListOf<String>()
 
-                        val unicode = emoji.emoji
-                        getEmojiFieldNames(field, emoji).forEach { emojiFieldName ->
-                            appendLine("""UnicodeEmoji $emojiFieldName = new UnicodeEmojiImpl("$unicode");""")
-                            appendLine()
+        getGroupedEmojis(discordEmojis).forEach { (subgroup, emojis) ->
+            fun EmojiSubGroup.toInterfaceName() = buildString {
+                append("Emoji")
+                append(subgroup.name.split('_').joinToString("") { it.lowercase().replaceFirstChar { it.uppercase() } })
+            }
+
+            val className = subgroup.toInterfaceName()
+            classNames += className
+
+            val fileContent = buildClass(className) {
+                val fields = sortedMapOf<String, String>()
+
+                for ((surrogates, names) in emojis) {
+                    for (alias in names) {
+                        val emojiFieldName = if (fieldRegex.matches(alias)) {
+                            alias.uppercase()
+                        } else if (skippedNames.contains(alias)) {
+                            continue
+                        } else if (emojiReplacements.containsKey(alias)) {
+                            emojiReplacements[alias]!!
+                        } else {
+                            error("Alias would produce an invalid field name: $alias")
                         }
+
+                        fields[emojiFieldName] = """UnicodeEmoji $emojiFieldName = new UnicodeEmojiImpl("$surrogates");"""
                     }
+                }
+
+                for ((fieldName, code) in fields) {
+                    appendLine(code)
+                    appendLine()
+                }
             }
 
             writeOutput("dev.freya02.jda.emojis.unicode", className, fileContent)
@@ -49,34 +86,47 @@ abstract class GenerateEmojisTask : DefaultTask() {
 
         val finalContent = """
             package dev.freya02.jda.emojis.unicode;
-            
-            public interface Emojis extends ${interfaces.joinToString(", ") { it.simpleName }} {
-                
+
+            public interface Emojis extends ${classNames.joinToString(", ")} {
+
             }
         """.trimIndent()
         writeOutput("dev.freya02.jda.emojis.unicode", "Emojis", finalContent)
     }
 
-    private val fieldRegex = Regex("[a-z][\\w_]*", RegexOption.IGNORE_CASE)
-    private fun getEmojiFieldNames(field: Field, emoji: Emoji): Collection<String> {
-        emojiReplacements[field.name]?.let { return listOf(it) }
+    private fun getGroupedEmojis(discordEmojis: DiscordEmojis): Map<EmojiSubGroup, Map<String, List<String>>> {
+        fun DiscordEmojis.Emoji.getSubgroup(): EmojiSubGroup {
+            val jemoji = EmojiManager.getEmoji(surrogates).getOrNull()
+            val jemojiSubgroup = jemoji?.subgroup
 
-        // Check if the first shortcode is a valid field name, if not then require a manual replacement
-        val aliases = emoji.discordAliases.map { it.replace(":", "") }
-        require(aliases[0].matches(fieldRegex)) {
-            "No replacement defined for ${field.name} (${aliases[0]})"
+            return if (jemojiSubgroup != null) {
+                jemojiSubgroup
+            } else if (names.any { it.startsWith("regional_indicator_") }) {
+                EmojiSubGroup.OTHER_SYMBOL
+            } else {
+                error("No group found for $names")
+            }
         }
-        return aliases
-            .filter { it.matches(fieldRegex) }
-            .mapTo(hashSetOf()) { it.uppercase() }
+
+        val subgroups = hashMapOf<EmojiSubGroup, MutableMap<String, List<String>>>()
+
+        discordEmojis.emojis.forEachIndexed { index, emoji ->
+            val subgroup = emoji.getSubgroup()
+            val subgroupEmojis = subgroups.getOrPut(subgroup, ::hashMapOf)
+
+            subgroupEmojis[emoji.surrogates] = emoji.names
+        }
+
+        return subgroups
     }
 
-    private fun createClass(name: String, block: StringBuilder.() -> Unit): String = buildString {
+    private fun buildClass(name: String, block: StringBuilder.() -> Unit): String = buildString {
         appendLine("package dev.freya02.jda.emojis.unicode;")
         appendLine()
         appendLine("import net.dv8tion.jda.api.entities.emoji.UnicodeEmoji;")
         appendLine("import net.dv8tion.jda.internal.entities.emoji.UnicodeEmojiImpl;")
         appendLine()
+        appendLine("@SuppressWarnings(\"unused\")")
         appendLine("interface $name {")
         appendLine(buildString { block() }.prependIndent("\t"))
         appendLine("}")
@@ -86,5 +136,14 @@ abstract class GenerateEmojisTask : DefaultTask() {
         val outFile = outputDir.get().dir(packageName.replace('.', '/')).file("$className.java").asFile
         outFile.parentFile.mkdirs()
         outFile.writeText(content)
+    }
+
+    private data class DiscordEmojis(
+        val emojis: List<Emoji>,
+    ) {
+        data class Emoji(
+            val names: List<String>,
+            val surrogates: String,
+        )
     }
 }
