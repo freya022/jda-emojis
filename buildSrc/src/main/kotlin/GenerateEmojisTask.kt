@@ -87,7 +87,7 @@ abstract class GenerateEmojisTask : DefaultTask() {
         val finalContent = """
             package dev.freya02.jda.emojis.unicode;
 
-            public interface Emojis extends ${classNames.joinToString(", ")} {
+            public interface Emojis extends ${classNames.sorted().joinToString(", ")} {
 
             }
         """.trimIndent()
