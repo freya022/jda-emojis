@@ -76,9 +76,9 @@ dependencies {
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly(libs.junit.platform.launcher)
     testImplementation(kotlin("test"))
-    testImplementation(kotlin("reflect"))
     testImplementation(libs.jda)
-    testImplementation(libs.jemoji)
+    testImplementation(libs.jackson.databind)
+    testImplementation(libs.jackson.module.kotlin)
 }
 
 tasks.named<Test>("test") {
