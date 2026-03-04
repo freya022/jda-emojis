@@ -62,6 +62,7 @@ tasks.withType<Javadoc> {
         addBooleanOption("html5", true)
         addStringOption("-release", targetJavaVersion.toString())
         addBooleanOption("-no-fonts", true)
+        addBooleanOption("Xdoclint:all,-missing", true)
     }
 }
 
