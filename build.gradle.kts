@@ -122,6 +122,7 @@ if (canPublish) {
         signAllPublications()
 
         pom {
+            name = "jda-emojis"
             description = "Brings emojis to your JDA projects"
             url = "https://github.com/freya022/jda-emojis"
 
@@ -137,12 +138,13 @@ if (canPublish) {
                 developer {
                     name = "freya022"
                     email = "41875020+freya022@users.noreply.github.com"
+                    url = "https://github.com/freya022"
                 }
             }
 
             scm {
                 connection = "scm:git:https://github.com/freya022/jda-emojis.git"
-                developerConnection = "scm:git:https://github.com/freya022/jda-emojis.git"
+                developerConnection = connection
                 url = "https://github.com/freya022/jda-emojis"
             }
         }
