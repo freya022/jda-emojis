@@ -2,7 +2,7 @@
 [jda-emojis-maven-central-link]: https://mvnrepository.com/artifact/dev.freya02/jda-emojis/latest
 
 ## JDA Emojis
-Lightweight library for [JDA](https://github.com/discord-jda/JDA), providing ready-to-use `UnicodeEmoji` objects.
+Lightweight library for [JDA](https://github.com/discord-jda/JDA), providing ready-to-use `UnicodeEmoji` objects for all Discord emojis.
 
 ## Installation
 [![jda-emojis-maven-central-shield]][jda-emojis-maven-central-link]
@@ -30,7 +30,25 @@ dependencies {
 ```
 
 ## Usage
-There are two classes you can use `Emojis` and `UnicodeEmojis`, you can use either of them, they are the same.
+There are two classes you can use, `Emojis` and `UnicodeEmojis`, you can use either of them, they are the same.
+
+All emojis present in these interfaces use the same names as the Discord client, with a few exceptions:
+
+| Discord name | Field name                  |
+|--------------|-----------------------------|
+| 100          | `HUNDRED_POINTS`            |
+| 8ball        | `POOL_8_BALL`               |
+| piñata       | `PINATA`                    |
+| skin-tone-1  | `SKIN_TONE_1`               |
+| skin-tone-2  | `SKIN_TONE_2`               |
+| skin-tone-3  | `SKIN_TONE_3`               |
+| skin-tone-4  | `SKIN_TONE_4`               |
+| skin-tone-5  | `SKIN_TONE_5`               |
+| 1234         | `INPUT_NUMBERS`             |
+| +1 / -1      | `THUMBS_UP` / `THUMBS_DOWN` |
+
+> [!TIP]
+> On IntelliJ, you might have to press the autocomplete keybinds twice (By default, `CTRL` + `Space`) for the fields to show up.
 
 ## Examples
 ### Buttons
