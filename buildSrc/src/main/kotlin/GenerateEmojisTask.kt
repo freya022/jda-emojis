@@ -71,12 +71,20 @@ abstract class GenerateEmojisTask : DefaultTask() {
                             error("Alias would produce an invalid field name: $alias")
                         }
 
-                        fields[emojiFieldName] = """UnicodeEmoji $emojiFieldName = new UnicodeEmojiImpl("$surrogates");"""
+                        fields[emojiFieldName] = surrogates
                     }
                 }
 
-                for ((fieldName, code) in fields) {
-                    appendLine(code)
+                val surrogatesToFieldName = hashMapOf<String, String>()
+                for ((fieldName, surrogates) in fields) {
+                    val existingFieldName = surrogatesToFieldName[surrogates]
+                    if (existingFieldName != null) {
+                        appendLine("UnicodeEmoji $fieldName = ${existingFieldName};")
+                    } else {
+                        appendLine("""UnicodeEmoji $fieldName = new UnicodeEmojiImpl("$surrogates");""")
+                        surrogatesToFieldName[surrogates] = fieldName
+                    }
+
                     appendLine()
                 }
             }
