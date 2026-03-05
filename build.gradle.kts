@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "dev.freya02"
-version = "4.0.0_DEV"
+version = "4.1.0_DEV"
 
 val jvmVersion = 25
 java {
