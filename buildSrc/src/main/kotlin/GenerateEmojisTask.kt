@@ -77,6 +77,8 @@ abstract class GenerateEmojisTask : DefaultTask() {
 
                 val surrogatesToFieldName = hashMapOf<String, String>()
                 for ((fieldName, surrogates) in fields) {
+                    appendLine("/** $surrogates */")
+
                     val existingFieldName = surrogatesToFieldName[surrogates]
                     if (existingFieldName != null) {
                         appendLine("UnicodeEmoji $fieldName = ${existingFieldName};")
