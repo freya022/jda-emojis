@@ -40,10 +40,18 @@ abstract class GenerateEmojisTask : DefaultTask() {
     @get:OutputDirectory
     val outputDir: Provider<Directory> = project.layout.buildDirectory.dir("generated/sources/jda-emojis/main/java")
 
+    @get:OutputDirectory
+    val resourcesDir: Provider<Directory> = project.layout.buildDirectory.dir("generated/sources/jda-emojis/main/resources")
+
     @TaskAction
     fun generate() {
         val emojiJson = inputJson.get().readText()
         val discordEmojis = objectMapper.readValue<DiscordEmojis>(emojiJson)
+
+        // Write surrogates => aliases to CSV
+        discordEmojis.emojis
+            .joinToString("\n") { emoji -> "${emoji.surrogates},${emoji.names.joinToString(",")}" }
+            .also { resourcesDir.get().file("aliases.csv").asFile.writeText(it) }
 
         val classNames = mutableListOf<String>()
 

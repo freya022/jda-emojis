@@ -31,7 +31,11 @@ val generateEmojisTask = tasks.register<GenerateEmojisTask>("generateEmojis") {
 sourceSets {
     main {
         java {
-            srcDir(generateEmojisTask)
+            srcDir(generateEmojisTask.map { it.outputDir })
+        }
+
+        resources {
+            srcDir(generateEmojisTask.map { it.resourcesDir })
         }
     }
 }
